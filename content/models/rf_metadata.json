@@ -1,0 +1,74 @@
+{
+  "notebook": "02_random_forest_training",
+  "timestamp": "2026-05-06T22:50:29.051279",
+  "model_path": "content/models\\rf_location_reco_v1.joblib",
+  "features": [
+    "rating",
+    "review_log",
+    "hotspot_score",
+    "competitor_density_500m",
+    "same_category_density_500m",
+    "nearest_neighbor_dist_m",
+    "dist_to_cluster_centroid_m",
+    "cluster_id"
+  ],
+  "parameters": {
+    "n_estimators": 300,
+    "class_weight": "balanced",
+    "random_seed": 42,
+    "spatial_split": "grid_1km_group_shuffle"
+  },
+  "metrics": {
+    "f1_macro": 0.9876,
+    "confusion_matrix": [
+      [
+        713,
+        7,
+        0
+      ],
+      [
+        5,
+        797,
+        2
+      ],
+      [
+        0,
+        15,
+        764
+      ]
+    ],
+    "report": {
+      "High": {
+        "precision": 0.9973890339425587,
+        "recall": 0.9807445442875481,
+        "f1-score": 0.9889967637540453,
+        "support": 779.0
+      },
+      "Low": {
+        "precision": 0.9930362116991643,
+        "recall": 0.9902777777777778,
+        "f1-score": 0.9916550764951322,
+        "support": 720.0
+      },
+      "Medium": {
+        "precision": 0.9731379731379731,
+        "recall": 0.9912935323383084,
+        "f1-score": 0.982131854590265,
+        "support": 804.0
+      },
+      "accuracy": 0.9874077290490665,
+      "macro avg": {
+        "precision": 0.9878544062598987,
+        "recall": 0.9874386181345448,
+        "f1-score": 0.9875945649464808,
+        "support": 2303.0
+      },
+      "weighted avg": {
+        "precision": 0.9875619019833182,
+        "recall": 0.9874077290490665,
+        "f1-score": 0.9874312397444505,
+        "support": 2303.0
+      }
+    }
+  }
+}
