@@ -60,6 +60,15 @@ The notebook `geomarketia_train.ipynb` is the single source of truth for trainin
 - `content/models/rf_location_reco_v*.joblib`
 - `content/models/rf_metadata.json`
 
+## Latest Run Snapshot
+
+This snapshot is taken from the latest saved metadata in `content/models/`.
+
+- Data: 11,094 raw rows → 10,768 valid (326 rejected)
+- DBSCAN: eps=150m, min_samples=10, clusters=118, noise=3,935 (36.54%)
+- Clustering quality: silhouette=0.3424, Davies-Bouldin=0.5229
+- Random Forest: F1 macro=0.9859, accuracy=0.9857
+
 ## How to Run
 
 1) Place SQLite files under `content/data/raw/`.

@@ -1,0 +1,9 @@
+feature,mean_abs_shap
+same_category_density_500m,0.312572873620522
+competitor_density_500m,0.05460075557679828
+dist_to_cluster_centroid_m,0.0305666647271473
+rating,0.0255473814632703
+review_log,0.02220410535179891
+cluster_id,0.02084395530257013
+nearest_neighbor_dist_m,0.010960947586557506
+hotspot_score,0.0

@@ -1,6 +1,6 @@
 {
   "notebook": "01_dbscan_clustering",
-  "timestamp": "2026-05-06T22:49:57.516777",
+  "timestamp": "2026-05-10T21:29:57.777080",
   "input": {
     "db_folder": "content/data/raw",
     "db_files": [
@@ -18,20 +18,20 @@
     "total_rejected": 326
   },
   "parameters": {
-    "eps_meter": 120,
-    "min_samples": 8,
+    "eps_meter": 150,
+    "min_samples": 10,
     "crs_input": "EPSG:4326",
     "crs_output": "EPSG:32648",
     "radius_500m": 500,
     "radius_1km": 1000
   },
   "results": {
-    "n_clusters": 174,
-    "n_noise": 4290,
-    "n_clustered": 6478,
-    "noise_ratio_pct": 39.84,
-    "silhouette_score": 0.3092,
-    "davies_bouldin_idx": 0.4866
+    "n_clusters": 118,
+    "n_noise": 3935,
+    "n_clustered": 6833,
+    "noise_ratio_pct": 36.54,
+    "silhouette_score": 0.3424,
+    "davies_bouldin_idx": 0.5229
   },
   "output": {
     "feature_store_path": "content/data/processed/feature_store.csv",

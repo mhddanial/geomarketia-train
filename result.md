@@ -1,14 +1,14 @@
 # Hasil DBSCAN - GeoMarket AI
 
 ## 1) Ringkasan eksekusi
-- EPS (meter): 120
-- Min samples: 8
-- Jumlah cluster: 174
-- Titik dalam cluster: 6,478
-- Titik noise: 4,290
-- Noise ratio (%): 39.8
-- Silhouette score: 0.3092
-- Davies-Bouldin index: 0.4866
+- EPS (meter): 150
+- Min samples: 10
+- Jumlah cluster: 118
+- Titik dalam cluster: 6,833
+- Titik noise: 3,935
+- Noise ratio (%): 36.54
+- Silhouette score: 0.3424
+- Davies-Bouldin index: 0.5229
 
 ## 2) Interpretasi kualitas hasil
 Gunakan panduan ini untuk menyimpulkan apakah hasil sudah baik:
@@ -96,18 +96,18 @@ Gunakan panduan ini untuk menyimpulkan apakah hasil sudah baik:
 - Pilih konfigurasi dengan: noise ratio wajar, silhouette > 0.3, DB index < 1.5.
 
 ## 5) Kesimpulan sementara
-Dengan EPS = 120 dan MIN_SAMPLES = 8, DBSCAN menghasilkan 174 cluster dengan noise ratio 39.8%. Silhouette score 0.3092 dan Davies-Bouldin 0.4866 menunjukkan cluster sudah cukup terpisah dan layak digunakan untuk tahap Random Forest, meskipun noise masih relatif tinggi.
+Dengan EPS = 150 dan MIN_SAMPLES = 10, DBSCAN menghasilkan 118 cluster dengan noise ratio 36.54%. Silhouette score 0.3424 dan Davies-Bouldin 0.5229 menunjukkan cluster sudah cukup terpisah dan layak digunakan untuk tahap Random Forest.
 
 ## 6) Final decision
-Konfigurasi EPS = 120 dan MIN_SAMPLES = 8 dipilih karena memberikan keseimbangan terbaik antara separasi cluster (Silhouette > 0.3), kompaksi (Davies-Bouldin < 1.0), dan noise ratio yang masih dapat diterima untuk data lokasi usaha yang cenderung sparse.
+Konfigurasi EPS = 150 dan MIN_SAMPLES = 10 dipilih karena memberikan keseimbangan terbaik antara separasi cluster (Silhouette > 0.3), kompaksi (Davies-Bouldin < 1.0), dan noise ratio yang masih dapat diterima untuk data lokasi usaha yang cenderung sparse.
 
 ## 7) Hasil Random Forest
-- F1 macro: 0.9876
-- Akurasi: 0.99
+- F1 macro: 0.9859
+- Akurasi: 0.9857
 - Confusion matrix (Low/Medium/High):
   - Low: 713 benar, 7 salah ke Medium, 0 salah ke High
-  - Medium: 797 benar, 5 salah ke Low, 2 salah ke High
-  - High: 764 benar, 15 salah ke Medium, 0 salah ke Low
+  - Medium: 796 benar, 5 salah ke Low, 3 salah ke High
+  - High: 761 benar, 18 salah ke Medium, 0 salah ke Low
 
 Interpretasi singkat:
 - Model sudah sangat stabil dan konsisten untuk ketiga kelas.

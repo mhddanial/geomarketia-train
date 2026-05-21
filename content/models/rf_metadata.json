@@ -1,7 +1,7 @@
 {
   "notebook": "02_random_forest_training",
-  "timestamp": "2026-05-06T22:50:29.051279",
-  "model_path": "content/models\\rf_location_reco_v1.joblib",
+  "timestamp": "2026-05-10T21:30:19.912752",
+  "model_path": "content/models\\rf_location_reco_v24.joblib",
   "features": [
     "rating",
     "review_log",
@@ -19,7 +19,7 @@
     "spatial_split": "grid_1km_group_shuffle"
   },
   "metrics": {
-    "f1_macro": 0.9876,
+    "f1_macro": 0.9859,
     "confusion_matrix": [
       [
         713,
@@ -28,20 +28,20 @@
       ],
       [
         5,
-        797,
-        2
+        796,
+        3
       ],
       [
         0,
-        15,
-        764
+        18,
+        761
       ]
     ],
     "report": {
       "High": {
-        "precision": 0.9973890339425587,
-        "recall": 0.9807445442875481,
-        "f1-score": 0.9889967637540453,
+        "precision": 0.9960732984293194,
+        "recall": 0.9768934531450578,
+        "f1-score": 0.9863901490602722,
         "support": 779.0
       },
       "Low": {
@@ -51,22 +51,22 @@
         "support": 720.0
       },
       "Medium": {
-        "precision": 0.9731379731379731,
-        "recall": 0.9912935323383084,
-        "f1-score": 0.982131854590265,
+        "precision": 0.9695493300852619,
+        "recall": 0.9900497512437811,
+        "f1-score": 0.9796923076923076,
         "support": 804.0
       },
-      "accuracy": 0.9874077290490665,
+      "accuracy": 0.985670864090317,
       "macro avg": {
-        "precision": 0.9878544062598987,
-        "recall": 0.9874386181345448,
-        "f1-score": 0.9875945649464808,
+        "precision": 0.9862196134045819,
+        "recall": 0.9857403273888723,
+        "f1-score": 0.9859125110825707,
         "support": 2303.0
       },
       "weighted avg": {
-        "precision": 0.9875619019833182,
-        "recall": 0.9874077290490665,
-        "f1-score": 0.9874312397444505,
+        "precision": 0.9858640179280888,
+        "recall": 0.985670864090317,
+        "f1-score": 0.9856978708549988,
         "support": 2303.0
       }
     }

@@ -74,7 +74,7 @@ Tiga permasalahan spesifik yang menjadi target sistem ini:
 | KF-ADMIN-01 | Import data lokasi | Admin mengimpor data lokasi usaha dalam format CSV atau JSON. Setiap baris minimal harus mengandung: `latitude`, `longitude`, `nama_tempat`, `kategori`, `price_level`, dan `url`. Sistem memvalidasi format dan kelengkapan sebelum menyimpan. |
 | KF-ADMIN-02 | Validasi & bersihkan data | Sistem secara otomatis mendeteksi anomali pada data yang diimpor: koordinat di luar batas wilayah Batam (lat 1.0°–1.3°N, lon 103.9°–104.2°E), duplikat (nama + lat + lon), nilai null pada kolom wajib, dan kategori yang tidak dikenal. Admin menerima data quality report (jumlah baris valid, duplikat, invalid) sebelum memutuskan menyimpan atau membatalkan import. |
 | KF-ADMIN-03 | Kelola data lokasi | Admin dapat melihat daftar seluruh data yang telah diimpor, mengedit entri individual (nama, kategori, koordinat), dan menghapus data yang tidak valid atau sudah tidak relevan. Penghapusan bersifat soft-delete untuk menjaga audit trail. |
-| KF-ADMIN-04 | Konfigurasi parameter AI | Admin mengatur parameter DBSCAN (`eps` dalam meter, `min_samples`) dan radius analisis kompetitor (500m, 750m, atau 1km) melalui antarmuka konfigurasi. Setiap perubahan parameter wajib tersimpan di riwayat konfigurasi beserta timestamp dan identitas admin yang mengubah. |
+| KF-ADMIN-04 | Konfigurasi parameter AI | Admin mengatur parameter DBSCAN (`eps` dalam meter, `min_samples`) dan radius analisis kompetitor (500m, 750m, atau 1km) melalui antarmuka konfigurasi. Default training saat ini: `eps=150`, `min_samples=10`. Setiap perubahan parameter wajib tersimpan di riwayat konfigurasi beserta timestamp dan identitas admin yang mengubah. |
 | KF-ADMIN-05 | Kelola pengguna | Admin dapat melihat daftar seluruh pengguna terdaftar beserta peran dan status akun. Admin dapat mengubah peran pengguna (`pengguna_umum` ↔ `admin`) dan menonaktifkan akun tanpa menghapus data riwayat aktivitasnya. |
 | KF-ADMIN-06 | Monitoring log sistem | Admin dapat melihat log aktivitas sistem yang mencakup: waktu dan IP setiap percobaan login (berhasil maupun gagal), endpoint API yang paling sering dipanggil, error yang terjadi pada proses AI, dan statistik penggunaan harian (jumlah request, rata-rata latensi per endpoint). |
 | KF-ADMIN-07 | Trigger retraining model | Admin memicu proses retraining model AI secara manual setelah data baru diimpor dalam jumlah signifikan. Sistem menampilkan status proses (berjalan / selesai / gagal) beserta metrik evaluasi model baru dibandingkan model sebelumnya (Silhouette Score untuk DBSCAN, F1-Score untuk Random Forest). Admin dapat memilih menerapkan model baru atau mempertahankan model lama jika performanya lebih buruk. |
@@ -154,28 +154,32 @@ SQLite (.db)
             └─ [REJECT → Data Quality Report]
         └─ Preprocessing & Feature Engineering (GeoPandas, Shapely, Pyproj)
             ├─ Konversi CRS: WGS84 → UTM (koordinat meter)
-            ├─ Ekstraksi fitur dari open_hours: open_days_count, open_duration_hours, open_late_flag
-            ├─ Parsing services → fitur biner: dine_in, takeaway, delivery
             └─ Kalkulasi: review_log = log(1 + review_count)
         └─ Feature Store (tabel terproses, siap dikonsumsi training & serving)
 ```
 
-**Fitur yang dihasilkan:**
+**Fitur yang dihasilkan (Feature Store):**
 
 | Kelompok | Nama Fitur | Deskripsi |
 |---|---|---|
-| Geospasial | `competitor_density_500m` | Jumlah semua usaha dalam radius 500m |
-| Geospasial | `same_category_density_500m` | Jumlah usaha kategori sama dalam 500m |
-| Geospasial | `nearest_neighbor_dist_m` | Jarak ke usaha terdekat (meter) |
+| Identitas | `id`, `name`, `source_category` | Identitas dasar titik usaha |
+| Koordinat | `latitude`, `longitude`, `x_utm`, `y_utm` | Koordinat WGS84 dan UTM (meter) |
 | Geospasial | `cluster_id` | Hasil DBSCAN |
 | Geospasial | `dist_to_cluster_centroid_m` | Jarak ke centroid cluster |
-| Geospasial | `hotspot_score` | Nilai KDE di titik tersebut |
+| Geospasial | `competitor_density_500m` | Jumlah semua usaha dalam radius 500m |
+| Geospasial | `competitor_density_1km` | Jumlah semua usaha dalam radius 1km |
+| Geospasial | `same_category_density_500m` | Jumlah usaha kategori sama dalam 500m |
+| Geospasial | `nearest_neighbor_dist_m` | Jarak ke usaha terdekat (meter) |
 | Atribut | `rating` | Rating usaha dari dataset |
 | Atribut | `review_log` | log(1 + jumlah review) |
-| Atribut | `open_days_count` | Jumlah hari buka per minggu |
-| Atribut | `open_late_flag` | 1 jika buka melewati pukul 21.00 |
-| Atribut | `open_duration_hours` | Total jam operasional per hari |
-| Atribut | `dine_in`, `takeaway`, `delivery` | Flag layanan (0/1) |
+| Atribut | `price_level` | Level harga (jika tersedia) |
+
+**Fitur tambahan saat training Random Forest:**
+
+| Kelompok | Nama Fitur | Deskripsi |
+|---|---|---|
+| Geospasial | `hotspot_score` | Nilai KDE pada titik usaha (dibuat saat training RF) |
+| Turunan | `saturation_index` | `same_category_density_500m` dibagi luas area 500m (km^2) |
 
 ---
 
@@ -188,12 +192,16 @@ Feature Store
     └─ DBSCAN Clustering
         ├─ Input: koordinat UTM (lat_m, lon_m)
         ├─ Parameter: eps (meter), min_samples (dari konfigurasi admin)
+        ├─ Default training saat ini: eps = 150, min_samples = 10
         └─ Output: cluster_id per titik (-1 = noise)
     └─ Feature Merge
         └─ Gabungkan cluster_id + seluruh fitur geospasial ke dalam satu tabel
     └─ Random Forest Training
-        ├─ Label: suitability_score proxy (High / Medium / Low) — dikondisikan per kategori target
-        ├─ Strategi split: Spatial Split (grid 1km × 1km atau berdasarkan cluster_id)
+        ├─ Fitur: rating, review_log, hotspot_score, competitor_density_500m,
+        │        same_category_density_500m, nearest_neighbor_dist_m,
+        │        dist_to_cluster_centroid_m, cluster_id
+        ├─ Label: suitability_score proxy (High / Medium / Low)
+        ├─ Strategi split: Spatial Split (grid 1km × 1km)
         ├─ Tujuan: hindari kebocoran data geografis antara train dan test set
         └─ Output: model terlatih
     └─ SHAP (Explainable AI)
@@ -357,6 +365,17 @@ Sistem dinyatakan selesai apabila seluruh kriteria berikut terpenuhi pada saat d
 - [ ] Tidak ada endpoint yang dapat diakses tanpa autentikasi (kecuali `/auth/register` dan `/auth/login`)
 - [ ] API tidak crash saat menerima input tidak valid (lat/lon kosong, kategori tidak dikenal, token kedaluwarsa)
 - [ ] Seluruh endpoint terdokumentasi dan dapat diuji langsung dari Swagger UI
+
+---
+
+## 10. Snapshot Training Terbaru
+
+Ringkasan ini diambil dari metadata training terbaru agar selaras dengan pipeline aktual.
+
+- Data: 11,094 baris raw → 10,768 valid (326 ditolak)
+- DBSCAN: eps=150m, min_samples=10, clusters=118, noise=3,935 (36.54%)
+- Kualitas clustering: silhouette=0.3424, Davies-Bouldin=0.5229
+- Random Forest: F1 macro=0.9859, accuracy=0.9857
 
 ---
 
