@@ -1,0 +1,850 @@
+[
+  {
+    "Kategori":"Restaurant",
+    "Jumlah":1290
+  },
+  {
+    "Kategori":"Indonesian restaurant",
+    "Jumlah":253
+  },
+  {
+    "Kategori":"Padang restaurant",
+    "Jumlah":169
+  },
+  {
+    "Kategori":"Seafood restaurant",
+    "Jumlah":148
+  },
+  {
+    "Kategori":"Bakso restaurant",
+    "Jumlah":147
+  },
+  {
+    "Kategori":"Diner",
+    "Jumlah":138
+  },
+  {
+    "Kategori":"Noodle shop",
+    "Jumlah":114
+  },
+  {
+    "Kategori":"Cafe",
+    "Jumlah":98
+  },
+  {
+    "Kategori":"Chicken restaurant",
+    "Jumlah":95
+  },
+  {
+    "Kategori":"Coffee shop",
+    "Jumlah":95
+  },
+  {
+    "Kategori":"Brunch restaurant",
+    "Jumlah":83
+  },
+  {
+    "Kategori":"Breakfast restaurant",
+    "Jumlah":79
+  },
+  {
+    "Kategori":"Food court",
+    "Jumlah":77
+  },
+  {
+    "Kategori":"Satay restaurant",
+    "Jumlah":64
+  },
+  {
+    "Kategori":"Fast food restaurant",
+    "Jumlah":61
+  },
+  {
+    "Kategori":"Chinese restaurant",
+    "Jumlah":47
+  },
+  {
+    "Kategori":"Nasi goreng restaurant",
+    "Jumlah":44
+  },
+  {
+    "Kategori":"Javanese restaurant",
+    "Jumlah":44
+  },
+  {
+    "Kategori":"Grocery store",
+    "Jumlah":43
+  },
+  {
+    "Kategori":"Ayam penyet restaurant",
+    "Jumlah":42
+  },
+  {
+    "Kategori":"Nasi restaurant",
+    "Jumlah":39
+  },
+  {
+    "Kategori":"Hawker Stall",
+    "Jumlah":38
+  },
+  {
+    "Kategori":"Family restaurant",
+    "Jumlah":36
+  },
+  {
+    "Kategori":"Asian restaurant",
+    "Jumlah":36
+  },
+  {
+    "Kategori":"Convenience store",
+    "Jumlah":34
+  },
+  {
+    "Kategori":"Pempek restaurant",
+    "Jumlah":34
+  },
+  {
+    "Kategori":"Soup kitchen",
+    "Jumlah":31
+  },
+  {
+    "Kategori":"Japanese restaurant",
+    "Jumlah":28
+  },
+  {
+    "Kategori":"Snack bar",
+    "Jumlah":28
+  },
+  {
+    "Kategori":"Fried chicken takeaway",
+    "Jumlah":25
+  },
+  {
+    "Kategori":"Batak restaurant",
+    "Jumlah":25
+  },
+  {
+    "Kategori":"Soto restaurant",
+    "Jumlah":23
+  },
+  {
+    "Kategori":"Murtabak restaurant",
+    "Jumlah":21
+  },
+  {
+    "Kategori":"Sundanese restaurant",
+    "Jumlah":21
+  },
+  {
+    "Kategori":"Buffet restaurant",
+    "Jumlah":20
+  },
+  {
+    "Kategori":"Soto ayam restaurant",
+    "Jumlah":19
+  },
+  {
+    "Kategori":"Porridge restaurant",
+    "Jumlah":19
+  },
+  {
+    "Kategori":"Korean restaurant",
+    "Jumlah":19
+  },
+  {
+    "Kategori":"Ikan bakar restaurant",
+    "Jumlah":19
+  },
+  {
+    "Kategori":"Bakery",
+    "Jumlah":18
+  },
+  {
+    "Kategori":"Deli",
+    "Jumlah":16
+  },
+  {
+    "Kategori":"Vegetarian restaurant",
+    "Jumlah":16
+  },
+  {
+    "Kategori":"Steak house",
+    "Jumlah":15
+  },
+  {
+    "Kategori":"Seblak restaurant",
+    "Jumlah":15
+  },
+  {
+    "Kategori":"Soup shop",
+    "Jumlah":13
+  },
+  {
+    "Kategori":"Pizza restaurant",
+    "Jumlah":11
+  },
+  {
+    "Kategori":"Dim sum restaurant",
+    "Jumlah":11
+  },
+  {
+    "Kategori":"Soup restaurant",
+    "Jumlah":11
+  },
+  {
+    "Kategori":"Supermarket",
+    "Jumlah":11
+  },
+  {
+    "Kategori":"Beach",
+    "Jumlah":10
+  },
+  {
+    "Kategori":"Indian restaurant",
+    "Jumlah":10
+  },
+  {
+    "Kategori":"Sushi restaurant",
+    "Jumlah":9
+  },
+  {
+    "Kategori":"Shopping mall",
+    "Jumlah":9
+  },
+  {
+    "Kategori":"Permanently closed",
+    "Jumlah":9
+  },
+  {
+    "Kategori":"Barbecue restaurant",
+    "Jumlah":8
+  },
+  {
+    "Kategori":"Health food restaurant",
+    "Jumlah":8
+  },
+  {
+    "Kategori":"Hawker center",
+    "Jumlah":8
+  },
+  {
+    "Kategori":"Housing complex",
+    "Jumlah":7
+  },
+  {
+    "Kategori":"Thai restaurant",
+    "Jumlah":7
+  },
+  {
+    "Kategori":"South Sulawesi restaurant",
+    "Jumlah":7
+  },
+  {
+    "Kategori":"Tourist attraction",
+    "Jumlah":7
+  },
+  {
+    "Kategori":"Ice cream shop",
+    "Jumlah":7
+  },
+  {
+    "Kategori":"Hawker stall",
+    "Jumlah":7
+  },
+  {
+    "Kategori":"Kebab Shop",
+    "Jumlah":6
+  },
+  {
+    "Kategori":"Salad shop",
+    "Jumlah":6
+  },
+  {
+    "Kategori":"Pecel lele restaurant",
+    "Jumlah":6
+  },
+  {
+    "Kategori":"Traditional restaurant",
+    "Jumlah":6
+  },
+  {
+    "Kategori":"Halal restaurant",
+    "Jumlah":6
+  },
+  {
+    "Kategori":"Cake shop",
+    "Jumlah":6
+  },
+  {
+    "Kategori":"Hamburger restaurant",
+    "Jumlah":6
+  },
+  {
+    "Kategori":"Italian restaurant",
+    "Jumlah":6
+  },
+  {
+    "Kategori":"Housing development",
+    "Jumlah":5
+  },
+  {
+    "Kategori":"Housing society",
+    "Jumlah":5
+  },
+  {
+    "Kategori":"General store",
+    "Jumlah":5
+  },
+  {
+    "Kategori":"Betawi restaurant",
+    "Jumlah":5
+  },
+  {
+    "Kategori":"Market",
+    "Jumlah":5
+  },
+  {
+    "Kategori":"Bar",
+    "Jumlah":5
+  },
+  {
+    "Kategori":"Food producer",
+    "Jumlah":5
+  },
+  {
+    "Kategori":"Country food restaurant",
+    "Jumlah":5
+  },
+  {
+    "Kategori":"Malaysian restaurant",
+    "Jumlah":5
+  },
+  {
+    "Kategori":"Bridge",
+    "Jumlah":5
+  },
+  {
+    "Kategori":"Grill",
+    "Jumlah":4
+  },
+  {
+    "Kategori":"Tofu restaurant",
+    "Jumlah":4
+  },
+  {
+    "Kategori":"Gated community",
+    "Jumlah":4
+  },
+  {
+    "Kategori":"Bar & grill",
+    "Jumlah":4
+  },
+  {
+    "Kategori":"Traditional market",
+    "Jumlah":4
+  },
+  {
+    "Kategori":"Caterer",
+    "Jumlah":3
+  },
+  {
+    "Kategori":"Chinese noodle restaurant",
+    "Jumlah":3
+  },
+  {
+    "Kategori":"Manado restaurant",
+    "Jumlah":3
+  },
+  {
+    "Kategori":"Authentic Japanese restaurant",
+    "Jumlah":3
+  },
+  {
+    "Kategori":"Health food store",
+    "Jumlah":3
+  },
+  {
+    "Kategori":"Produce market",
+    "Jumlah":3
+  },
+  {
+    "Kategori":"Frozen food store",
+    "Jumlah":3
+  },
+  {
+    "Kategori":"East Javanese restaurant",
+    "Jumlah":3
+  },
+  {
+    "Kategori":"Karaoke bar",
+    "Jumlah":3
+  },
+  {
+    "Kategori":"Staple food package",
+    "Jumlah":3
+  },
+  {
+    "Kategori":"Dumpling restaurant",
+    "Jumlah":3
+  },
+  {
+    "Kategori":"Takeaways",
+    "Jumlah":3
+  },
+  {
+    "Kategori":"Cafeteria",
+    "Jumlah":3
+  },
+  {
+    "Kategori":"Hot pot restaurant",
+    "Jumlah":3
+  },
+  {
+    "Kategori":"Garden",
+    "Jumlah":3
+  },
+  {
+    "Kategori":"Island",
+    "Jumlah":3
+  },
+  {
+    "Kategori":"Yakiniku restaurant",
+    "Jumlah":3
+  },
+  {
+    "Kategori":"Ramen restaurant",
+    "Jumlah":3
+  },
+  {
+    "Kategori":"Hong Kong style fast food restaurant",
+    "Jumlah":3
+  },
+  {
+    "Kategori":"Food products supplier",
+    "Jumlah":2
+  },
+  {
+    "Kategori":"Shop",
+    "Jumlah":2
+  },
+  {
+    "Kategori":"Seafood wholesaler",
+    "Jumlah":2
+  },
+  {
+    "Kategori":"Donut shop",
+    "Jumlah":2
+  },
+  {
+    "Kategori":"Rice restaurant",
+    "Jumlah":2
+  },
+  {
+    "Kategori":"Homestay",
+    "Jumlah":2
+  },
+  {
+    "Kategori":"Dessert restaurant",
+    "Jumlah":2
+  },
+  {
+    "Kategori":"Corporate office",
+    "Jumlah":2
+  },
+  {
+    "Kategori":"Ferry service",
+    "Jumlah":2
+  },
+  {
+    "Kategori":"Port authority",
+    "Jumlah":2
+  },
+  {
+    "Kategori":"Chicken shop",
+    "Jumlah":2
+  },
+  {
+    "Kategori":"Cemetery",
+    "Jumlah":2
+  },
+  {
+    "Kategori":"Creperie",
+    "Jumlah":2
+  },
+  {
+    "Kategori":"Pancake restaurant",
+    "Jumlah":2
+  },
+  {
+    "Kategori":"Bubble tea store",
+    "Jumlah":2
+  },
+  {
+    "Kategori":"Fruit and vegetable store",
+    "Jumlah":2
+  },
+  {
+    "Kategori":"Cocktail bar",
+    "Jumlah":2
+  },
+  {
+    "Kategori":"Korean barbecue restaurant",
+    "Jumlah":2
+  },
+  {
+    "Kategori":"Poultry farm",
+    "Jumlah":2
+  },
+  {
+    "Kategori":"Mosque",
+    "Jumlah":2
+  },
+  {
+    "Kategori":"Hotel",
+    "Jumlah":2
+  },
+  {
+    "Kategori":"Tongue restaurant",
+    "Jumlah":2
+  },
+  {
+    "Kategori":"Tegal restaurant",
+    "Jumlah":2
+  },
+  {
+    "Kategori":"Western restaurant",
+    "Jumlah":2
+  },
+  {
+    "Kategori":"French restaurant",
+    "Jumlah":2
+  },
+  {
+    "Kategori":"Catering food and drink supplier",
+    "Jumlah":2
+  },
+  {
+    "Kategori":"Bistro",
+    "Jumlah":2
+  },
+  {
+    "Kategori":"Fresh food market",
+    "Jumlah":2
+  },
+  {
+    "Kategori":"Grocery delivery service",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Bottled water supplier",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Camping Ground",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Seafood market",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Place of worship",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Stand bar",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Addiction treatment center",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"American restaurant",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Mexican restaurant",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Greenhouse & Equipment Supplier",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Toast restaurant",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Baking supply store",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Wholesale grocer",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Manufacturer",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Turkish restaurant",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Clothing store",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Pastry shop",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Transportation service",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Ferry terminal",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Plant nursery",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Petrol Station",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Cendol restaurant",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Farmers' market",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Takoyaki restaurant",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Doner kebab restaurant",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Food Shop",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Juice shop",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Extremaduran restaurant",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Chicken wings restaurant",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Vietnamese restaurant",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Shabu-shabu restaurant",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Food broker",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Art cafe",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Fish store",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Food and beverage consultant",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Fusion restaurant",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Vegan restaurant",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Animal feed store",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Wedding buffet",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Box lunch supplier",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Fruit and vegetable processing",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Frozen food manufacturer",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Regional government office",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Recreation center",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Log cabins",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Museum",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Beach pavillion",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Livestock dealer",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Meal delivery",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Night market",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Special food and drink",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Restaurant supply store",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"European restaurant",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Natural goods store",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Lunch restaurant",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Office",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Amusement center",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Fine dining restaurant",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Haute French restaurant",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Filipino restaurant",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Irish pub",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Food manufacturer",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Australian restaurant",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Restaurant or cafe",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Housing authority",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Apartment complex",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Water park",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Taiwanese restaurant",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Tea store",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Mandarin restaurant",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Discount supermarket",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Sushi takeaway",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Convention center",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Udon noodle restaurant",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Middle Eastern restaurant",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Coffee roasters",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Nasi uduk restaurant",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Balinese restaurant",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Dessert shop",
+    "Jumlah":1
+  }
+]

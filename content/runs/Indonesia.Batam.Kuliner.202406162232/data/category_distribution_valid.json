@@ -1,0 +1,850 @@
+[
+  {
+    "category":"Restaurant",
+    "valid_rows":1290
+  },
+  {
+    "category":"Indonesian restaurant",
+    "valid_rows":253
+  },
+  {
+    "category":"Padang restaurant",
+    "valid_rows":169
+  },
+  {
+    "category":"Seafood restaurant",
+    "valid_rows":148
+  },
+  {
+    "category":"Bakso restaurant",
+    "valid_rows":147
+  },
+  {
+    "category":"Diner",
+    "valid_rows":138
+  },
+  {
+    "category":"Noodle shop",
+    "valid_rows":114
+  },
+  {
+    "category":"Cafe",
+    "valid_rows":98
+  },
+  {
+    "category":"Chicken restaurant",
+    "valid_rows":95
+  },
+  {
+    "category":"Coffee shop",
+    "valid_rows":95
+  },
+  {
+    "category":"Brunch restaurant",
+    "valid_rows":83
+  },
+  {
+    "category":"Breakfast restaurant",
+    "valid_rows":79
+  },
+  {
+    "category":"Food court",
+    "valid_rows":77
+  },
+  {
+    "category":"Satay restaurant",
+    "valid_rows":64
+  },
+  {
+    "category":"Fast food restaurant",
+    "valid_rows":61
+  },
+  {
+    "category":"Chinese restaurant",
+    "valid_rows":47
+  },
+  {
+    "category":"Javanese restaurant",
+    "valid_rows":44
+  },
+  {
+    "category":"Nasi goreng restaurant",
+    "valid_rows":44
+  },
+  {
+    "category":"Grocery store",
+    "valid_rows":43
+  },
+  {
+    "category":"Ayam penyet restaurant",
+    "valid_rows":42
+  },
+  {
+    "category":"Nasi restaurant",
+    "valid_rows":39
+  },
+  {
+    "category":"Hawker Stall",
+    "valid_rows":38
+  },
+  {
+    "category":"Asian restaurant",
+    "valid_rows":36
+  },
+  {
+    "category":"Family restaurant",
+    "valid_rows":36
+  },
+  {
+    "category":"Pempek restaurant",
+    "valid_rows":34
+  },
+  {
+    "category":"Convenience store",
+    "valid_rows":34
+  },
+  {
+    "category":"Soup kitchen",
+    "valid_rows":31
+  },
+  {
+    "category":"Japanese restaurant",
+    "valid_rows":28
+  },
+  {
+    "category":"Snack bar",
+    "valid_rows":28
+  },
+  {
+    "category":"Fried chicken takeaway",
+    "valid_rows":25
+  },
+  {
+    "category":"Batak restaurant",
+    "valid_rows":25
+  },
+  {
+    "category":"Soto restaurant",
+    "valid_rows":23
+  },
+  {
+    "category":"Murtabak restaurant",
+    "valid_rows":21
+  },
+  {
+    "category":"Sundanese restaurant",
+    "valid_rows":21
+  },
+  {
+    "category":"Buffet restaurant",
+    "valid_rows":20
+  },
+  {
+    "category":"Korean restaurant",
+    "valid_rows":19
+  },
+  {
+    "category":"Ikan bakar restaurant",
+    "valid_rows":19
+  },
+  {
+    "category":"Porridge restaurant",
+    "valid_rows":19
+  },
+  {
+    "category":"Soto ayam restaurant",
+    "valid_rows":19
+  },
+  {
+    "category":"Bakery",
+    "valid_rows":18
+  },
+  {
+    "category":"Deli",
+    "valid_rows":16
+  },
+  {
+    "category":"Vegetarian restaurant",
+    "valid_rows":16
+  },
+  {
+    "category":"Seblak restaurant",
+    "valid_rows":15
+  },
+  {
+    "category":"Steak house",
+    "valid_rows":15
+  },
+  {
+    "category":"Soup shop",
+    "valid_rows":13
+  },
+  {
+    "category":"Pizza restaurant",
+    "valid_rows":11
+  },
+  {
+    "category":"Soup restaurant",
+    "valid_rows":11
+  },
+  {
+    "category":"Supermarket",
+    "valid_rows":11
+  },
+  {
+    "category":"Dim sum restaurant",
+    "valid_rows":11
+  },
+  {
+    "category":"Beach",
+    "valid_rows":10
+  },
+  {
+    "category":"Indian restaurant",
+    "valid_rows":10
+  },
+  {
+    "category":"Permanently closed",
+    "valid_rows":9
+  },
+  {
+    "category":"Shopping mall",
+    "valid_rows":9
+  },
+  {
+    "category":"Sushi restaurant",
+    "valid_rows":9
+  },
+  {
+    "category":"Health food restaurant",
+    "valid_rows":8
+  },
+  {
+    "category":"Barbecue restaurant",
+    "valid_rows":8
+  },
+  {
+    "category":"Hawker center",
+    "valid_rows":8
+  },
+  {
+    "category":"Thai restaurant",
+    "valid_rows":7
+  },
+  {
+    "category":"Ice cream shop",
+    "valid_rows":7
+  },
+  {
+    "category":"Housing complex",
+    "valid_rows":7
+  },
+  {
+    "category":"Hawker stall",
+    "valid_rows":7
+  },
+  {
+    "category":"Tourist attraction",
+    "valid_rows":7
+  },
+  {
+    "category":"South Sulawesi restaurant",
+    "valid_rows":7
+  },
+  {
+    "category":"Cake shop",
+    "valid_rows":6
+  },
+  {
+    "category":"Halal restaurant",
+    "valid_rows":6
+  },
+  {
+    "category":"Italian restaurant",
+    "valid_rows":6
+  },
+  {
+    "category":"Traditional restaurant",
+    "valid_rows":6
+  },
+  {
+    "category":"Hamburger restaurant",
+    "valid_rows":6
+  },
+  {
+    "category":"Salad shop",
+    "valid_rows":6
+  },
+  {
+    "category":"Kebab Shop",
+    "valid_rows":6
+  },
+  {
+    "category":"Pecel lele restaurant",
+    "valid_rows":6
+  },
+  {
+    "category":"Bridge",
+    "valid_rows":5
+  },
+  {
+    "category":"Bar",
+    "valid_rows":5
+  },
+  {
+    "category":"Food producer",
+    "valid_rows":5
+  },
+  {
+    "category":"Country food restaurant",
+    "valid_rows":5
+  },
+  {
+    "category":"Betawi restaurant",
+    "valid_rows":5
+  },
+  {
+    "category":"General store",
+    "valid_rows":5
+  },
+  {
+    "category":"Housing development",
+    "valid_rows":5
+  },
+  {
+    "category":"Housing society",
+    "valid_rows":5
+  },
+  {
+    "category":"Market",
+    "valid_rows":5
+  },
+  {
+    "category":"Malaysian restaurant",
+    "valid_rows":5
+  },
+  {
+    "category":"Bar & grill",
+    "valid_rows":4
+  },
+  {
+    "category":"Grill",
+    "valid_rows":4
+  },
+  {
+    "category":"Traditional market",
+    "valid_rows":4
+  },
+  {
+    "category":"Gated community",
+    "valid_rows":4
+  },
+  {
+    "category":"Tofu restaurant",
+    "valid_rows":4
+  },
+  {
+    "category":"Staple food package",
+    "valid_rows":3
+  },
+  {
+    "category":"Ramen restaurant",
+    "valid_rows":3
+  },
+  {
+    "category":"Takeaways",
+    "valid_rows":3
+  },
+  {
+    "category":"Authentic Japanese restaurant",
+    "valid_rows":3
+  },
+  {
+    "category":"Caterer",
+    "valid_rows":3
+  },
+  {
+    "category":"Produce market",
+    "valid_rows":3
+  },
+  {
+    "category":"Yakiniku restaurant",
+    "valid_rows":3
+  },
+  {
+    "category":"Karaoke bar",
+    "valid_rows":3
+  },
+  {
+    "category":"Garden",
+    "valid_rows":3
+  },
+  {
+    "category":"Island",
+    "valid_rows":3
+  },
+  {
+    "category":"Manado restaurant",
+    "valid_rows":3
+  },
+  {
+    "category":"Hot pot restaurant",
+    "valid_rows":3
+  },
+  {
+    "category":"Hong Kong style fast food restaurant",
+    "valid_rows":3
+  },
+  {
+    "category":"Health food store",
+    "valid_rows":3
+  },
+  {
+    "category":"Frozen food store",
+    "valid_rows":3
+  },
+  {
+    "category":"East Javanese restaurant",
+    "valid_rows":3
+  },
+  {
+    "category":"Chinese noodle restaurant",
+    "valid_rows":3
+  },
+  {
+    "category":"Dumpling restaurant",
+    "valid_rows":3
+  },
+  {
+    "category":"Cafeteria",
+    "valid_rows":3
+  },
+  {
+    "category":"Western restaurant",
+    "valid_rows":2
+  },
+  {
+    "category":"Shop",
+    "valid_rows":2
+  },
+  {
+    "category":"Poultry farm",
+    "valid_rows":2
+  },
+  {
+    "category":"Homestay",
+    "valid_rows":2
+  },
+  {
+    "category":"Hotel",
+    "valid_rows":2
+  },
+  {
+    "category":"Mosque",
+    "valid_rows":2
+  },
+  {
+    "category":"Rice restaurant",
+    "valid_rows":2
+  },
+  {
+    "category":"Seafood wholesaler",
+    "valid_rows":2
+  },
+  {
+    "category":"Port authority",
+    "valid_rows":2
+  },
+  {
+    "category":"Tegal restaurant",
+    "valid_rows":2
+  },
+  {
+    "category":"Tongue restaurant",
+    "valid_rows":2
+  },
+  {
+    "category":"Pancake restaurant",
+    "valid_rows":2
+  },
+  {
+    "category":"Korean barbecue restaurant",
+    "valid_rows":2
+  },
+  {
+    "category":"Cemetery",
+    "valid_rows":2
+  },
+  {
+    "category":"Cocktail bar",
+    "valid_rows":2
+  },
+  {
+    "category":"Creperie",
+    "valid_rows":2
+  },
+  {
+    "category":"Corporate office",
+    "valid_rows":2
+  },
+  {
+    "category":"Bubble tea store",
+    "valid_rows":2
+  },
+  {
+    "category":"Bistro",
+    "valid_rows":2
+  },
+  {
+    "category":"Dessert restaurant",
+    "valid_rows":2
+  },
+  {
+    "category":"Donut shop",
+    "valid_rows":2
+  },
+  {
+    "category":"French restaurant",
+    "valid_rows":2
+  },
+  {
+    "category":"Ferry service",
+    "valid_rows":2
+  },
+  {
+    "category":"Food products supplier",
+    "valid_rows":2
+  },
+  {
+    "category":"Fresh food market",
+    "valid_rows":2
+  },
+  {
+    "category":"Catering food and drink supplier",
+    "valid_rows":2
+  },
+  {
+    "category":"Chicken shop",
+    "valid_rows":2
+  },
+  {
+    "category":"Fruit and vegetable store",
+    "valid_rows":2
+  },
+  {
+    "category":"Addiction treatment center",
+    "valid_rows":1
+  },
+  {
+    "category":"American restaurant",
+    "valid_rows":1
+  },
+  {
+    "category":"Cendol restaurant",
+    "valid_rows":1
+  },
+  {
+    "category":"Clothing store",
+    "valid_rows":1
+  },
+  {
+    "category":"Chicken wings restaurant",
+    "valid_rows":1
+  },
+  {
+    "category":"Convention center",
+    "valid_rows":1
+  },
+  {
+    "category":"Coffee roasters",
+    "valid_rows":1
+  },
+  {
+    "category":"Animal feed store",
+    "valid_rows":1
+  },
+  {
+    "category":"Amusement center",
+    "valid_rows":1
+  },
+  {
+    "category":"Art cafe",
+    "valid_rows":1
+  },
+  {
+    "category":"Australian restaurant",
+    "valid_rows":1
+  },
+  {
+    "category":"Baking supply store",
+    "valid_rows":1
+  },
+  {
+    "category":"Apartment complex",
+    "valid_rows":1
+  },
+  {
+    "category":"Balinese restaurant",
+    "valid_rows":1
+  },
+  {
+    "category":"Beach pavillion",
+    "valid_rows":1
+  },
+  {
+    "category":"Fruit and vegetable processing",
+    "valid_rows":1
+  },
+  {
+    "category":"Frozen food manufacturer",
+    "valid_rows":1
+  },
+  {
+    "category":"Fish store",
+    "valid_rows":1
+  },
+  {
+    "category":"Fine dining restaurant",
+    "valid_rows":1
+  },
+  {
+    "category":"Food Shop",
+    "valid_rows":1
+  },
+  {
+    "category":"Food and beverage consultant",
+    "valid_rows":1
+  },
+  {
+    "category":"Food broker",
+    "valid_rows":1
+  },
+  {
+    "category":"Food manufacturer",
+    "valid_rows":1
+  },
+  {
+    "category":"Filipino restaurant",
+    "valid_rows":1
+  },
+  {
+    "category":"Discount supermarket",
+    "valid_rows":1
+  },
+  {
+    "category":"Dessert shop",
+    "valid_rows":1
+  },
+  {
+    "category":"Doner kebab restaurant",
+    "valid_rows":1
+  },
+  {
+    "category":"Extremaduran restaurant",
+    "valid_rows":1
+  },
+  {
+    "category":"European restaurant",
+    "valid_rows":1
+  },
+  {
+    "category":"Farmers' market",
+    "valid_rows":1
+  },
+  {
+    "category":"Ferry terminal",
+    "valid_rows":1
+  },
+  {
+    "category":"Camping Ground",
+    "valid_rows":1
+  },
+  {
+    "category":"Bottled water supplier",
+    "valid_rows":1
+  },
+  {
+    "category":"Box lunch supplier",
+    "valid_rows":1
+  },
+  {
+    "category":"Haute French restaurant",
+    "valid_rows":1
+  },
+  {
+    "category":"Housing authority",
+    "valid_rows":1
+  },
+  {
+    "category":"Fusion restaurant",
+    "valid_rows":1
+  },
+  {
+    "category":"Greenhouse & Equipment Supplier",
+    "valid_rows":1
+  },
+  {
+    "category":"Grocery delivery service",
+    "valid_rows":1
+  },
+  {
+    "category":"Log cabins",
+    "valid_rows":1
+  },
+  {
+    "category":"Juice shop",
+    "valid_rows":1
+  },
+  {
+    "category":"Livestock dealer",
+    "valid_rows":1
+  },
+  {
+    "category":"Lunch restaurant",
+    "valid_rows":1
+  },
+  {
+    "category":"Manufacturer",
+    "valid_rows":1
+  },
+  {
+    "category":"Mandarin restaurant",
+    "valid_rows":1
+  },
+  {
+    "category":"Meal delivery",
+    "valid_rows":1
+  },
+  {
+    "category":"Irish pub",
+    "valid_rows":1
+  },
+  {
+    "category":"Pastry shop",
+    "valid_rows":1
+  },
+  {
+    "category":"Natural goods store",
+    "valid_rows":1
+  },
+  {
+    "category":"Night market",
+    "valid_rows":1
+  },
+  {
+    "category":"Office",
+    "valid_rows":1
+  },
+  {
+    "category":"Mexican restaurant",
+    "valid_rows":1
+  },
+  {
+    "category":"Middle Eastern restaurant",
+    "valid_rows":1
+  },
+  {
+    "category":"Museum",
+    "valid_rows":1
+  },
+  {
+    "category":"Nasi uduk restaurant",
+    "valid_rows":1
+  },
+  {
+    "category":"Place of worship",
+    "valid_rows":1
+  },
+  {
+    "category":"Shabu-shabu restaurant",
+    "valid_rows":1
+  },
+  {
+    "category":"Petrol Station",
+    "valid_rows":1
+  },
+  {
+    "category":"Plant nursery",
+    "valid_rows":1
+  },
+  {
+    "category":"Recreation center",
+    "valid_rows":1
+  },
+  {
+    "category":"Regional government office",
+    "valid_rows":1
+  },
+  {
+    "category":"Restaurant or cafe",
+    "valid_rows":1
+  },
+  {
+    "category":"Restaurant supply store",
+    "valid_rows":1
+  },
+  {
+    "category":"Seafood market",
+    "valid_rows":1
+  },
+  {
+    "category":"Toast restaurant",
+    "valid_rows":1
+  },
+  {
+    "category":"Taiwanese restaurant",
+    "valid_rows":1
+  },
+  {
+    "category":"Tea store",
+    "valid_rows":1
+  },
+  {
+    "category":"Sushi takeaway",
+    "valid_rows":1
+  },
+  {
+    "category":"Special food and drink",
+    "valid_rows":1
+  },
+  {
+    "category":"Stand bar",
+    "valid_rows":1
+  },
+  {
+    "category":"Takoyaki restaurant",
+    "valid_rows":1
+  },
+  {
+    "category":"Udon noodle restaurant",
+    "valid_rows":1
+  },
+  {
+    "category":"Turkish restaurant",
+    "valid_rows":1
+  },
+  {
+    "category":"Transportation service",
+    "valid_rows":1
+  },
+  {
+    "category":"Vegan restaurant",
+    "valid_rows":1
+  },
+  {
+    "category":"Water park",
+    "valid_rows":1
+  },
+  {
+    "category":"Vietnamese restaurant",
+    "valid_rows":1
+  },
+  {
+    "category":"Wedding buffet",
+    "valid_rows":1
+  },
+  {
+    "category":"Wholesale grocer",
+    "valid_rows":1
+  }
+]

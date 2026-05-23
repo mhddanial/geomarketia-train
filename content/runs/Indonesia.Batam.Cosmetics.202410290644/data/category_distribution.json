@@ -1,0 +1,278 @@
+[
+  {
+    "Kategori":"Cosmetics store",
+    "Jumlah":95
+  },
+  {
+    "Kategori":"Beauty salon",
+    "Jumlah":71
+  },
+  {
+    "Kategori":"Health and beauty shop",
+    "Jumlah":40
+  },
+  {
+    "Kategori":"Convenience store",
+    "Jumlah":22
+  },
+  {
+    "Kategori":"Skin care clinic",
+    "Jumlah":20
+  },
+  {
+    "Kategori":"Pharmacy",
+    "Jumlah":14
+  },
+  {
+    "Kategori":"Perfume store",
+    "Jumlah":13
+  },
+  {
+    "Kategori":"Beauty supply store",
+    "Jumlah":13
+  },
+  {
+    "Kategori":"Beauty product supplier",
+    "Jumlah":11
+  },
+  {
+    "Kategori":"Housing complex",
+    "Jumlah":10
+  },
+  {
+    "Kategori":"Supermarket",
+    "Jumlah":7
+  },
+  {
+    "Kategori":"Nail salon",
+    "Jumlah":7
+  },
+  {
+    "Kategori":"Shopping mall",
+    "Jumlah":7
+  },
+  {
+    "Kategori":"Vitamin & supplements store",
+    "Jumlah":5
+  },
+  {
+    "Kategori":"Wellness center",
+    "Jumlah":5
+  },
+  {
+    "Kategori":"Grocery store",
+    "Jumlah":4
+  },
+  {
+    "Kategori":"Herbal medicine store",
+    "Jumlah":3
+  },
+  {
+    "Kategori":"Massage spa",
+    "Jumlah":3
+  },
+  {
+    "Kategori":"Shop",
+    "Jumlah":3
+  },
+  {
+    "Kategori":"Department store",
+    "Jumlah":3
+  },
+  {
+    "Kategori":"Skin care products vending machine",
+    "Jumlah":2
+  },
+  {
+    "Kategori":"Beautician",
+    "Jumlah":2
+  },
+  {
+    "Kategori":"Traditional market",
+    "Jumlah":2
+  },
+  {
+    "Kategori":"Spa",
+    "Jumlah":2
+  },
+  {
+    "Kategori":"Day spa",
+    "Jumlah":2
+  },
+  {
+    "Kategori":"Hair removal service",
+    "Jumlah":2
+  },
+  {
+    "Kategori":"Eyelash salon",
+    "Jumlah":2
+  },
+  {
+    "Kategori":"Hair salon",
+    "Jumlah":2
+  },
+  {
+    "Kategori":"Barber shop",
+    "Jumlah":2
+  },
+  {
+    "Kategori":"Apartment complex",
+    "Jumlah":2
+  },
+  {
+    "Kategori":"Housing development",
+    "Jumlah":2
+  },
+  {
+    "Kategori":"Medical clinic",
+    "Jumlah":2
+  },
+  {
+    "Kategori":"Produce market",
+    "Jumlah":2
+  },
+  {
+    "Kategori":"Market",
+    "Jumlah":2
+  },
+  {
+    "Kategori":"Make-up artist",
+    "Jumlah":2
+  },
+  {
+    "Kategori":"Bridal shop",
+    "Jumlah":2
+  },
+  {
+    "Kategori":"Cosmetics wholesaler",
+    "Jumlah":2
+  },
+  {
+    "Kategori":"Housing society",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Cosmetic products manufacturer",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Beauty products vending machine",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Restaurant",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Dental clinic",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Cafe",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Beauty products wholesaler",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Doctor",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Eye care center",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Fashion accessories store",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Gym and Fitness Centre",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Barber supply store",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Amusement center",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Beach",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Food producer",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Auto market",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Farmers' market",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Hypermarket",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Novelty store",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Home improvement store",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Luggage store",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Computer store",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Gated community",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Housing authority",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Drug store",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Real estate developer",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Discount supermarket",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Corporate office",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Florist",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Homewares Store",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Herb shop",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Facial spa",
+    "Jumlah":1
+  }
+]

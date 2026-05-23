@@ -1,0 +1,138 @@
+[
+  {
+    "category":"Hotel",
+    "valid_rows":20
+  },
+  {
+    "category":"Condominium complex",
+    "valid_rows":11
+  },
+  {
+    "category":"Housing complex",
+    "valid_rows":7
+  },
+  {
+    "category":"Lodging",
+    "valid_rows":7
+  },
+  {
+    "category":"Temporarily closed",
+    "valid_rows":5
+  },
+  {
+    "category":"Permanently closed",
+    "valid_rows":4
+  },
+  {
+    "category":"Lodge",
+    "valid_rows":4
+  },
+  {
+    "category":"Shopping mall",
+    "valid_rows":4
+  },
+  {
+    "category":"Guest house",
+    "valid_rows":3
+  },
+  {
+    "category":"Indonesia",
+    "valid_rows":3
+  },
+  {
+    "category":"Restaurant",
+    "valid_rows":3
+  },
+  {
+    "category":"Business center",
+    "valid_rows":2
+  },
+  {
+    "category":"Housing society",
+    "valid_rows":2
+  },
+  {
+    "category":"Homestay",
+    "valid_rows":2
+  },
+  {
+    "category":"Corporate office",
+    "valid_rows":2
+  },
+  {
+    "category":"Housing development",
+    "valid_rows":2
+  },
+  {
+    "category":"Beer garden",
+    "valid_rows":1
+  },
+  {
+    "category":"Apartment complex",
+    "valid_rows":1
+  },
+  {
+    "category":"Housing authority",
+    "valid_rows":1
+  },
+  {
+    "category":"Camping Ground",
+    "valid_rows":1
+  },
+  {
+    "category":"Ferry terminal",
+    "valid_rows":1
+  },
+  {
+    "category":"Cafe",
+    "valid_rows":1
+  },
+  {
+    "category":"Chinese restaurant",
+    "valid_rows":1
+  },
+  {
+    "category":"Grocery store",
+    "valid_rows":1
+  },
+  {
+    "category":"Lounge",
+    "valid_rows":1
+  },
+  {
+    "category":"Karaoke bar",
+    "valid_rows":1
+  },
+  {
+    "category":"Resort hotel",
+    "valid_rows":1
+  },
+  {
+    "category":"Real estate developer",
+    "valid_rows":1
+  },
+  {
+    "category":"Mosque",
+    "valid_rows":1
+  },
+  {
+    "category":"School",
+    "valid_rows":1
+  },
+  {
+    "category":"Seafood restaurant",
+    "valid_rows":1
+  },
+  {
+    "category":"Spa",
+    "valid_rows":1
+  },
+  {
+    "category":"Transit station",
+    "valid_rows":1
+  },
+  {
+    "category":"Wellness center",
+    "valid_rows":1
+  }
+]

@@ -1,0 +1,198 @@
+[
+  {
+    "category":"Building materials store",
+    "valid_rows":446
+  },
+  {
+    "category":"Hardware store",
+    "valid_rows":32
+  },
+  {
+    "category":"Building materials supplier",
+    "valid_rows":21
+  },
+  {
+    "category":"Paint store",
+    "valid_rows":18
+  },
+  {
+    "category":"Tool store",
+    "valid_rows":14
+  },
+  {
+    "category":"Shop",
+    "valid_rows":10
+  },
+  {
+    "category":"Tile store",
+    "valid_rows":7
+  },
+  {
+    "category":"Homewares Store",
+    "valid_rows":7
+  },
+  {
+    "category":"Home improvement store",
+    "valid_rows":6
+  },
+  {
+    "category":"Fence supply store",
+    "valid_rows":5
+  },
+  {
+    "category":"Building materials market",
+    "valid_rows":5
+  },
+  {
+    "category":"Housing complex",
+    "valid_rows":4
+  },
+  {
+    "category":"Cemetery",
+    "valid_rows":3
+  },
+  {
+    "category":"Convenience store",
+    "valid_rows":3
+  },
+  {
+    "category":"Supermarket",
+    "valid_rows":3
+  },
+  {
+    "category":"Glass shop",
+    "valid_rows":3
+  },
+  {
+    "category":"Carpet store",
+    "valid_rows":3
+  },
+  {
+    "category":"Lumber store",
+    "valid_rows":3
+  },
+  {
+    "category":"Home goods store",
+    "valid_rows":3
+  },
+  {
+    "category":"Grocery store",
+    "valid_rows":3
+  },
+  {
+    "category":"Store",
+    "valid_rows":3
+  },
+  {
+    "category":"Material handling equipment supplier",
+    "valid_rows":2
+  },
+  {
+    "category":"Wallpaper store",
+    "valid_rows":2
+  },
+  {
+    "category":"Dry wall supply store",
+    "valid_rows":2
+  },
+  {
+    "category":"Housing development",
+    "valid_rows":2
+  },
+  {
+    "category":"Appliance store",
+    "valid_rows":2
+  },
+  {
+    "category":"Corporate office",
+    "valid_rows":2
+  },
+  {
+    "category":"Door shop",
+    "valid_rows":1
+  },
+  {
+    "category":"Countertop store",
+    "valid_rows":1
+  },
+  {
+    "category":"Construction material wholesaler",
+    "valid_rows":1
+  },
+  {
+    "category":"Condominium complex",
+    "valid_rows":1
+  },
+  {
+    "category":"Chinaware store",
+    "valid_rows":1
+  },
+  {
+    "category":"Air conditioning repair service",
+    "valid_rows":1
+  },
+  {
+    "category":"Electrical supply store",
+    "valid_rows":1
+  },
+  {
+    "category":"Door supplier",
+    "valid_rows":1
+  },
+  {
+    "category":"Housing society",
+    "valid_rows":1
+  },
+  {
+    "category":"Fitted furniture supplier",
+    "valid_rows":1
+  },
+  {
+    "category":"Furniture store",
+    "valid_rows":1
+  },
+  {
+    "category":"Granite supplier",
+    "valid_rows":1
+  },
+  {
+    "category":"Gated community",
+    "valid_rows":1
+  },
+  {
+    "category":"Electronics store",
+    "valid_rows":1
+  },
+  {
+    "category":"Shopping mall",
+    "valid_rows":1
+  },
+  {
+    "category":"Plant nursery",
+    "valid_rows":1
+  },
+  {
+    "category":"Petrol Station",
+    "valid_rows":1
+  },
+  {
+    "category":"Permanently closed",
+    "valid_rows":1
+  },
+  {
+    "category":"Office supply store",
+    "valid_rows":1
+  },
+  {
+    "category":"Toiletries store",
+    "valid_rows":1
+  },
+  {
+    "category":"Wholesaler",
+    "valid_rows":1
+  },
+  {
+    "category":"Wood supplier",
+    "valid_rows":1
+  }
+]

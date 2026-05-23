@@ -16,8 +16,7 @@ This repository contains the end-to-end training pipeline for GeoMarket AI. It t
 content/
   data/
     raw/            # Input SQLite files (.db)
-    processed/      # Outputs: feature_store.csv, rejected_rows.csv, plots
-  models/           # Model artifacts and metadata JSON
+  runs/             # Per-db training runs (data, reports, models)
 geomarketia_train.ipynb  # Main training notebook
 prd.md                   # Product requirements or design notes
 README.md                # This document
@@ -28,7 +27,7 @@ README.md                # This document
 The notebook `geomarketia_train.ipynb` is the single source of truth for training. It contains these main stages:
 
 1) Ingestion and validation
-- Loads all SQLite files from `content/data/raw`.
+- Loads one selected SQLite file from `content/data/raw` per run.
 - Normalizes column names and verifies required fields.
 - Applies a validation gate and writes `rejected_rows.csv` for invalid data.
 
@@ -43,41 +42,45 @@ The notebook `geomarketia_train.ipynb` is the single source of truth for trainin
 
 4) Feature engineering
 - Computes centroid distance and density features.
-- Saves the feature store to `content/data/processed/feature_store.csv`.
+- Saves the feature store to `content/runs/<db_key>/data/feature_store.csv`.
 
 5) Random Forest training
 - Builds a proxy suitability label (High/Medium/Low).
 - Performs spatial split using grid-based grouping.
-- Trains a Random Forest model and saves artifacts to `content/models/`.
+- Trains a Random Forest model and saves artifacts to `content/runs/<db_key>/models/`.
 
 ## Key Outputs
 
-- `content/data/processed/feature_store.csv`
-- `content/data/processed/rejected_rows.csv`
-- `content/data/processed/clustering_result.png`
-- `content/data/processed/k_distance_graph.png`
-- `content/models/clustering_metadata.json`
-- `content/models/rf_location_reco_v*.joblib`
-- `content/models/rf_metadata.json`
+- `content/runs/<db_key>/data/feature_store.csv`
+- `content/runs/<db_key>/data/rejected_rows.csv`
+- `content/runs/<db_key>/data/category_distribution.json`
+- `content/runs/<db_key>/data/category_distribution_valid.json`
+- `content/runs/<db_key>/reports/clustering_result.png`
+- `content/runs/<db_key>/reports/cluster_vs_noise.png`
+- `content/runs/<db_key>/reports/category_distribution_top10.png`
+- `content/runs/<db_key>/reports/rf_confusion_matrix.png`
+- `content/runs/<db_key>/reports/rf_shap_summary.png`
+- `content/runs/<db_key>/reports/rf_shap_waterfall.png`
+- `content/runs/<db_key>/reports/rf_shap_importance.csv`
+- `content/runs/<db_key>/models/clustering_metadata.json`
+- `content/runs/<db_key>/models/rf_location_reco_v*.joblib`
+- `content/runs/<db_key>/models/rf_metadata.json`
 
-## Latest Run Snapshot
+## Run Metadata
 
-This snapshot is taken from the latest saved metadata in `content/models/`.
-
-- Data: 11,094 raw rows → 10,768 valid (326 rejected)
-- DBSCAN: eps=150m, min_samples=10, clusters=118, noise=3,935 (36.54%)
-- Clustering quality: silhouette=0.3424, Davies-Bouldin=0.5229
-- Random Forest: F1 macro=0.9859, accuracy=0.9857
+Per-run metrics and configuration are stored under `content/runs/<db_key>/models/`.
 
 ## How to Run
 
 1) Place SQLite files under `content/data/raw/`.
-2) Open `geomarketia_train.ipynb` in VS Code.
-3) Run cells in order from top to bottom.
-4) Verify outputs in `content/data/processed/` and `content/models/`.
+2) Set `TARGET_DB_FILE` in the notebook (Tahap 2.1) to choose a single DB.
+3) Open `geomarketia_train.ipynb` in VS Code.
+4) Run cells in order from top to bottom.
+5) Verify outputs in `content/runs/<db_key>/`.
 
 ## Notes
 
-- DBSCAN parameters (`EPS_METER`, `MIN_SAMPLES`) are defined in the notebook and can be tuned with the k-distance plot and grid search.
+- DBSCAN parameters (`EPS_METER`, `MIN_SAMPLES`) are defined in the notebook and can be tuned with visualizations and grid search.
 - The Random Forest uses a spatial split to reduce geographic leakage.
 - Model labels are proxy labels built from PRD scoring rules, not direct ground truth.
+- Each run is saved under `content/runs/<db_key>/` to keep outputs isolated per database.

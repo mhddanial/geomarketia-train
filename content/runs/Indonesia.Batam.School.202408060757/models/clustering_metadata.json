@@ -1,0 +1,53 @@
+{
+  "notebook": "01_dbscan_clustering",
+  "timestamp": "2026-05-23T22:18:37.619855",
+  "target_db": "Indonesia.Batam.School.202408060757.db",
+  "db_files": [
+    "Indonesia.Batam.School.202408060757.db"
+  ],
+  "paths": {
+    "run_dir": "content/runs\\Indonesia.Batam.School.202408060757",
+    "data_dir": "content/runs\\Indonesia.Batam.School.202408060757\\data",
+    "report_dir": "content/runs\\Indonesia.Batam.School.202408060757\\reports",
+    "model_dir": "content/runs\\Indonesia.Batam.School.202408060757\\models",
+    "feature_store_path": "content/runs\\Indonesia.Batam.School.202408060757\\data\\feature_store.csv"
+  },
+  "params": {
+    "eps_meter": 500,
+    "min_samples": 10,
+    "category_col": "category",
+    "crs_input": "EPSG:4326",
+    "crs_output": "EPSG:32648"
+  },
+  "results": {
+    "n_clusters": 19,
+    "n_noise": 464,
+    "n_clustered": 826,
+    "noise_ratio_pct": 35.97,
+    "silhouette_score": 0.3113,
+    "davies_bouldin_idx": 0.5985
+  },
+  "output": {
+    "feature_columns": [
+      "id",
+      "name",
+      "category",
+      "source_category",
+      "source_file",
+      "source_table",
+      "latitude",
+      "longitude",
+      "x_utm",
+      "y_utm",
+      "cluster_id",
+      "dist_to_cluster_centroid_m",
+      "competitor_density_500m",
+      "competitor_density_1km",
+      "same_category_density_500m",
+      "nearest_neighbor_dist_m",
+      "rating",
+      "review_log",
+      "price_level"
+    ]
+  }
+}

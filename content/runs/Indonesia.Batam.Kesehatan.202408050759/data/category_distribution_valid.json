@@ -1,0 +1,786 @@
+[
+  {
+    "category":"Pharmacy",
+    "valid_rows":148
+  },
+  {
+    "category":"Beauty salon",
+    "valid_rows":97
+  },
+  {
+    "category":"Medical clinic",
+    "valid_rows":82
+  },
+  {
+    "category":"Health and beauty shop",
+    "valid_rows":48
+  },
+  {
+    "category":"Public medical center",
+    "valid_rows":47
+  },
+  {
+    "category":"Hospital",
+    "valid_rows":45
+  },
+  {
+    "category":"Alternative medicine practitioner",
+    "valid_rows":43
+  },
+  {
+    "category":"Midwife",
+    "valid_rows":40
+  },
+  {
+    "category":"Doctor",
+    "valid_rows":35
+  },
+  {
+    "category":"Barber shop",
+    "valid_rows":33
+  },
+  {
+    "category":"Skin care clinic",
+    "valid_rows":33
+  },
+  {
+    "category":"Medical office",
+    "valid_rows":33
+  },
+  {
+    "category":"Dental clinic",
+    "valid_rows":29
+  },
+  {
+    "category":"Walk-in clinic",
+    "valid_rows":28
+  },
+  {
+    "category":"Health consultant",
+    "valid_rows":27
+  },
+  {
+    "category":"Massage therapist",
+    "valid_rows":26
+  },
+  {
+    "category":"Physical therapist",
+    "valid_rows":25
+  },
+  {
+    "category":"Reflexologist",
+    "valid_rows":24
+  },
+  {
+    "category":"Gym and Fitness Centre",
+    "valid_rows":22
+  },
+  {
+    "category":"Cosmetics store",
+    "valid_rows":21
+  },
+  {
+    "category":"Organic shop",
+    "valid_rows":21
+  },
+  {
+    "category":"Drug store",
+    "valid_rows":16
+  },
+  {
+    "category":"Vitamin & supplements store",
+    "valid_rows":16
+  },
+  {
+    "category":"Medical supply store",
+    "valid_rows":15
+  },
+  {
+    "category":"Massage spa",
+    "valid_rows":15
+  },
+  {
+    "category":"Health food store",
+    "valid_rows":13
+  },
+  {
+    "category":"General practitioner",
+    "valid_rows":13
+  },
+  {
+    "category":"Dentist",
+    "valid_rows":13
+  },
+  {
+    "category":"Optician",
+    "valid_rows":13
+  },
+  {
+    "category":"Public health department",
+    "valid_rows":12
+  },
+  {
+    "category":"Hair salon",
+    "valid_rows":11
+  },
+  {
+    "category":"Housing complex",
+    "valid_rows":11
+  },
+  {
+    "category":"Home health care service",
+    "valid_rows":11
+  },
+  {
+    "category":"Herbal medicine store",
+    "valid_rows":10
+  },
+  {
+    "category":"Health spa",
+    "valid_rows":10
+  },
+  {
+    "category":"Government office",
+    "valid_rows":9
+  },
+  {
+    "category":"Spa",
+    "valid_rows":9
+  },
+  {
+    "category":"Wellness center",
+    "valid_rows":8
+  },
+  {
+    "category":"Gym",
+    "valid_rows":8
+  },
+  {
+    "category":"Mosque",
+    "valid_rows":8
+  },
+  {
+    "category":"Community health centre",
+    "valid_rows":7
+  },
+  {
+    "category":"Pharmaceutical company",
+    "valid_rows":6
+  },
+  {
+    "category":"Medical laboratory",
+    "valid_rows":6
+  },
+  {
+    "category":"Nutritionist",
+    "valid_rows":6
+  },
+  {
+    "category":"Herbalist",
+    "valid_rows":6
+  },
+  {
+    "category":"Medical Center",
+    "valid_rows":6
+  },
+  {
+    "category":"Physical therapy clinic",
+    "valid_rows":6
+  },
+  {
+    "category":"Self service health station",
+    "valid_rows":6
+  },
+  {
+    "category":"Day spa",
+    "valid_rows":6
+  },
+  {
+    "category":"Beauty supply store",
+    "valid_rows":5
+  },
+  {
+    "category":"Corporate office",
+    "valid_rows":5
+  },
+  {
+    "category":"Child health care centre",
+    "valid_rows":5
+  },
+  {
+    "category":"Medical equipment supplier",
+    "valid_rows":5
+  },
+  {
+    "category":"Government hospital",
+    "valid_rows":4
+  },
+  {
+    "category":"Cemetery",
+    "valid_rows":4
+  },
+  {
+    "category":"Family practice physician",
+    "valid_rows":4
+  },
+  {
+    "category":"Women's health clinic",
+    "valid_rows":4
+  },
+  {
+    "category":"Psychologist",
+    "valid_rows":4
+  },
+  {
+    "category":"Spa and health club",
+    "valid_rows":4
+  },
+  {
+    "category":"Denture care center",
+    "valid_rows":4
+  },
+  {
+    "category":"Maternity hospital",
+    "valid_rows":4
+  },
+  {
+    "category":"Homestay",
+    "valid_rows":4
+  },
+  {
+    "category":"Housing development",
+    "valid_rows":4
+  },
+  {
+    "category":"Herb shop",
+    "valid_rows":4
+  },
+  {
+    "category":"Beautician",
+    "valid_rows":3
+  },
+  {
+    "category":"Cafe",
+    "valid_rows":3
+  },
+  {
+    "category":"Foot massage parlor",
+    "valid_rows":3
+  },
+  {
+    "category":"Health",
+    "valid_rows":3
+  },
+  {
+    "category":"Obstetrician-gynecologist",
+    "valid_rows":3
+  },
+  {
+    "category":"Mental health clinic",
+    "valid_rows":3
+  },
+  {
+    "category":"Nail salon",
+    "valid_rows":3
+  },
+  {
+    "category":"Hypnotherapy service",
+    "valid_rows":3
+  },
+  {
+    "category":"Make-up artist",
+    "valid_rows":3
+  },
+  {
+    "category":"Yoga studio",
+    "valid_rows":3
+  },
+  {
+    "category":"Beauty product supplier",
+    "valid_rows":3
+  },
+  {
+    "category":"General hospital",
+    "valid_rows":3
+  },
+  {
+    "category":"Urology clinic",
+    "valid_rows":3
+  },
+  {
+    "category":"Shopping mall",
+    "valid_rows":3
+  },
+  {
+    "category":"Rehabilitation center",
+    "valid_rows":2
+  },
+  {
+    "category":"City clerk's office",
+    "valid_rows":2
+  },
+  {
+    "category":"Acupuncture clinic",
+    "valid_rows":2
+  },
+  {
+    "category":"Health counselor",
+    "valid_rows":2
+  },
+  {
+    "category":"Electronics manufacturer",
+    "valid_rows":2
+  },
+  {
+    "category":"Dermatologist",
+    "valid_rows":2
+  },
+  {
+    "category":"Occupational therapist",
+    "valid_rows":2
+  },
+  {
+    "category":"Occupational health service",
+    "valid_rows":2
+  },
+  {
+    "category":"Occupational safety and health",
+    "valid_rows":2
+  },
+  {
+    "category":"Nursing home",
+    "valid_rows":2
+  },
+  {
+    "category":"Local government office",
+    "valid_rows":2
+  },
+  {
+    "category":"Indonesia",
+    "valid_rows":2
+  },
+  {
+    "category":"Martial arts school",
+    "valid_rows":2
+  },
+  {
+    "category":"School",
+    "valid_rows":2
+  },
+  {
+    "category":"Skin care products vending machine",
+    "valid_rows":2
+  },
+  {
+    "category":"Reproductive health clinic",
+    "valid_rows":2
+  },
+  {
+    "category":"Wellness program",
+    "valid_rows":2
+  },
+  {
+    "category":"Tourist attraction",
+    "valid_rows":2
+  },
+  {
+    "category":"Gymnastics center",
+    "valid_rows":2
+  },
+  {
+    "category":"Fitness center",
+    "valid_rows":2
+  },
+  {
+    "category":"Family service center",
+    "valid_rows":2
+  },
+  {
+    "category":"First aid station",
+    "valid_rows":2
+  },
+  {
+    "category":"Diner",
+    "valid_rows":2
+  },
+  {
+    "category":"Homewares Store",
+    "valid_rows":2
+  },
+  {
+    "category":"Local medical services",
+    "valid_rows":2
+  },
+  {
+    "category":"Insurance agency",
+    "valid_rows":2
+  },
+  {
+    "category":"Riau Islands",
+    "valid_rows":2
+  },
+  {
+    "category":"Gated community",
+    "valid_rows":1
+  },
+  {
+    "category":"Grocery store",
+    "valid_rows":1
+  },
+  {
+    "category":"Distribution service",
+    "valid_rows":1
+  },
+  {
+    "category":"Dialysis center",
+    "valid_rows":1
+  },
+  {
+    "category":"Education center",
+    "valid_rows":1
+  },
+  {
+    "category":"Clothing store",
+    "valid_rows":1
+  },
+  {
+    "category":"Community center",
+    "valid_rows":1
+  },
+  {
+    "category":"Fertility clinic",
+    "valid_rows":1
+  },
+  {
+    "category":"Eye care center",
+    "valid_rows":1
+  },
+  {
+    "category":"Fertility physician",
+    "valid_rows":1
+  },
+  {
+    "category":"Food producer",
+    "valid_rows":1
+  },
+  {
+    "category":"Cinema",
+    "valid_rows":1
+  },
+  {
+    "category":"Chinese medicine clinic",
+    "valid_rows":1
+  },
+  {
+    "category":"Chinese Physician Clinic",
+    "valid_rows":1
+  },
+  {
+    "category":"Children Policlinic",
+    "valid_rows":1
+  },
+  {
+    "category":"Cancer treatment center",
+    "valid_rows":1
+  },
+  {
+    "category":"Blood bank",
+    "valid_rows":1
+  },
+  {
+    "category":"Boxing gym",
+    "valid_rows":1
+  },
+  {
+    "category":"Business networking company",
+    "valid_rows":1
+  },
+  {
+    "category":"Cosmetics and perfumes supplier",
+    "valid_rows":1
+  },
+  {
+    "category":"Convenience store",
+    "valid_rows":1
+  },
+  {
+    "category":"Dental supply store",
+    "valid_rows":1
+  },
+  {
+    "category":"Bakery",
+    "valid_rows":1
+  },
+  {
+    "category":"Credit union",
+    "valid_rows":1
+  },
+  {
+    "category":"Council",
+    "valid_rows":1
+  },
+  {
+    "category":"Cosmetics wholesaler",
+    "valid_rows":1
+  },
+  {
+    "category":"Beach",
+    "valid_rows":1
+  },
+  {
+    "category":"Greenhouse & Equipment Supplier",
+    "valid_rows":1
+  },
+  {
+    "category":"Organic food store",
+    "valid_rows":1
+  },
+  {
+    "category":"Ophthalmologist",
+    "valid_rows":1
+  },
+  {
+    "category":"Nursing school",
+    "valid_rows":1
+  },
+  {
+    "category":"Nursing agency",
+    "valid_rows":1
+  },
+  {
+    "category":"Non-governmental organization",
+    "valid_rows":1
+  },
+  {
+    "category":"Neurologist",
+    "valid_rows":1
+  },
+  {
+    "category":"Municipal administration office",
+    "valid_rows":1
+  },
+  {
+    "category":"Medical group",
+    "valid_rows":1
+  },
+  {
+    "category":"Optometrist",
+    "valid_rows":1
+  },
+  {
+    "category":"Muay Thai boxing gym",
+    "valid_rows":1
+  },
+  {
+    "category":"Medical diagnostic imaging center",
+    "valid_rows":1
+  },
+  {
+    "category":"Island",
+    "valid_rows":1
+  },
+  {
+    "category":"Lodging",
+    "valid_rows":1
+  },
+  {
+    "category":"Marketing agency",
+    "valid_rows":1
+  },
+  {
+    "category":"Market",
+    "valid_rows":1
+  },
+  {
+    "category":"Hospital department",
+    "valid_rows":1
+  },
+  {
+    "category":"Holistic medicine practitioner",
+    "valid_rows":1
+  },
+  {
+    "category":"Housing authority",
+    "valid_rows":1
+  },
+  {
+    "category":"Homeopath",
+    "valid_rows":1
+  },
+  {
+    "category":"Hearing aid store",
+    "valid_rows":1
+  },
+  {
+    "category":"Health insurance agency",
+    "valid_rows":1
+  },
+  {
+    "category":"High school",
+    "valid_rows":1
+  },
+  {
+    "category":"Homeopathic pharmacy",
+    "valid_rows":1
+  },
+  {
+    "category":"Housing society",
+    "valid_rows":1
+  },
+  {
+    "category":"Mineral water wholesaler",
+    "valid_rows":1
+  },
+  {
+    "category":"Petrol Station",
+    "valid_rows":1
+  },
+  {
+    "category":"Personal trainer",
+    "valid_rows":1
+  },
+  {
+    "category":"Physical fitness program",
+    "valid_rows":1
+  },
+  {
+    "category":"Oriental medicine clinic",
+    "valid_rows":1
+  },
+  {
+    "category":"Osteopath",
+    "valid_rows":1
+  },
+  {
+    "category":"Orthodontist",
+    "valid_rows":1
+  },
+  {
+    "category":"Self defense school",
+    "valid_rows":1
+  },
+  {
+    "category":"River",
+    "valid_rows":1
+  },
+  {
+    "category":"Resort hotel",
+    "valid_rows":1
+  },
+  {
+    "category":"Recreation center",
+    "valid_rows":1
+  },
+  {
+    "category":"Psychotherapist",
+    "valid_rows":1
+  },
+  {
+    "category":"Police",
+    "valid_rows":1
+  },
+  {
+    "category":"Pilates studio",
+    "valid_rows":1
+  },
+  {
+    "category":"Otolaryngology clinic",
+    "valid_rows":1
+  },
+  {
+    "category":"Permanent make-up clinic",
+    "valid_rows":1
+  },
+  {
+    "category":"Perfume store",
+    "valid_rows":1
+  },
+  {
+    "category":"Pediatrician",
+    "valid_rows":1
+  },
+  {
+    "category":"Park",
+    "valid_rows":1
+  },
+  {
+    "category":"Pharmaceutical products wholesaler",
+    "valid_rows":1
+  },
+  {
+    "category":"Shop",
+    "valid_rows":1
+  },
+  {
+    "category":"Social services organization",
+    "valid_rows":1
+  },
+  {
+    "category":"Social security office",
+    "valid_rows":1
+  },
+  {
+    "category":"Taekwondo competition area",
+    "valid_rows":1
+  },
+  {
+    "category":"Swim club",
+    "valid_rows":1
+  },
+  {
+    "category":"Support group",
+    "valid_rows":1
+  },
+  {
+    "category":"Staple food package",
+    "valid_rows":1
+  },
+  {
+    "category":"Sports medicine clinic",
+    "valid_rows":1
+  },
+  {
+    "category":"Sports massage therapist",
+    "valid_rows":1
+  },
+  {
+    "category":"Specialized clinic",
+    "valid_rows":1
+  },
+  {
+    "category":"Soup kitchen",
+    "valid_rows":1
+  },
+  {
+    "category":"University",
+    "valid_rows":1
+  },
+  {
+    "category":"Urologist",
+    "valid_rows":1
+  },
+  {
+    "category":"Thai massage therapist",
+    "valid_rows":1
+  },
+  {
+    "category":"Transportation service",
+    "valid_rows":1
+  },
+  {
+    "category":"Teeth whitening service",
+    "valid_rows":1
+  },
+  {
+    "category":"Water utility company",
+    "valid_rows":1
+  },
+  {
+    "category":"Weir",
+    "valid_rows":1
+  },
+  {
+    "category":"Wellness hotel",
+    "valid_rows":1
+  }
+]

@@ -8,6 +8,43 @@
 
 ---
 
+## Current Per-DB Training Summary
+
+The current pipeline runs one SQLite database per training run and stores all outputs under a per-db folder. Detailed metrics live in the run artifacts, not in this document.
+
+**Key configuration (general):**
+- `TARGET_DB_FILE` selects the single database to train.
+- `category` is the modeling column; `source_category` remains metadata only.
+- DBSCAN and Random Forest parameters are configured in the notebook (no hard-coded values in this doc).
+
+**Per-run output structure:**
+```
+content/
+    runs/
+        <db_key>/
+            data/
+                feature_store.csv
+                rejected_rows.csv
+                category_distribution.json
+                category_distribution_valid.json
+            reports/
+                clustering_result.png
+                cluster_vs_noise.png
+                category_distribution_top10.png
+                rf_confusion_matrix.png
+                rf_shap_summary.png
+                rf_shap_waterfall.png
+                rf_shap_importance.csv
+            models/
+                clustering_metadata.json
+                rf_location_reco_v*.joblib
+                rf_metadata.json
+```
+
+**Note:** The sections below document the legacy merged-db pipeline and are preserved for historical reference.
+
+---
+
 ## Architecture & Pipeline Flow
 
 ```

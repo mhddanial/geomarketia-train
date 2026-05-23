@@ -1,0 +1,53 @@
+{
+  "notebook": "01_dbscan_clustering",
+  "timestamp": "2026-05-23T22:24:55.492261",
+  "target_db": "Indonesia.Batam.Toko Komputer.202410170720.db",
+  "db_files": [
+    "Indonesia.Batam.Toko Komputer.202410170720.db"
+  ],
+  "paths": {
+    "run_dir": "content/runs\\Indonesia.Batam.Toko Komputer.202410170720",
+    "data_dir": "content/runs\\Indonesia.Batam.Toko Komputer.202410170720\\data",
+    "report_dir": "content/runs\\Indonesia.Batam.Toko Komputer.202410170720\\reports",
+    "model_dir": "content/runs\\Indonesia.Batam.Toko Komputer.202410170720\\models",
+    "feature_store_path": "content/runs\\Indonesia.Batam.Toko Komputer.202410170720\\data\\feature_store.csv"
+  },
+  "params": {
+    "eps_meter": 500,
+    "min_samples": 10,
+    "category_col": "category",
+    "crs_input": "EPSG:4326",
+    "crs_output": "EPSG:32648"
+  },
+  "results": {
+    "n_clusters": 2,
+    "n_noise": 158,
+    "n_clustered": 60,
+    "noise_ratio_pct": 72.48,
+    "silhouette_score": 0.6964,
+    "davies_bouldin_idx": 0.3782
+  },
+  "output": {
+    "feature_columns": [
+      "id",
+      "name",
+      "category",
+      "source_category",
+      "source_file",
+      "source_table",
+      "latitude",
+      "longitude",
+      "x_utm",
+      "y_utm",
+      "cluster_id",
+      "dist_to_cluster_centroid_m",
+      "competitor_density_500m",
+      "competitor_density_1km",
+      "same_category_density_500m",
+      "nearest_neighbor_dist_m",
+      "rating",
+      "review_log",
+      "price_level"
+    ]
+  }
+}

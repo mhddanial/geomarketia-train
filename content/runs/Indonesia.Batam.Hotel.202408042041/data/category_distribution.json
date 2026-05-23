@@ -1,0 +1,138 @@
+[
+  {
+    "Kategori":"Hotel",
+    "Jumlah":20
+  },
+  {
+    "Kategori":"Condominium complex",
+    "Jumlah":11
+  },
+  {
+    "Kategori":"Housing complex",
+    "Jumlah":7
+  },
+  {
+    "Kategori":"Lodging",
+    "Jumlah":7
+  },
+  {
+    "Kategori":"Temporarily closed",
+    "Jumlah":5
+  },
+  {
+    "Kategori":"Permanently closed",
+    "Jumlah":4
+  },
+  {
+    "Kategori":"Lodge",
+    "Jumlah":4
+  },
+  {
+    "Kategori":"Shopping mall",
+    "Jumlah":4
+  },
+  {
+    "Kategori":"Restaurant",
+    "Jumlah":3
+  },
+  {
+    "Kategori":"Guest house",
+    "Jumlah":3
+  },
+  {
+    "Kategori":"Indonesia",
+    "Jumlah":3
+  },
+  {
+    "Kategori":"Housing development",
+    "Jumlah":2
+  },
+  {
+    "Kategori":"Housing society",
+    "Jumlah":2
+  },
+  {
+    "Kategori":"Homestay",
+    "Jumlah":2
+  },
+  {
+    "Kategori":"Business center",
+    "Jumlah":2
+  },
+  {
+    "Kategori":"Corporate office",
+    "Jumlah":2
+  },
+  {
+    "Kategori":"Transit station",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Spa",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Camping Ground",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Housing authority",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Cafe",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Grocery store",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Real estate developer",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Mosque",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Seafood restaurant",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Lounge",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Resort hotel",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Beer garden",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Chinese restaurant",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"School",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Apartment complex",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Karaoke bar",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Wellness center",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Ferry terminal",
+    "Jumlah":1
+  }
+]

@@ -74,7 +74,7 @@ Tiga permasalahan spesifik yang menjadi target sistem ini:
 | KF-ADMIN-01 | Import data lokasi | Admin mengimpor data lokasi usaha dalam format CSV atau JSON. Setiap baris minimal harus mengandung: `latitude`, `longitude`, `nama_tempat`, `kategori`, `price_level`, dan `url`. Sistem memvalidasi format dan kelengkapan sebelum menyimpan. |
 | KF-ADMIN-02 | Validasi & bersihkan data | Sistem secara otomatis mendeteksi anomali pada data yang diimpor: koordinat di luar batas wilayah Batam (lat 1.0°–1.3°N, lon 103.9°–104.2°E), duplikat (nama + lat + lon), nilai null pada kolom wajib, dan kategori yang tidak dikenal. Admin menerima data quality report (jumlah baris valid, duplikat, invalid) sebelum memutuskan menyimpan atau membatalkan import. |
 | KF-ADMIN-03 | Kelola data lokasi | Admin dapat melihat daftar seluruh data yang telah diimpor, mengedit entri individual (nama, kategori, koordinat), dan menghapus data yang tidak valid atau sudah tidak relevan. Penghapusan bersifat soft-delete untuk menjaga audit trail. |
-| KF-ADMIN-04 | Konfigurasi parameter AI | Admin mengatur parameter DBSCAN (`eps` dalam meter, `min_samples`) dan radius analisis kompetitor (500m, 750m, atau 1km) melalui antarmuka konfigurasi. Default training saat ini: `eps=150`, `min_samples=10`. Setiap perubahan parameter wajib tersimpan di riwayat konfigurasi beserta timestamp dan identitas admin yang mengubah. |
+| KF-ADMIN-04 | Konfigurasi parameter AI | Admin mengatur parameter DBSCAN (`eps` dalam meter, `min_samples`) dan radius analisis kompetitor (500m, 750m, atau 1km) melalui antarmuka konfigurasi. Nilai default mengikuti konfigurasi training terbaru dan tersimpan di riwayat konfigurasi beserta timestamp dan identitas admin yang mengubah. |
 | KF-ADMIN-05 | Kelola pengguna | Admin dapat melihat daftar seluruh pengguna terdaftar beserta peran dan status akun. Admin dapat mengubah peran pengguna (`pengguna_umum` ↔ `admin`) dan menonaktifkan akun tanpa menghapus data riwayat aktivitasnya. |
 | KF-ADMIN-06 | Monitoring log sistem | Admin dapat melihat log aktivitas sistem yang mencakup: waktu dan IP setiap percobaan login (berhasil maupun gagal), endpoint API yang paling sering dipanggil, error yang terjadi pada proses AI, dan statistik penggunaan harian (jumlah request, rata-rata latensi per endpoint). |
 | KF-ADMIN-07 | Trigger retraining model | Admin memicu proses retraining model AI secara manual setelah data baru diimpor dalam jumlah signifikan. Sistem menampilkan status proses (berjalan / selesai / gagal) beserta metrik evaluasi model baru dibandingkan model sebelumnya (Silhouette Score untuk DBSCAN, F1-Score untuk Random Forest). Admin dapat memilih menerapkan model baru atau mempertahankan model lama jika performanya lebih buruk. |
@@ -192,7 +192,7 @@ Feature Store
     └─ DBSCAN Clustering
         ├─ Input: koordinat UTM (lat_m, lon_m)
         ├─ Parameter: eps (meter), min_samples (dari konfigurasi admin)
-        ├─ Default training saat ini: eps = 150, min_samples = 10
+        ├─ Default training mengikuti konfigurasi admin terbaru (tercatat pada metadata run)
         └─ Output: cluster_id per titik (-1 = noise)
     └─ Feature Merge
         └─ Gabungkan cluster_id + seluruh fitur geospasial ke dalam satu tabel
@@ -368,9 +368,44 @@ Sistem dinyatakan selesai apabila seluruh kriteria berikut terpenuhi pada saat d
 
 ---
 
-## 10. Snapshot Training Terbaru
+## 10. Ringkasan Training Per-DB (Saat Ini)
 
-Ringkasan ini diambil dari metadata training terbaru agar selaras dengan pipeline aktual.
+Pipeline training saat ini berjalan per database (satu file `.db` per run). Detail metrik dan konfigurasi disimpan di artefak run, bukan di PRD.
+
+**Konfigurasi umum:**
+- `TARGET_DB_FILE` memilih database yang diproses.
+- Kolom kategori yang digunakan adalah `category` (bukan `source_category`).
+- Parameter DBSCAN dan Random Forest diatur di notebook dan direkam ke metadata per run.
+
+**Struktur output per run:**
+```
+content/
+    runs/
+        <db_key>/
+            data/
+                feature_store.csv
+                rejected_rows.csv
+                category_distribution.json
+                category_distribution_valid.json
+            reports/
+                clustering_result.png
+                cluster_vs_noise.png
+                category_distribution_top10.png
+                rf_confusion_matrix.png
+                rf_shap_summary.png
+                rf_shap_waterfall.png
+                rf_shap_importance.csv
+            models/
+                clustering_metadata.json
+                rf_location_reco_v*.joblib
+                rf_metadata.json
+```
+
+---
+
+## 11. Snapshot Training Legacy (Merged-DB)
+
+Ringkasan ini disimpan sebagai referensi historis dari training gabungan (merged-db).
 
 - Data: 11,094 baris raw → 10,768 valid (326 ditolak)
 - DBSCAN: eps=150m, min_samples=10, clusters=118, noise=3,935 (36.54%)

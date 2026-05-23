@@ -1,0 +1,154 @@
+[
+  {
+    "category":"Computer store",
+    "valid_rows":121
+  },
+  {
+    "category":"Electronics store",
+    "valid_rows":34
+  },
+  {
+    "category":"Used computer store",
+    "valid_rows":11
+  },
+  {
+    "category":"Computer service",
+    "valid_rows":5
+  },
+  {
+    "category":"Computer accessories store",
+    "valid_rows":4
+  },
+  {
+    "category":"Security system supplier",
+    "valid_rows":3
+  },
+  {
+    "category":"Computer support and services",
+    "valid_rows":3
+  },
+  {
+    "category":"Internet cafe",
+    "valid_rows":2
+  },
+  {
+    "category":"Software company",
+    "valid_rows":2
+  },
+  {
+    "category":"Shop",
+    "valid_rows":2
+  },
+  {
+    "category":"Computer software store",
+    "valid_rows":2
+  },
+  {
+    "category":"Permanently closed",
+    "valid_rows":2
+  },
+  {
+    "category":"Computer repair service",
+    "valid_rows":2
+  },
+  {
+    "category":"Apartment complex",
+    "valid_rows":1
+  },
+  {
+    "category":"Computer consultant",
+    "valid_rows":1
+  },
+  {
+    "category":"Camera store",
+    "valid_rows":1
+  },
+  {
+    "category":"Automation company",
+    "valid_rows":1
+  },
+  {
+    "category":"Appliance repair service",
+    "valid_rows":1
+  },
+  {
+    "category":"Convenience store",
+    "valid_rows":1
+  },
+  {
+    "category":"Corporate office",
+    "valid_rows":1
+  },
+  {
+    "category":"Computer wholesaler",
+    "valid_rows":1
+  },
+  {
+    "category":"Computer hardware manufacturer",
+    "valid_rows":1
+  },
+  {
+    "category":"Hotel",
+    "valid_rows":1
+  },
+  {
+    "category":"Homewares Store",
+    "valid_rows":1
+  },
+  {
+    "category":"Furniture store",
+    "valid_rows":1
+  },
+  {
+    "category":"Electronics repair shop",
+    "valid_rows":1
+  },
+  {
+    "category":"Electrical supply store",
+    "valid_rows":1
+  },
+  {
+    "category":"Electronic parts supplier",
+    "valid_rows":1
+  },
+  {
+    "category":"Luggage store",
+    "valid_rows":1
+  },
+  {
+    "category":"Housing complex",
+    "valid_rows":1
+  },
+  {
+    "category":"Printing equipment and supplies",
+    "valid_rows":1
+  },
+  {
+    "category":"Print shop",
+    "valid_rows":1
+  },
+  {
+    "category":"Internet shop",
+    "valid_rows":1
+  },
+  {
+    "category":"Shopping mall",
+    "valid_rows":1
+  },
+  {
+    "category":"Stationery store",
+    "valid_rows":1
+  },
+  {
+    "category":"Supermarket",
+    "valid_rows":1
+  },
+  {
+    "category":"Website designer",
+    "valid_rows":1
+  },
+  {
+    "category":"Wholesaler",
+    "valid_rows":1
+  }
+]

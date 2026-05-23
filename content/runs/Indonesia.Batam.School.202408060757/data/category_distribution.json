@@ -1,0 +1,418 @@
+[
+  {
+    "Kategori":"School",
+    "Jumlah":474
+  },
+  {
+    "Kategori":"Elementary school",
+    "Jumlah":157
+  },
+  {
+    "Kategori":"Preschool",
+    "Jumlah":109
+  },
+  {
+    "Kategori":"Kindergarten",
+    "Jumlah":106
+  },
+  {
+    "Kategori":"Middle school",
+    "Jumlah":85
+  },
+  {
+    "Kategori":"Religious school",
+    "Jumlah":61
+  },
+  {
+    "Kategori":"High school",
+    "Jumlah":28
+  },
+  {
+    "Kategori":"Education center",
+    "Jumlah":25
+  },
+  {
+    "Kategori":"Senior high school",
+    "Jumlah":14
+  },
+  {
+    "Kategori":"Private educational institution",
+    "Jumlah":13
+  },
+  {
+    "Kategori":"Primary school",
+    "Jumlah":12
+  },
+  {
+    "Kategori":"Vocational school",
+    "Jumlah":12
+  },
+  {
+    "Kategori":"After school program",
+    "Jumlah":11
+  },
+  {
+    "Kategori":"Community college",
+    "Jumlah":10
+  },
+  {
+    "Kategori":"Music school",
+    "Jumlah":9
+  },
+  {
+    "Kategori":"School center",
+    "Jumlah":8
+  },
+  {
+    "Kategori":"Housing complex",
+    "Jumlah":7
+  },
+  {
+    "Kategori":"College",
+    "Jumlah":6
+  },
+  {
+    "Kategori":"Island",
+    "Jumlah":6
+  },
+  {
+    "Kategori":"Special education school",
+    "Jumlah":5
+  },
+  {
+    "Kategori":"University",
+    "Jumlah":5
+  },
+  {
+    "Kategori":"Tourist attraction",
+    "Jumlah":4
+  },
+  {
+    "Kategori":"Nursery school",
+    "Jumlah":4
+  },
+  {
+    "Kategori":"Boarding school",
+    "Jumlah":4
+  },
+  {
+    "Kategori":"Gated community",
+    "Jumlah":4
+  },
+  {
+    "Kategori":"Housing society",
+    "Jumlah":4
+  },
+  {
+    "Kategori":"Housing development",
+    "Jumlah":4
+  },
+  {
+    "Kategori":"Mosque",
+    "Jumlah":4
+  },
+  {
+    "Kategori":"Church",
+    "Jumlah":3
+  },
+  {
+    "Kategori":"Corporate office",
+    "Jumlah":3
+  },
+  {
+    "Kategori":"Training centre",
+    "Jumlah":3
+  },
+  {
+    "Kategori":"School house",
+    "Jumlah":3
+  },
+  {
+    "Kategori":"Tutoring service",
+    "Jumlah":3
+  },
+  {
+    "Kategori":"Educational institution",
+    "Jumlah":3
+  },
+  {
+    "Kategori":"Junior college",
+    "Jumlah":3
+  },
+  {
+    "Kategori":"Non-governmental organization",
+    "Jumlah":2
+  },
+  {
+    "Kategori":"Homestay",
+    "Jumlah":2
+  },
+  {
+    "Kategori":"Language school",
+    "Jumlah":2
+  },
+  {
+    "Kategori":"Restaurant",
+    "Jumlah":2
+  },
+  {
+    "Kategori":"Homewares Store",
+    "Jumlah":2
+  },
+  {
+    "Kategori":"Seminary",
+    "Jumlah":2
+  },
+  {
+    "Kategori":"Public educational institution",
+    "Jumlah":2
+  },
+  {
+    "Kategori":"Cemetery",
+    "Jumlah":2
+  },
+  {
+    "Kategori":"Catholic school",
+    "Jumlah":2
+  },
+  {
+    "Kategori":"Greenhouse & Equipment Supplier",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Beauty school",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Podiatrist",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Army barracks",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Student dormitory",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Martial arts school",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Ferry service",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Shopping mall",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Grocery store",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Petrol Station",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Stationery store",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Yoga studio",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Badminton court",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Buddhist temple",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Orphanage",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Electronics store",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Bakso restaurant",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Diner",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"River",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Uniform store",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Book store",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Market",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Sports complex",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Massage school",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Chinese language school",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Residential college",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Private college",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Lodging",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Law school",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Real estate school",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Foundation",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Learning center",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Fishing pier",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"General education school",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Flight school",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Hospitality and tourism school",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"English language school",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Coffee shop",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"City government office",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Civil police",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Apartment building",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Grammar school",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Community center",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Medical Center",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Riau Islands",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"City clerk's office",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Plant nursery",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Mathematics school",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"School for the deaf",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Driving school",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Self defense school",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Montessori school",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Higher secondary school",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Museum",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Public medical center",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Bridge",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"County government office",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Recreation center",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Place of worship",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Government office",
+    "Jumlah":1
+  }
+]

@@ -1,0 +1,76 @@
+{
+  "notebook": "02_random_forest_training",
+  "timestamp": "2026-05-23T22:18:43.545477",
+  "target_db": "Indonesia.Batam.School.202408060757.db",
+  "run_dir": "content/runs\\Indonesia.Batam.School.202408060757",
+  "model_path": "content/runs\\Indonesia.Batam.School.202408060757\\models\\rf_location_reco_v2.joblib",
+  "features": [
+    "rating",
+    "review_log",
+    "hotspot_score",
+    "competitor_density_500m",
+    "same_category_density_500m",
+    "nearest_neighbor_dist_m",
+    "dist_to_cluster_centroid_m",
+    "cluster_id"
+  ],
+  "parameters": {
+    "n_estimators": 300,
+    "class_weight": "balanced",
+    "random_seed": 42,
+    "spatial_split": "grid_1km_group_shuffle"
+  },
+  "metrics": {
+    "f1_macro": 0.9334,
+    "confusion_matrix": [
+      [
+        98,
+        8,
+        0
+      ],
+      [
+        3,
+        83,
+        4
+      ],
+      [
+        0,
+        4,
+        87
+      ]
+    ],
+    "report": {
+      "High": {
+        "precision": 0.9560439560439561,
+        "recall": 0.9560439560439561,
+        "f1-score": 0.9560439560439561,
+        "support": 91.0
+      },
+      "Low": {
+        "precision": 0.9702970297029703,
+        "recall": 0.9245283018867925,
+        "f1-score": 0.9468599033816425,
+        "support": 106.0
+      },
+      "Medium": {
+        "precision": 0.8736842105263158,
+        "recall": 0.9222222222222223,
+        "f1-score": 0.8972972972972973,
+        "support": 90.0
+      },
+      "accuracy": 0.9337979094076655,
+      "macro avg": {
+        "precision": 0.9333417320910807,
+        "recall": 0.9342648267176571,
+        "f1-score": 0.9334003855742986,
+        "support": 287.0
+      },
+      "weighted avg": {
+        "precision": 0.9354810595675375,
+        "recall": 0.9337979094076655,
+        "f1-score": 0.9342296394258218,
+        "support": 287.0
+      }
+    }
+  }
+}

@@ -1,0 +1,278 @@
+[
+  {
+    "category":"Cosmetics store",
+    "valid_rows":95
+  },
+  {
+    "category":"Beauty salon",
+    "valid_rows":71
+  },
+  {
+    "category":"Health and beauty shop",
+    "valid_rows":40
+  },
+  {
+    "category":"Convenience store",
+    "valid_rows":22
+  },
+  {
+    "category":"Skin care clinic",
+    "valid_rows":20
+  },
+  {
+    "category":"Pharmacy",
+    "valid_rows":14
+  },
+  {
+    "category":"Perfume store",
+    "valid_rows":13
+  },
+  {
+    "category":"Beauty supply store",
+    "valid_rows":13
+  },
+  {
+    "category":"Beauty product supplier",
+    "valid_rows":11
+  },
+  {
+    "category":"Housing complex",
+    "valid_rows":10
+  },
+  {
+    "category":"Shopping mall",
+    "valid_rows":7
+  },
+  {
+    "category":"Nail salon",
+    "valid_rows":7
+  },
+  {
+    "category":"Supermarket",
+    "valid_rows":7
+  },
+  {
+    "category":"Vitamin & supplements store",
+    "valid_rows":5
+  },
+  {
+    "category":"Wellness center",
+    "valid_rows":5
+  },
+  {
+    "category":"Grocery store",
+    "valid_rows":4
+  },
+  {
+    "category":"Massage spa",
+    "valid_rows":3
+  },
+  {
+    "category":"Department store",
+    "valid_rows":3
+  },
+  {
+    "category":"Herbal medicine store",
+    "valid_rows":3
+  },
+  {
+    "category":"Shop",
+    "valid_rows":3
+  },
+  {
+    "category":"Apartment complex",
+    "valid_rows":2
+  },
+  {
+    "category":"Traditional market",
+    "valid_rows":2
+  },
+  {
+    "category":"Medical clinic",
+    "valid_rows":2
+  },
+  {
+    "category":"Produce market",
+    "valid_rows":2
+  },
+  {
+    "category":"Barber shop",
+    "valid_rows":2
+  },
+  {
+    "category":"Make-up artist",
+    "valid_rows":2
+  },
+  {
+    "category":"Housing development",
+    "valid_rows":2
+  },
+  {
+    "category":"Market",
+    "valid_rows":2
+  },
+  {
+    "category":"Cosmetics wholesaler",
+    "valid_rows":2
+  },
+  {
+    "category":"Day spa",
+    "valid_rows":2
+  },
+  {
+    "category":"Hair removal service",
+    "valid_rows":2
+  },
+  {
+    "category":"Bridal shop",
+    "valid_rows":2
+  },
+  {
+    "category":"Beautician",
+    "valid_rows":2
+  },
+  {
+    "category":"Eyelash salon",
+    "valid_rows":2
+  },
+  {
+    "category":"Spa",
+    "valid_rows":2
+  },
+  {
+    "category":"Skin care products vending machine",
+    "valid_rows":2
+  },
+  {
+    "category":"Hair salon",
+    "valid_rows":2
+  },
+  {
+    "category":"Barber supply store",
+    "valid_rows":1
+  },
+  {
+    "category":"Auto market",
+    "valid_rows":1
+  },
+  {
+    "category":"Amusement center",
+    "valid_rows":1
+  },
+  {
+    "category":"Florist",
+    "valid_rows":1
+  },
+  {
+    "category":"Gym and Fitness Centre",
+    "valid_rows":1
+  },
+  {
+    "category":"Gated community",
+    "valid_rows":1
+  },
+  {
+    "category":"Eye care center",
+    "valid_rows":1
+  },
+  {
+    "category":"Facial spa",
+    "valid_rows":1
+  },
+  {
+    "category":"Dental clinic",
+    "valid_rows":1
+  },
+  {
+    "category":"Discount supermarket",
+    "valid_rows":1
+  },
+  {
+    "category":"Drug store",
+    "valid_rows":1
+  },
+  {
+    "category":"Doctor",
+    "valid_rows":1
+  },
+  {
+    "category":"Corporate office",
+    "valid_rows":1
+  },
+  {
+    "category":"Computer store",
+    "valid_rows":1
+  },
+  {
+    "category":"Cafe",
+    "valid_rows":1
+  },
+  {
+    "category":"Cosmetic products manufacturer",
+    "valid_rows":1
+  },
+  {
+    "category":"Beauty products vending machine",
+    "valid_rows":1
+  },
+  {
+    "category":"Beach",
+    "valid_rows":1
+  },
+  {
+    "category":"Beauty products wholesaler",
+    "valid_rows":1
+  },
+  {
+    "category":"Food producer",
+    "valid_rows":1
+  },
+  {
+    "category":"Fashion accessories store",
+    "valid_rows":1
+  },
+  {
+    "category":"Farmers' market",
+    "valid_rows":1
+  },
+  {
+    "category":"Homewares Store",
+    "valid_rows":1
+  },
+  {
+    "category":"Home improvement store",
+    "valid_rows":1
+  },
+  {
+    "category":"Hypermarket",
+    "valid_rows":1
+  },
+  {
+    "category":"Housing society",
+    "valid_rows":1
+  },
+  {
+    "category":"Luggage store",
+    "valid_rows":1
+  },
+  {
+    "category":"Housing authority",
+    "valid_rows":1
+  },
+  {
+    "category":"Herb shop",
+    "valid_rows":1
+  },
+  {
+    "category":"Restaurant",
+    "valid_rows":1
+  },
+  {
+    "category":"Novelty store",
+    "valid_rows":1
+  },
+  {
+    "category":"Real estate developer",
+    "valid_rows":1
+  }
+]

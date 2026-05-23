@@ -5,8 +5,13 @@ from typing import Dict, Iterable, Tuple
 import pandas as pd
 
 RAW_DIR = os.path.join("content", "data", "raw")
-OUT_DIR = os.path.join("content", "data", "processed", "db_with_cluster")
-FEATURE_STORE_PATH = os.path.join("content", "data", "processed", "feature_store.csv")
+RUNS_DIR = os.path.join("content", "runs")
+
+# Pilih satu DB untuk satu run
+TARGET_DB_FILE = "" 
+
+OUT_DIR = None
+FEATURE_STORE_PATH = None
 
 COLUMN_MAPPING = {
     "lat": "latitude",
@@ -116,19 +121,25 @@ def main() -> None:
     if not os.path.isdir(RAW_DIR):
         raise FileNotFoundError(f"Raw DB folder not found: {RAW_DIR}")
 
+    if not TARGET_DB_FILE:
+        raise ValueError("TARGET_DB_FILE belum diisi. Pilih satu file .db untuk diproses.")
+
+    target_db_path = os.path.join(RAW_DIR, TARGET_DB_FILE)
+    if not os.path.exists(target_db_path):
+        raise FileNotFoundError(f"Target DB not found: {target_db_path}")
+
+    target_db_key = os.path.splitext(TARGET_DB_FILE)[0]
+    run_dir = os.path.join(RUNS_DIR, target_db_key)
+
+    global OUT_DIR, FEATURE_STORE_PATH
+    OUT_DIR = os.path.join(run_dir, "data", "db_with_cluster")
+    FEATURE_STORE_PATH = os.path.join(run_dir, "data", "feature_store.csv")
+
     fs_key = load_feature_store_mapping()
-    db_files = [
-        os.path.join(RAW_DIR, f)
-        for f in os.listdir(RAW_DIR)
-        if f.lower().endswith(".db")
-    ]
+    db_files = [target_db_path]
 
-    if not db_files:
-        print(f"No .db files found in {RAW_DIR}")
-        return
-
-    print(f"Found {len(db_files)} .db files")
-    for db_path in sorted(db_files):
+    print(f"Found {len(db_files)} .db file")
+    for db_path in db_files:
         process_db_file(db_path, fs_key)
 
     print(f"\nDone. Output folder: {OUT_DIR}")

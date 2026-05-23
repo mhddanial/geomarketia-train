@@ -1,0 +1,786 @@
+[
+  {
+    "Kategori":"Pharmacy",
+    "Jumlah":148
+  },
+  {
+    "Kategori":"Beauty salon",
+    "Jumlah":97
+  },
+  {
+    "Kategori":"Medical clinic",
+    "Jumlah":82
+  },
+  {
+    "Kategori":"Health and beauty shop",
+    "Jumlah":48
+  },
+  {
+    "Kategori":"Public medical center",
+    "Jumlah":47
+  },
+  {
+    "Kategori":"Hospital",
+    "Jumlah":45
+  },
+  {
+    "Kategori":"Alternative medicine practitioner",
+    "Jumlah":43
+  },
+  {
+    "Kategori":"Midwife",
+    "Jumlah":40
+  },
+  {
+    "Kategori":"Doctor",
+    "Jumlah":35
+  },
+  {
+    "Kategori":"Medical office",
+    "Jumlah":33
+  },
+  {
+    "Kategori":"Skin care clinic",
+    "Jumlah":33
+  },
+  {
+    "Kategori":"Barber shop",
+    "Jumlah":33
+  },
+  {
+    "Kategori":"Dental clinic",
+    "Jumlah":29
+  },
+  {
+    "Kategori":"Walk-in clinic",
+    "Jumlah":28
+  },
+  {
+    "Kategori":"Health consultant",
+    "Jumlah":27
+  },
+  {
+    "Kategori":"Massage therapist",
+    "Jumlah":26
+  },
+  {
+    "Kategori":"Physical therapist",
+    "Jumlah":25
+  },
+  {
+    "Kategori":"Reflexologist",
+    "Jumlah":24
+  },
+  {
+    "Kategori":"Gym and Fitness Centre",
+    "Jumlah":22
+  },
+  {
+    "Kategori":"Cosmetics store",
+    "Jumlah":21
+  },
+  {
+    "Kategori":"Organic shop",
+    "Jumlah":21
+  },
+  {
+    "Kategori":"Vitamin & supplements store",
+    "Jumlah":16
+  },
+  {
+    "Kategori":"Drug store",
+    "Jumlah":16
+  },
+  {
+    "Kategori":"Massage spa",
+    "Jumlah":15
+  },
+  {
+    "Kategori":"Medical supply store",
+    "Jumlah":15
+  },
+  {
+    "Kategori":"Health food store",
+    "Jumlah":13
+  },
+  {
+    "Kategori":"General practitioner",
+    "Jumlah":13
+  },
+  {
+    "Kategori":"Dentist",
+    "Jumlah":13
+  },
+  {
+    "Kategori":"Optician",
+    "Jumlah":13
+  },
+  {
+    "Kategori":"Public health department",
+    "Jumlah":12
+  },
+  {
+    "Kategori":"Housing complex",
+    "Jumlah":11
+  },
+  {
+    "Kategori":"Hair salon",
+    "Jumlah":11
+  },
+  {
+    "Kategori":"Home health care service",
+    "Jumlah":11
+  },
+  {
+    "Kategori":"Herbal medicine store",
+    "Jumlah":10
+  },
+  {
+    "Kategori":"Health spa",
+    "Jumlah":10
+  },
+  {
+    "Kategori":"Government office",
+    "Jumlah":9
+  },
+  {
+    "Kategori":"Spa",
+    "Jumlah":9
+  },
+  {
+    "Kategori":"Wellness center",
+    "Jumlah":8
+  },
+  {
+    "Kategori":"Mosque",
+    "Jumlah":8
+  },
+  {
+    "Kategori":"Gym",
+    "Jumlah":8
+  },
+  {
+    "Kategori":"Community health centre",
+    "Jumlah":7
+  },
+  {
+    "Kategori":"Self service health station",
+    "Jumlah":6
+  },
+  {
+    "Kategori":"Medical laboratory",
+    "Jumlah":6
+  },
+  {
+    "Kategori":"Nutritionist",
+    "Jumlah":6
+  },
+  {
+    "Kategori":"Day spa",
+    "Jumlah":6
+  },
+  {
+    "Kategori":"Pharmaceutical company",
+    "Jumlah":6
+  },
+  {
+    "Kategori":"Medical Center",
+    "Jumlah":6
+  },
+  {
+    "Kategori":"Physical therapy clinic",
+    "Jumlah":6
+  },
+  {
+    "Kategori":"Herbalist",
+    "Jumlah":6
+  },
+  {
+    "Kategori":"Corporate office",
+    "Jumlah":5
+  },
+  {
+    "Kategori":"Beauty supply store",
+    "Jumlah":5
+  },
+  {
+    "Kategori":"Child health care centre",
+    "Jumlah":5
+  },
+  {
+    "Kategori":"Medical equipment supplier",
+    "Jumlah":5
+  },
+  {
+    "Kategori":"Herb shop",
+    "Jumlah":4
+  },
+  {
+    "Kategori":"Women's health clinic",
+    "Jumlah":4
+  },
+  {
+    "Kategori":"Denture care center",
+    "Jumlah":4
+  },
+  {
+    "Kategori":"Government hospital",
+    "Jumlah":4
+  },
+  {
+    "Kategori":"Homestay",
+    "Jumlah":4
+  },
+  {
+    "Kategori":"Housing development",
+    "Jumlah":4
+  },
+  {
+    "Kategori":"Psychologist",
+    "Jumlah":4
+  },
+  {
+    "Kategori":"Family practice physician",
+    "Jumlah":4
+  },
+  {
+    "Kategori":"Spa and health club",
+    "Jumlah":4
+  },
+  {
+    "Kategori":"Maternity hospital",
+    "Jumlah":4
+  },
+  {
+    "Kategori":"Cemetery",
+    "Jumlah":4
+  },
+  {
+    "Kategori":"Hypnotherapy service",
+    "Jumlah":3
+  },
+  {
+    "Kategori":"Obstetrician-gynecologist",
+    "Jumlah":3
+  },
+  {
+    "Kategori":"Health",
+    "Jumlah":3
+  },
+  {
+    "Kategori":"Shopping mall",
+    "Jumlah":3
+  },
+  {
+    "Kategori":"Nail salon",
+    "Jumlah":3
+  },
+  {
+    "Kategori":"Foot massage parlor",
+    "Jumlah":3
+  },
+  {
+    "Kategori":"Make-up artist",
+    "Jumlah":3
+  },
+  {
+    "Kategori":"Cafe",
+    "Jumlah":3
+  },
+  {
+    "Kategori":"Beautician",
+    "Jumlah":3
+  },
+  {
+    "Kategori":"Beauty product supplier",
+    "Jumlah":3
+  },
+  {
+    "Kategori":"Urology clinic",
+    "Jumlah":3
+  },
+  {
+    "Kategori":"General hospital",
+    "Jumlah":3
+  },
+  {
+    "Kategori":"Yoga studio",
+    "Jumlah":3
+  },
+  {
+    "Kategori":"Mental health clinic",
+    "Jumlah":3
+  },
+  {
+    "Kategori":"Skin care products vending machine",
+    "Jumlah":2
+  },
+  {
+    "Kategori":"Nursing home",
+    "Jumlah":2
+  },
+  {
+    "Kategori":"Tourist attraction",
+    "Jumlah":2
+  },
+  {
+    "Kategori":"Health counselor",
+    "Jumlah":2
+  },
+  {
+    "Kategori":"Occupational therapist",
+    "Jumlah":2
+  },
+  {
+    "Kategori":"Family service center",
+    "Jumlah":2
+  },
+  {
+    "Kategori":"Gymnastics center",
+    "Jumlah":2
+  },
+  {
+    "Kategori":"City clerk's office",
+    "Jumlah":2
+  },
+  {
+    "Kategori":"Electronics manufacturer",
+    "Jumlah":2
+  },
+  {
+    "Kategori":"Martial arts school",
+    "Jumlah":2
+  },
+  {
+    "Kategori":"Dermatologist",
+    "Jumlah":2
+  },
+  {
+    "Kategori":"Local medical services",
+    "Jumlah":2
+  },
+  {
+    "Kategori":"Diner",
+    "Jumlah":2
+  },
+  {
+    "Kategori":"Occupational health service",
+    "Jumlah":2
+  },
+  {
+    "Kategori":"Reproductive health clinic",
+    "Jumlah":2
+  },
+  {
+    "Kategori":"Acupuncture clinic",
+    "Jumlah":2
+  },
+  {
+    "Kategori":"Occupational safety and health",
+    "Jumlah":2
+  },
+  {
+    "Kategori":"First aid station",
+    "Jumlah":2
+  },
+  {
+    "Kategori":"Homewares Store",
+    "Jumlah":2
+  },
+  {
+    "Kategori":"Fitness center",
+    "Jumlah":2
+  },
+  {
+    "Kategori":"Rehabilitation center",
+    "Jumlah":2
+  },
+  {
+    "Kategori":"Local government office",
+    "Jumlah":2
+  },
+  {
+    "Kategori":"Insurance agency",
+    "Jumlah":2
+  },
+  {
+    "Kategori":"Wellness program",
+    "Jumlah":2
+  },
+  {
+    "Kategori":"School",
+    "Jumlah":2
+  },
+  {
+    "Kategori":"Indonesia",
+    "Jumlah":2
+  },
+  {
+    "Kategori":"Riau Islands",
+    "Jumlah":2
+  },
+  {
+    "Kategori":"Education center",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Greenhouse & Equipment Supplier",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Otolaryngology clinic",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Nursing agency",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Market",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Perfume store",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Osteopath",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Cosmetics and perfumes supplier",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Sports medicine clinic",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Self defense school",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Housing society",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Urologist",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Personal trainer",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Homeopathic pharmacy",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Medical diagnostic imaging center",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Park",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Homeopath",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Water utility company",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Marketing agency",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Clothing store",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Psychotherapist",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Lodging",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Holistic medicine practitioner",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Sports massage therapist",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Organic food store",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Weir",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Specialized clinic",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Petrol Station",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Resort hotel",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Cinema",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Non-governmental organization",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Gated community",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"River",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Mineral water wholesaler",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Ophthalmologist",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Soup kitchen",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Muay Thai boxing gym",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Grocery store",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Fertility clinic",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Boxing gym",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Credit union",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Taekwondo competition area",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Business networking company",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Cosmetics wholesaler",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Distribution service",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Staple food package",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Children Policlinic",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Police",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Permanent make-up clinic",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"High school",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"University",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Hospital department",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Chinese Physician Clinic",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Social services organization",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Teeth whitening service",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Thai massage therapist",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Food producer",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Pilates studio",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Swim club",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Eye care center",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Shop",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Wellness hotel",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Nursing school",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Physical fitness program",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Dental supply store",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Transportation service",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Island",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Council",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Community center",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Fertility physician",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Cancer treatment center",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Social security office",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Beach",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Recreation center",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Medical group",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Bakery",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Convenience store",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Support group",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Housing authority",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Optometrist",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Pediatrician",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Neurologist",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Pharmaceutical products wholesaler",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Blood bank",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Hearing aid store",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Chinese medicine clinic",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Dialysis center",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Orthodontist",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Oriental medicine clinic",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Health insurance agency",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Municipal administration office",
+    "Jumlah":1
+  }
+]

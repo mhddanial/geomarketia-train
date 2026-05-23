@@ -1,0 +1,710 @@
+[
+  {
+    "Kategori":"Corporate office",
+    "Jumlah":636
+  },
+  {
+    "Kategori":"Housing complex",
+    "Jumlah":30
+  },
+  {
+    "Kategori":"Manufacturer",
+    "Jumlah":23
+  },
+  {
+    "Kategori":"Contractor",
+    "Jumlah":22
+  },
+  {
+    "Kategori":"Housing development",
+    "Jumlah":19
+  },
+  {
+    "Kategori":"Company",
+    "Jumlah":10
+  },
+  {
+    "Kategori":"Wholesaler",
+    "Jumlah":7
+  },
+  {
+    "Kategori":"Real estate developer",
+    "Jumlah":7
+  },
+  {
+    "Kategori":"Island",
+    "Jumlah":7
+  },
+  {
+    "Kategori":"Seafood restaurant",
+    "Jumlah":6
+  },
+  {
+    "Kategori":"Housing society",
+    "Jumlah":6
+  },
+  {
+    "Kategori":"Shipyard",
+    "Jumlah":6
+  },
+  {
+    "Kategori":"Industrial equipment supplier",
+    "Jumlah":6
+  },
+  {
+    "Kategori":"Tourist attraction",
+    "Jumlah":6
+  },
+  {
+    "Kategori":"Gated community",
+    "Jumlah":4
+  },
+  {
+    "Kategori":"Construction company",
+    "Jumlah":4
+  },
+  {
+    "Kategori":"Homestay",
+    "Jumlah":4
+  },
+  {
+    "Kategori":"Building materials store",
+    "Jumlah":4
+  },
+  {
+    "Kategori":"Housing authority",
+    "Jumlah":4
+  },
+  {
+    "Kategori":"Warehouse",
+    "Jumlah":4
+  },
+  {
+    "Kategori":"Shopping mall",
+    "Jumlah":4
+  },
+  {
+    "Kategori":"Home builder",
+    "Jumlah":4
+  },
+  {
+    "Kategori":"Internet service provider",
+    "Jumlah":4
+  },
+  {
+    "Kategori":"Cruise Terminal",
+    "Jumlah":4
+  },
+  {
+    "Kategori":"Government office",
+    "Jumlah":3
+  },
+  {
+    "Kategori":"Electronics manufacturer",
+    "Jumlah":3
+  },
+  {
+    "Kategori":"Plastic fabrication company",
+    "Jumlah":3
+  },
+  {
+    "Kategori":"Electronic parts supplier",
+    "Jumlah":3
+  },
+  {
+    "Kategori":"Cemetery",
+    "Jumlah":3
+  },
+  {
+    "Kategori":"Petrol Station",
+    "Jumlah":3
+  },
+  {
+    "Kategori":"Transportation service",
+    "Jumlah":3
+  },
+  {
+    "Kategori":"Place of worship",
+    "Jumlah":3
+  },
+  {
+    "Kategori":"Restaurant",
+    "Jumlah":3
+  },
+  {
+    "Kategori":"Apartment building",
+    "Jumlah":3
+  },
+  {
+    "Kategori":"Car rental agency",
+    "Jumlah":3
+  },
+  {
+    "Kategori":"Shop",
+    "Jumlah":3
+  },
+  {
+    "Kategori":"Gas company",
+    "Jumlah":3
+  },
+  {
+    "Kategori":"Beach",
+    "Jumlah":3
+  },
+  {
+    "Kategori":"Port operating company",
+    "Jumlah":2
+  },
+  {
+    "Kategori":"Port authority",
+    "Jumlah":2
+  },
+  {
+    "Kategori":"Power station",
+    "Jumlah":2
+  },
+  {
+    "Kategori":"Mining company",
+    "Jumlah":2
+  },
+  {
+    "Kategori":"Market",
+    "Jumlah":2
+  },
+  {
+    "Kategori":"Exporter",
+    "Jumlah":2
+  },
+  {
+    "Kategori":"Car repair and maintenance service",
+    "Jumlah":2
+  },
+  {
+    "Kategori":"Employment agency",
+    "Jumlah":2
+  },
+  {
+    "Kategori":"Marine supply store",
+    "Jumlah":2
+  },
+  {
+    "Kategori":"Park",
+    "Jumlah":2
+  },
+  {
+    "Kategori":"Apartment complex",
+    "Jumlah":2
+  },
+  {
+    "Kategori":"Shipbuilding and Repairing",
+    "Jumlah":2
+  },
+  {
+    "Kategori":"School",
+    "Jumlah":2
+  },
+  {
+    "Kategori":"Corporate campus",
+    "Jumlah":2
+  },
+  {
+    "Kategori":"Electrical substation",
+    "Jumlah":2
+  },
+  {
+    "Kategori":"Importer and Exporter",
+    "Jumlah":2
+  },
+  {
+    "Kategori":"Shipping company",
+    "Jumlah":2
+  },
+  {
+    "Kategori":"Security service",
+    "Jumlah":2
+  },
+  {
+    "Kategori":"Business park",
+    "Jumlah":2
+  },
+  {
+    "Kategori":"Padang restaurant",
+    "Jumlah":2
+  },
+  {
+    "Kategori":"Post office",
+    "Jumlah":2
+  },
+  {
+    "Kategori":"Hotel",
+    "Jumlah":2
+  },
+  {
+    "Kategori":"Freight forwarding service",
+    "Jumlah":2
+  },
+  {
+    "Kategori":"Mosque",
+    "Jumlah":2
+  },
+  {
+    "Kategori":"Ferry terminal",
+    "Jumlah":2
+  },
+  {
+    "Kategori":"Beach pavillion",
+    "Jumlah":2
+  },
+  {
+    "Kategori":"Poultry farm",
+    "Jumlah":2
+  },
+  {
+    "Kategori":"Marine engineer",
+    "Jumlah":2
+  },
+  {
+    "Kategori":"Car dealer",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Greenhouse & Equipment Supplier",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Wholesale grocer",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Laundry",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Property Investment",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Electronics wholesaler",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Furniture manufacturer",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"General store",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Wellness center",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Fashion accessories store",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Condominium complex",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Egg supplier",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"International trade consultant",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Clothing store",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Steel fabricator",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Oil & natural gas company",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Lodge",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Credit union",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Pharmacy",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Boat builders",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Function room facility",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"City clerk's office",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Industrial consultant",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Car factory",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Industrial engineer",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Plant nursery",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"River port",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Agricultural production",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"River",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Homewares Store",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Distribution service",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Print shop",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Tractor dealer",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Car leasing service",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Granite supplier",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Construction equipment supplier",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Bakery",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Luggage store",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Gym and Fitness Centre",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Supermarket",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Public beach",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Iron works",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Tool store",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Villa",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Boarding house",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Business center",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Grocery store",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Parking lot",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Hawker Stall",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Barber shop",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Physical therapy clinic",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Courier service",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Local government office",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Cafe",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Marketing agency",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Shipping service",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Low income housing program",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Non-governmental organization",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Food products supplier",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Tool manufacturer",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Police",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Diesel engine repair service",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Elementary school",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Municipal administration office",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Swim club",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Web hosting company",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Tour operator",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Computer store",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Food broker",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Restaurant supply store",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Trailer manufacturer",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Stationery store",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Golf driving range",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Lumber store",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Office",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Machining manufacturer",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Insurance agency",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Funeral director",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Telecommunications service provider",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Mining consultant",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Forklift rental service",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Hydraulic equipment supplier",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Office supply wholesaler",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Ferry service",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Certification agency",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Water sports equipment rental service",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Small appliance repair service",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"City government office",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Public medical center",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Hospital",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Boat rental service",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Consultant",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Tennis court construction company",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Repair service",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Laboratory equipment supplier",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Real estate agency",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"E-commerce service",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Green energy supplier",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Electric utility company",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Museum",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Catering food and drink supplier",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Pest control service",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Oil and gas exploration service",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Pub",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Car manufacturer",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Travel agency",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Electrical equipment manufacturer",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Harbor",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Ready mix concrete supplier",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Scrap metal dealer",
+    "Jumlah":1
+  },
+  {
+    "Kategori":"Laboratory",
+    "Jumlah":1
+  }
+]

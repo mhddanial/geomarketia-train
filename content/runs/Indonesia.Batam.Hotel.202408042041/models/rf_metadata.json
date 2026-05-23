@@ -1,0 +1,76 @@
+{
+  "notebook": "02_random_forest_training",
+  "timestamp": "2026-05-23T22:16:52.920605",
+  "target_db": "Indonesia.Batam.Hotel.202408042041.db",
+  "run_dir": "content/runs\\Indonesia.Batam.Hotel.202408042041",
+  "model_path": "content/runs\\Indonesia.Batam.Hotel.202408042041\\models\\rf_location_reco_v3.joblib",
+  "features": [
+    "rating",
+    "review_log",
+    "hotspot_score",
+    "competitor_density_500m",
+    "same_category_density_500m",
+    "nearest_neighbor_dist_m",
+    "dist_to_cluster_centroid_m",
+    "cluster_id"
+  ],
+  "parameters": {
+    "n_estimators": 300,
+    "class_weight": "balanced",
+    "random_seed": 42,
+    "spatial_split": "grid_1km_group_shuffle"
+  },
+  "metrics": {
+    "f1_macro": 0.8418,
+    "confusion_matrix": [
+      [
+        4,
+        1,
+        0
+      ],
+      [
+        0,
+        4,
+        2
+      ],
+      [
+        0,
+        0,
+        10
+      ]
+    ],
+    "report": {
+      "High": {
+        "precision": 0.8333333333333334,
+        "recall": 1.0,
+        "f1-score": 0.9090909090909091,
+        "support": 10.0
+      },
+      "Low": {
+        "precision": 1.0,
+        "recall": 0.8,
+        "f1-score": 0.8888888888888888,
+        "support": 5.0
+      },
+      "Medium": {
+        "precision": 0.8,
+        "recall": 0.6666666666666666,
+        "f1-score": 0.7272727272727273,
+        "support": 6.0
+      },
+      "accuracy": 0.8571428571428571,
+      "macro avg": {
+        "precision": 0.8777777777777779,
+        "recall": 0.8222222222222223,
+        "f1-score": 0.8417508417508417,
+        "support": 21.0
+      },
+      "weighted avg": {
+        "precision": 0.8634920634920634,
+        "recall": 0.8571428571428571,
+        "f1-score": 0.8523328523328522,
+        "support": 21.0
+      }
+    }
+  }
+}
