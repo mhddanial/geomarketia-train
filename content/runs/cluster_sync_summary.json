@@ -1,0 +1,119 @@
+{
+  "timestamp": "2026-05-27T07:03:33.598416+00:00",
+  "processed": 8,
+  "successful": 8,
+  "results": [
+    {
+      "db": "Indonesia.Batam.Cosmetics.202410290644.db",
+      "db_key": "Indonesia.Batam.Cosmetics.202410290644",
+      "status": "success",
+      "output_path": "content\\runs\\Indonesia.Batam.Cosmetics.202410290644\\data\\db_with_cluster\\Indonesia.Batam.Cosmetics.202410290644.db",
+      "tables": [
+        {
+          "table": "places",
+          "matched": 422,
+          "total": 579,
+          "match_pct": 72.9
+        }
+      ]
+    },
+    {
+      "db": "Indonesia.Batam.Hotel.202408042041.db",
+      "db_key": "Indonesia.Batam.Hotel.202408042041",
+      "status": "success",
+      "output_path": "content\\runs\\Indonesia.Batam.Hotel.202408042041\\data\\db_with_cluster\\Indonesia.Batam.Hotel.202408042041.db",
+      "tables": [
+        {
+          "table": "places",
+          "matched": 99,
+          "total": 969,
+          "match_pct": 10.2
+        }
+      ]
+    },
+    {
+      "db": "Indonesia.Batam.Kesehatan.202408050759.db",
+      "db_key": "Indonesia.Batam.Kesehatan.202408050759",
+      "status": "success",
+      "output_path": "content\\runs\\Indonesia.Batam.Kesehatan.202408050759\\data\\db_with_cluster\\Indonesia.Batam.Kesehatan.202408050759.db",
+      "tables": [
+        {
+          "table": "places",
+          "matched": 1434,
+          "total": 1568,
+          "match_pct": 91.5
+        }
+      ]
+    },
+    {
+      "db": "Indonesia.Batam.Kuliner.202406162232.db",
+      "db_key": "Indonesia.Batam.Kuliner.202406162232",
+      "status": "success",
+      "output_path": "content\\runs\\Indonesia.Batam.Kuliner.202406162232\\data\\db_with_cluster\\Indonesia.Batam.Kuliner.202406162232.db",
+      "tables": [
+        {
+          "table": "places",
+          "matched": 4206,
+          "total": 4570,
+          "match_pct": 92.0
+        }
+      ]
+    },
+    {
+      "db": "Indonesia.Batam.PT.202408042212.db",
+      "db_key": "Indonesia.Batam.PT.202408042212",
+      "status": "success",
+      "output_path": "content\\runs\\Indonesia.Batam.PT.202408042212\\data\\db_with_cluster\\Indonesia.Batam.PT.202408042212.db",
+      "tables": [
+        {
+          "table": "places",
+          "matched": 1040,
+          "total": 1068,
+          "match_pct": 97.4
+        }
+      ]
+    },
+    {
+      "db": "Indonesia.Batam.School.202408060757.db",
+      "db_key": "Indonesia.Batam.School.202408060757",
+      "status": "success",
+      "output_path": "content\\runs\\Indonesia.Batam.School.202408060757\\data\\db_with_cluster\\Indonesia.Batam.School.202408060757.db",
+      "tables": [
+        {
+          "table": "places",
+          "matched": 1290,
+          "total": 1420,
+          "match_pct": 90.8
+        }
+      ]
+    },
+    {
+      "db": "Indonesia.Batam.Toko Bangunan.202408021219.db",
+      "db_key": "Indonesia.Batam.Toko Bangunan.202408021219",
+      "status": "success",
+      "output_path": "content\\runs\\Indonesia.Batam.Toko Bangunan.202408021219\\data\\db_with_cluster\\Indonesia.Batam.Toko Bangunan.202408021219.db",
+      "tables": [
+        {
+          "table": "places",
+          "matched": 636,
+          "total": 678,
+          "match_pct": 93.8
+        }
+      ]
+    },
+    {
+      "db": "Indonesia.Batam.Toko Komputer.202410170720.db",
+      "db_key": "Indonesia.Batam.Toko Komputer.202410170720",
+      "status": "success",
+      "output_path": "content\\runs\\Indonesia.Batam.Toko Komputer.202410170720\\data\\db_with_cluster\\Indonesia.Batam.Toko Komputer.202410170720.db",
+      "tables": [
+        {
+          "table": "places",
+          "matched": 218,
+          "total": 271,
+          "match_pct": 80.4
+        }
+      ]
+    }
+  ]
+}
