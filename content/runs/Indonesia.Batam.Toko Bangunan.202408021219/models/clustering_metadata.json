@@ -1,6 +1,6 @@
 {
   "notebook": "01_dbscan_clustering",
-  "timestamp": "2026-05-23T22:19:27.827146",
+  "timestamp": "2026-06-14T15:31:44.880407",
   "target_db": "Indonesia.Batam.Toko Bangunan.202408021219.db",
   "db_files": [
     "Indonesia.Batam.Toko Bangunan.202408021219.db"
@@ -21,9 +21,9 @@
   },
   "results": {
     "n_clusters": 14,
-    "n_noise": 339,
+    "n_noise": 332,
     "n_clustered": 297,
-    "noise_ratio_pct": 53.3,
+    "noise_ratio_pct": 52.78,
     "silhouette_score": 0.6467,
     "davies_bouldin_idx": 0.4311
   },

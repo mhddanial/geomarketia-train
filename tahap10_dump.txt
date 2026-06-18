@@ -1,0 +1,251 @@
+# **GeoMarket AI — Notebook 01: DBSCAN Spatial Clustering**
+
+**Tujuan notebook ini:**  
+Menghasilkan `cluster_id` untuk setiap titik lokasi usaha di Batam menggunakan algoritma DBSCAN berbasis kepadatan spasial. Output `cluster_id` ini akan menjadi salah satu **fitur input utama** untuk training Random Forest di notebook berikutnya.
+
+**Catatan penting:**  
+Notebook ini dijalankan **per database** (satu DB per run) untuk mengurangi noise lintas sumber.
+
+**Ringkasan pipeline (caption per tahap):**
+- **Tahap 1** — Install & import library
+- **Tahap 2** — EDA: scan file, cek skema, mapping kolom, merge data, verifikasi
+- **Tahap 3** — Konfigurasi & konstanta (parameter DBSCAN dan path)
+- **Tahap 4** — Ingestion & validation gate (data quality report)
+- **Tahap 5** — Preprocessing & konversi koordinat (WGS84 -> UTM)
+- **Tahap 6** — DBSCAN clustering + evaluasi + fitur turunan
+- **Tahap 7** — Visualisasi hasil clustering & tuning EPS
+- **Tahap 8** — Simpan ke feature store
+- **Tahap 9** — Quality gate DBSCAN
+- **Tahap 10** — Random Forest training (label proxy + evaluasi + SHAP)
+
+**Posisi dalam MLOps Pipeline:**
+```
+SQLite (.db)
+    └─ [01] Ingestion & Validation        <- tahap 1-2
+    └─ [02] Preprocessing & Feature Eng   <- tahap 3
+    └─ [03] DBSCAN Clustering             <- tahap 4-5  (inti notebook ini)
+    └─ [04] Simpan ke Feature Store       <- tahap 6
+            └─ [Notebook 02] Random Forest Training
+```
+
+| Algoritma | DBSCAN (Density-Based Spatial Clustering of Applications with Noise) |
+|---|---|
+| Input | `content/data/raw/*.db` (1 DB per run) |
+| Output | `content/runs/<db_key>/data/feature_store.csv` |
+
+**Mengapa DBSCAN harus jalan SEBELUM Random Forest?**  
+Karena `cluster_id` dan `dist_to_cluster_centroid_m` adalah fitur yang hanya bisa dihasilkan setelah clustering selesai. Random Forest tidak bisa dilatih tanpa kedua fitur ini.
+
+---
+---CELL---
+# ── 4.2 Persiapan fitur atribut tambahan ─────────────────────────────
+#
+# Selain koordinat, kita siapkan fitur-fitur lain yang akan digunakan
+# oleh Random Forest nanti. Di sini kita buat versi awalnya.
+from IPython.display import display
+import pandas as pd
+import matplotlib.pyplot as plt
+
+# --- review_log: transformasi log untuk mengurangi skewness ---
+# Usaha dengan 10 review vs 10.000 review tidak perlu dibedakan sebesar itu
+if 'reviews' in df.columns:
+    df['review_log'] = np.log1p(df['reviews'])  # log(1 + x) agar x=0 tidak error
+elif 'review' in df.columns:
+    df['review_log'] = np.log1p(df['review'])
+else:
+    df['review_log'] = 0.0
+    print("⚠ Kolom review tidak ditemukan, review_log diset 0")
+
+# --- rating: isi nilai null dengan median ---
+if 'rating' in df.columns:
+    median_rating = df['rating'].median()
+    df['rating'] = df['rating'].fillna(median_rating)
+    print(f"Rating — median: {median_rating:.2f}, null diisi median")
+
+# --- Normalisasi kategori: lowercase + strip whitespace ---
+cat_col = CAT_COL if CAT_COL in df.columns else ("category" if "category" in df.columns else None)
+if cat_col:
+    df[cat_col] = df[cat_col].astype(str).str.lower().str.strip()
+else:
+    print("⚠ Kolom kategori tidak ditemukan untuk normalisasi")
+
+summary_cols = [c for c in ['rating', 'review_log'] if c in df.columns]
+if summary_cols:
+    print("\nRingkasan statistik fitur atribut:")
+    display(df[summary_cols].describe().round(2))
+
+if cat_col:
+    cat_counts = df[cat_col].value_counts().head(10).reset_index()
+    cat_counts.columns = [cat_col, 'count']
+    print("\nTop 10 kategori:")
+    display(cat_counts)
+
+fig, axes = plt.subplots(1, 2, figsize=(10, 4))
+if 'rating' in df.columns:
+    axes[0].hist(df['rating'].dropna(), bins=20, color="#1D4E8F", alpha=0.8)
+    axes[0].set_title("Distribusi Rating")
+    axes[0].set_xlabel("Rating")
+    axes[0].set_ylabel("Jumlah")
+else:
+    axes[0].axis("off")
+    axes[0].text(0.5, 0.5, "Rating tidak tersedia", ha="center", va="center")
+
+if 'review_log' in df.columns:
+    axes[1].hist(df['review_log'].dropna(), bins=20, color="#D85A30", alpha=0.8)
+    axes[1].set_title("Distribusi Review (log)")
+    axes[1].set_xlabel("review_log")
+    axes[1].set_ylabel("Jumlah")
+else:
+    axes[1].axis("off")
+    axes[1].text(0.5, 0.5, "Review tidak tersedia", ha="center", va="center")
+
+plt.tight_layout()
+plt.show()
+
+print(f"\n✓ Preprocessing selesai. Shape: {df.shape}")
+---CELL---
+# ── 5.1 Jalankan DBSCAN ───────────────────────────────────────────────
+#
+# Input: koordinat UTM (x_utm, y_utm) dalam meter
+# metric='euclidean' → jarak lurus antar titik dalam meter (akurat karena UTM)
+# algorithm='ball_tree' → lebih efisien untuk data geospasial besar
+from IPython.display import display
+import pandas as pd
+import matplotlib.pyplot as plt
+
+coords_utm = df[['x_utm', 'y_utm']].values
+
+dbscan = DBSCAN(
+    eps=EPS_METER,        # radius dalam meter
+    min_samples=MIN_SAMPLES,
+    metric='euclidean',
+    algorithm='ball_tree',
+    n_jobs=-1             # gunakan semua CPU core
+)
+
+print(f"Menjalankan DBSCAN dengan eps={EPS_METER}m, min_samples={MIN_SAMPLES}...")
+df['cluster_id'] = dbscan.fit_predict(coords_utm)
+
+# ── Hasil ringkas ─────────────────────────────────────────────────────
+n_clusters  = len(set(df['cluster_id'])) - (1 if -1 in df['cluster_id'].values else 0)
+n_noise     = (df['cluster_id'] == -1).sum()
+n_clustered = (df['cluster_id'] >= 0).sum()
+
+summary_dbscan = pd.DataFrame([
+    {"metrik": "Jumlah cluster", "nilai": n_clusters},
+    {"metrik": "Titik dalam cluster", "nilai": n_clustered},
+    {"metrik": "Titik noise (-1)", "nilai": n_noise},
+    {"metrik": "Noise ratio (%)", "nilai": round(n_noise/len(df)*100, 1)},
+])
+print("\nRingkasan DBSCAN:")
+display(summary_dbscan)
+
+cluster_sizes = df[df['cluster_id'] >= 0]['cluster_id'].value_counts().reset_index()
+cluster_sizes.columns = ['cluster_id', 'count']
+cluster_sizes = cluster_sizes.sort_values('count', ascending=False)
+print("\nTop 10 cluster terbesar:")
+display(cluster_sizes.head(10))
+
+fig, axes = plt.subplots(1, 2, figsize=(11, 4))
+axes[0].bar(["cluster", "noise"], [n_clustered, n_noise], color=["#1D4E8F", "#B0B0B0"])
+axes[0].set_title("Cluster vs Noise")
+axes[0].set_ylabel("Jumlah titik")
+
+top_n = min(10, len(cluster_sizes))
+axes[1].barh(cluster_sizes['cluster_id'].head(top_n).astype(str), cluster_sizes['count'].head(top_n), color="#1D4E8F")
+axes[1].set_title(f"Top {top_n} Ukuran Cluster")
+axes[1].invert_yaxis()
+axes[1].set_xlabel("Jumlah titik")
+
+plt.tight_layout()
+cluster_noise_path = os.path.join(REPORT_DIR, "cluster_vs_noise.png")
+plt.savefig(cluster_noise_path, dpi=150, bbox_inches='tight')
+plt.show()
+print(f"Cluster vs noise disimpan: {cluster_noise_path}")
+
+# ── Distribusi kategori (Top 10) ──────────────────────────────────────
+if CAT_COL in df.columns:
+    cat_counts = df[CAT_COL].value_counts().head(10)
+    fig, ax = plt.subplots(figsize=(7, 4))
+    ax.barh(cat_counts.index.astype(str), cat_counts.values, color="#1D4E8F")
+    ax.set_title("Top 10 kategori (jumlah baris)")
+    ax.set_xlabel("Jumlah baris")
+    ax.invert_yaxis()
+    plt.tight_layout()
+    plt.savefig(f"{REPORT_DIR}/category_distribution_top10.png", dpi=150, bbox_inches='tight')
+    plt.show()
+    print(f"Distribusi kategori (Top 10) disimpan: {REPORT_DIR}/category_distribution_top10.png")
+else:
+    print("Kolom kategori tidak ditemukan untuk distribusi Top 10.")
+---CELL---
+import geopandas as gpd
+import pandas as pd
+import osmnx as ox
+import numpy as np
+import os
+import re
+from shapely.geometry import Point
+
+# Load Population Excel
+pop_file = "content/data/raw/population_density_2024/statistik-jumlah-penduduk-menurut-jenis-kelamin-dan-kecamatan-di-kota-batam-tahun-2024-semester-1.xlsx"
+df_pop = pd.read_excel(pop_file, skiprows=6)
+# Rename columns
+df_pop.columns = ['Unnamed: 0', 'Kecamatan', 'Perempuan', 'LakiLaki']
+df_pop = df_pop.dropna(subset=['Kecamatan']).copy()
+
+# Filter out header rows and 'Jumlah' rows
+df_pop = df_pop[~df_pop['Kecamatan'].str.contains('Jumlah|Kecamatan', case=False, na=False)]
+df_pop = df_pop[~df_pop['Perempuan'].astype(str).str.contains('Penduduk', case=False, na=False)]
+
+# Clean numeric values
+def clean_num(x):
+    if pd.isna(x): return 0
+    if isinstance(x, str):
+        # Remove non-digits
+        val = re.sub(r'[^\d]', '', x)
+        return int(val) if val else 0
+    return int(x * 1000) if x < 1000 else int(x) # Handle pandas float parsing 10.518 as 10.518
+
+df_pop['Perempuan'] = df_pop['Perempuan'].apply(clean_num)
+df_pop['LakiLaki'] = df_pop['LakiLaki'].apply(clean_num)
+df_pop['Total_Pop'] = df_pop['Perempuan'] + df_pop['LakiLaki']
+
+# Prevent division by zero
+df_pop['Female_Ratio'] = np.where(df_pop['Total_Pop'] > 0, df_pop['Perempuan'] / df_pop['Total_Pop'], 0.5)
+df_pop['Kecamatan_Upper'] = df_pop['Kecamatan'].astype(str).str.upper().str.replace(' ', '')
+
+print("Populasi Batam (Sample):")
+display(df_pop[['Kecamatan', 'Total_Pop', 'Female_Ratio']].head(5))
+---CELL---
+---
+# Tahap 10 — Random Forest Training (Rekomendasi Lokasi)
+
+Tahap ini membuat label proxy `High/Medium/Low` berdasarkan formula PRD,
+lalu melatih model Random Forest dengan spatial split untuk menghindari data leakage.
+---CELL---
+### 10.1 Load Feature Store & Label Proxy
+
+Ringkas: load feature store, buat hotspot score, dan label proxy.
+---CELL---
+### 10.1b Ringkasan Label (Clean Table)
+
+Ringkas: tampilkan distribusi label dan ambang kuantil.
+---CELL---
+### 10.1c Negative Sampling
+Menambahkan lokasi dummy di area terlarang atau sangat jauh dari jalan sebagai 'Low Suitability' agar RF bisa belajar lokasi buruk.
+---CELL---
+### 10.2 Spatial Split & Train Random Forest
+
+Ringkas: split grid 1km untuk hindari leakage lalu training model.
+---CELL---
+### 10.2b Evaluasi Model (Table & Visual)
+
+Ringkas: metrik, confusion matrix, dan feature importance.
+---CELL---
+### 10.2c SHAP Explainability (Global + Local)
+
+Ringkas: interpretasi global dan contoh lokal prediksi.
+---CELL---
+### 10.3 Simpan Model & Metadata
+
+Ringkas: simpan model RF dan metadata evaluasi.

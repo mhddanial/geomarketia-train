@@ -1,6 +1,6 @@
 {
   "notebook": "01_dbscan_clustering",
-  "timestamp": "2026-05-23T22:17:41.910328",
+  "timestamp": "2026-06-14T15:29:22.802577",
   "target_db": "Indonesia.Batam.PT.202408042212.db",
   "db_files": [
     "Indonesia.Batam.PT.202408042212.db"
@@ -21,9 +21,9 @@
   },
   "results": {
     "n_clusters": 14,
-    "n_noise": 417,
+    "n_noise": 337,
     "n_clustered": 623,
-    "noise_ratio_pct": 40.1,
+    "noise_ratio_pct": 35.1,
     "silhouette_score": 0.4562,
     "davies_bouldin_idx": 0.4922
   },

@@ -1,9 +1,9 @@
 {
   "notebook": "02_random_forest_training",
-  "timestamp": "2026-05-23T22:16:52.920605",
+  "timestamp": "2026-06-14T15:26:30.697547",
   "target_db": "Indonesia.Batam.Hotel.202408042041.db",
   "run_dir": "content/runs\\Indonesia.Batam.Hotel.202408042041",
-  "model_path": "content/runs\\Indonesia.Batam.Hotel.202408042041\\models\\rf_location_reco_v3.joblib",
+  "model_path": "content/runs\\Indonesia.Batam.Hotel.202408042041\\models\\rf_location_reco_v4.joblib",
   "features": [
     "rating",
     "review_log",
@@ -12,7 +12,10 @@
     "same_category_density_500m",
     "nearest_neighbor_dist_m",
     "dist_to_cluster_centroid_m",
-    "cluster_id"
+    "cluster_id",
+    "population_density",
+    "female_ratio",
+    "distance_to_nearest_road"
   ],
   "parameters": {
     "n_estimators": 300,
@@ -21,55 +24,55 @@
     "spatial_split": "grid_1km_group_shuffle"
   },
   "metrics": {
-    "f1_macro": 0.8418,
+    "f1_macro": 0.7767,
     "confusion_matrix": [
       [
-        4,
-        1,
+        155,
+        0,
         0
       ],
       [
-        0,
-        4,
-        2
+        1,
+        3,
+        1
       ],
       [
         0,
-        0,
-        10
+        1,
+        2
       ]
     ],
     "report": {
       "High": {
-        "precision": 0.8333333333333334,
-        "recall": 1.0,
-        "f1-score": 0.9090909090909091,
-        "support": 10.0
+        "precision": 0.6666666666666666,
+        "recall": 0.6666666666666666,
+        "f1-score": 0.6666666666666666,
+        "support": 3.0
       },
       "Low": {
-        "precision": 1.0,
-        "recall": 0.8,
-        "f1-score": 0.8888888888888888,
-        "support": 5.0
+        "precision": 0.9935897435897436,
+        "recall": 1.0,
+        "f1-score": 0.9967845659163987,
+        "support": 155.0
       },
       "Medium": {
-        "precision": 0.8,
-        "recall": 0.6666666666666666,
-        "f1-score": 0.7272727272727273,
-        "support": 6.0
+        "precision": 0.75,
+        "recall": 0.6,
+        "f1-score": 0.6666666666666666,
+        "support": 5.0
       },
-      "accuracy": 0.8571428571428571,
+      "accuracy": 0.9815950920245399,
       "macro avg": {
-        "precision": 0.8777777777777779,
-        "recall": 0.8222222222222223,
-        "f1-score": 0.8417508417508417,
-        "support": 21.0
+        "precision": 0.8034188034188033,
+        "recall": 0.7555555555555555,
+        "f1-score": 0.7767059664165773,
+        "support": 163.0
       },
       "weighted avg": {
-        "precision": 0.8634920634920634,
-        "recall": 0.8571428571428571,
-        "f1-score": 0.8523328523328522,
-        "support": 21.0
+        "precision": 0.9801006764196948,
+        "recall": 0.9815950920245399,
+        "f1-score": 0.9805824604317493,
+        "support": 163.0
       }
     }
   }

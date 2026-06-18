@@ -1,6 +1,6 @@
 {
   "notebook": "01_dbscan_clustering",
-  "timestamp": "2026-05-23T22:20:02.213316",
+  "timestamp": "2026-06-14T16:08:10.447011",
   "target_db": "Indonesia.Batam.Cosmetics.202410290644.db",
   "db_files": [
     "Indonesia.Batam.Cosmetics.202410290644.db"
@@ -21,9 +21,9 @@
   },
   "results": {
     "n_clusters": 3,
-    "n_noise": 311,
+    "n_noise": 299,
     "n_clustered": 111,
-    "noise_ratio_pct": 73.7,
+    "noise_ratio_pct": 72.93,
     "silhouette_score": 0.8342,
     "davies_bouldin_idx": 0.162
   },

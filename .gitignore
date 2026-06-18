@@ -1,1 +1,3 @@
 .venv
+cache/*
+content/data/raw/shapfile_RBI_Kepri_Batam/*

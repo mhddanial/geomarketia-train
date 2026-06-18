@@ -1,7 +1,7 @@
 [
   {
     "category":"Computer store",
-    "valid_rows":121
+    "valid_rows":120
   },
   {
     "category":"Electronics store",
@@ -9,11 +9,11 @@
   },
   {
     "category":"Used computer store",
-    "valid_rows":11
+    "valid_rows":10
   },
   {
     "category":"Computer service",
-    "valid_rows":5
+    "valid_rows":4
   },
   {
     "category":"Computer accessories store",

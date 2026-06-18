@@ -1,6 +1,6 @@
 {
   "notebook": "01_dbscan_clustering",
-  "timestamp": "2026-05-23T22:24:55.492261",
+  "timestamp": "2026-06-14T15:32:56.867355",
   "target_db": "Indonesia.Batam.Toko Komputer.202410170720.db",
   "db_files": [
     "Indonesia.Batam.Toko Komputer.202410170720.db"
@@ -21,9 +21,9 @@
   },
   "results": {
     "n_clusters": 2,
-    "n_noise": 158,
+    "n_noise": 155,
     "n_clustered": 60,
-    "noise_ratio_pct": 72.48,
+    "noise_ratio_pct": 72.09,
     "silhouette_score": 0.6964,
     "davies_bouldin_idx": 0.3782
   },

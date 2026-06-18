@@ -1,7 +1,7 @@
 [
   {
     "category":"Building materials store",
-    "valid_rows":446
+    "valid_rows":444
   },
   {
     "category":"Hardware store",
@@ -9,7 +9,7 @@
   },
   {
     "category":"Building materials supplier",
-    "valid_rows":21
+    "valid_rows":20
   },
   {
     "category":"Paint store",
@@ -17,22 +17,22 @@
   },
   {
     "category":"Tool store",
-    "valid_rows":14
+    "valid_rows":13
   },
   {
     "category":"Shop",
-    "valid_rows":10
+    "valid_rows":9
   },
   {
     "category":"Tile store",
     "valid_rows":7
   },
   {
-    "category":"Homewares Store",
-    "valid_rows":7
+    "category":"Home improvement store",
+    "valid_rows":6
   },
   {
-    "category":"Home improvement store",
+    "category":"Homewares Store",
     "valid_rows":6
   },
   {
@@ -56,11 +56,7 @@
     "valid_rows":3
   },
   {
-    "category":"Supermarket",
-    "valid_rows":3
-  },
-  {
-    "category":"Glass shop",
+    "category":"Lumber store",
     "valid_rows":3
   },
   {
@@ -68,19 +64,23 @@
     "valid_rows":3
   },
   {
-    "category":"Lumber store",
-    "valid_rows":3
-  },
-  {
-    "category":"Home goods store",
-    "valid_rows":3
-  },
-  {
     "category":"Grocery store",
     "valid_rows":3
   },
   {
+    "category":"Glass shop",
+    "valid_rows":3
+  },
+  {
+    "category":"Supermarket",
+    "valid_rows":3
+  },
+  {
     "category":"Store",
+    "valid_rows":3
+  },
+  {
+    "category":"Home goods store",
     "valid_rows":3
   },
   {
@@ -96,10 +96,6 @@
     "valid_rows":2
   },
   {
-    "category":"Housing development",
-    "valid_rows":2
-  },
-  {
     "category":"Appliance store",
     "valid_rows":2
   },
@@ -108,8 +104,8 @@
     "valid_rows":2
   },
   {
-    "category":"Door shop",
-    "valid_rows":1
+    "category":"Housing development",
+    "valid_rows":2
   },
   {
     "category":"Countertop store",
@@ -117,10 +113,6 @@
   },
   {
     "category":"Construction material wholesaler",
-    "valid_rows":1
-  },
-  {
-    "category":"Condominium complex",
     "valid_rows":1
   },
   {
@@ -132,7 +124,7 @@
     "valid_rows":1
   },
   {
-    "category":"Electrical supply store",
+    "category":"Condominium complex",
     "valid_rows":1
   },
   {
@@ -140,15 +132,19 @@
     "valid_rows":1
   },
   {
-    "category":"Housing society",
+    "category":"Door shop",
     "valid_rows":1
   },
   {
-    "category":"Fitted furniture supplier",
+    "category":"Electronics store",
     "valid_rows":1
   },
   {
     "category":"Furniture store",
+    "valid_rows":1
+  },
+  {
+    "category":"Fitted furniture supplier",
     "valid_rows":1
   },
   {
@@ -160,11 +156,11 @@
     "valid_rows":1
   },
   {
-    "category":"Electronics store",
+    "category":"Electrical supply store",
     "valid_rows":1
   },
   {
-    "category":"Shopping mall",
+    "category":"Housing society",
     "valid_rows":1
   },
   {
@@ -176,11 +172,11 @@
     "valid_rows":1
   },
   {
-    "category":"Permanently closed",
+    "category":"Office supply store",
     "valid_rows":1
   },
   {
-    "category":"Office supply store",
+    "category":"Shopping mall",
     "valid_rows":1
   },
   {

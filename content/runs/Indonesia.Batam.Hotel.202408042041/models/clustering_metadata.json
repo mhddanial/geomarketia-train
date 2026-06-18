@@ -1,6 +1,6 @@
 {
   "notebook": "01_dbscan_clustering",
-  "timestamp": "2026-05-23T22:16:50.219286",
+  "timestamp": "2026-06-14T15:25:40.963155",
   "target_db": "Indonesia.Batam.Hotel.202408042041.db",
   "db_files": [
     "Indonesia.Batam.Hotel.202408042041.db"
@@ -21,7 +21,7 @@
   },
   "results": {
     "n_clusters": 0,
-    "n_noise": 99,
+    "n_noise": 45,
     "n_clustered": 0,
     "noise_ratio_pct": 100.0,
     "silhouette_score": null,

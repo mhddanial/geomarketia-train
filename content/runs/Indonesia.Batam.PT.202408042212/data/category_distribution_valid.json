@@ -1,11 +1,11 @@
 [
   {
     "category":"Corporate office",
-    "valid_rows":636
+    "valid_rows":622
   },
   {
     "category":"Housing complex",
-    "valid_rows":30
+    "valid_rows":29
   },
   {
     "category":"Manufacturer",
@@ -13,26 +13,18 @@
   },
   {
     "category":"Contractor",
-    "valid_rows":22
+    "valid_rows":20
   },
   {
     "category":"Housing development",
-    "valid_rows":19
+    "valid_rows":18
   },
   {
     "category":"Company",
     "valid_rows":10
   },
   {
-    "category":"Island",
-    "valid_rows":7
-  },
-  {
     "category":"Real estate developer",
-    "valid_rows":7
-  },
-  {
-    "category":"Wholesaler",
     "valid_rows":7
   },
   {
@@ -40,35 +32,15 @@
     "valid_rows":6
   },
   {
+    "category":"Wholesaler",
+    "valid_rows":6
+  },
+  {
     "category":"Housing society",
-    "valid_rows":6
+    "valid_rows":5
   },
   {
-    "category":"Seafood restaurant",
-    "valid_rows":6
-  },
-  {
-    "category":"Tourist attraction",
-    "valid_rows":6
-  },
-  {
-    "category":"Shipyard",
-    "valid_rows":6
-  },
-  {
-    "category":"Building materials store",
-    "valid_rows":4
-  },
-  {
-    "category":"Construction company",
-    "valid_rows":4
-  },
-  {
-    "category":"Cruise Terminal",
-    "valid_rows":4
-  },
-  {
-    "category":"Homestay",
+    "category":"Shopping mall",
     "valid_rows":4
   },
   {
@@ -76,11 +48,7 @@
     "valid_rows":4
   },
   {
-    "category":"Housing authority",
-    "valid_rows":4
-  },
-  {
-    "category":"Home builder",
+    "category":"Homestay",
     "valid_rows":4
   },
   {
@@ -88,15 +56,23 @@
     "valid_rows":4
   },
   {
-    "category":"Shopping mall",
+    "category":"Shipyard",
     "valid_rows":4
   },
   {
-    "category":"Warehouse",
+    "category":"Construction company",
     "valid_rows":4
   },
   {
-    "category":"Beach",
+    "category":"Island",
+    "valid_rows":4
+  },
+  {
+    "category":"Building materials store",
+    "valid_rows":4
+  },
+  {
+    "category":"Car rental agency",
     "valid_rows":3
   },
   {
@@ -104,11 +80,7 @@
     "valid_rows":3
   },
   {
-    "category":"Transportation service",
-    "valid_rows":3
-  },
-  {
-    "category":"Plastic fabrication company",
+    "category":"Petrol Station",
     "valid_rows":3
   },
   {
@@ -116,15 +88,15 @@
     "valid_rows":3
   },
   {
-    "category":"Restaurant",
+    "category":"Housing authority",
     "valid_rows":3
   },
   {
-    "category":"Petrol Station",
+    "category":"Plastic fabrication company",
     "valid_rows":3
   },
   {
-    "category":"Government office",
+    "category":"Home builder",
     "valid_rows":3
   },
   {
@@ -132,11 +104,7 @@
     "valid_rows":3
   },
   {
-    "category":"Car rental agency",
-    "valid_rows":3
-  },
-  {
-    "category":"Cemetery",
+    "category":"Warehouse",
     "valid_rows":3
   },
   {
@@ -144,75 +112,15 @@
     "valid_rows":3
   },
   {
-    "category":"Apartment building",
-    "valid_rows":3
-  },
-  {
     "category":"Electronic parts supplier",
     "valid_rows":3
   },
   {
-    "category":"Importer and Exporter",
-    "valid_rows":2
-  },
-  {
-    "category":"Market",
-    "valid_rows":2
-  },
-  {
-    "category":"Marine engineer",
-    "valid_rows":2
-  },
-  {
-    "category":"Corporate campus",
-    "valid_rows":2
-  },
-  {
-    "category":"Employment agency",
-    "valid_rows":2
-  },
-  {
-    "category":"Ferry terminal",
-    "valid_rows":2
-  },
-  {
-    "category":"Business park",
-    "valid_rows":2
-  },
-  {
-    "category":"Apartment complex",
-    "valid_rows":2
-  },
-  {
-    "category":"Electrical substation",
-    "valid_rows":2
-  },
-  {
-    "category":"Car repair and maintenance service",
-    "valid_rows":2
-  },
-  {
-    "category":"Beach pavillion",
-    "valid_rows":2
+    "category":"Transportation service",
+    "valid_rows":3
   },
   {
     "category":"Padang restaurant",
-    "valid_rows":2
-  },
-  {
-    "category":"Port operating company",
-    "valid_rows":2
-  },
-  {
-    "category":"Port authority",
-    "valid_rows":2
-  },
-  {
-    "category":"Exporter",
-    "valid_rows":2
-  },
-  {
-    "category":"Freight forwarding service",
     "valid_rows":2
   },
   {
@@ -224,27 +132,7 @@
     "valid_rows":2
   },
   {
-    "category":"Marine supply store",
-    "valid_rows":2
-  },
-  {
-    "category":"Shipping company",
-    "valid_rows":2
-  },
-  {
-    "category":"Shipbuilding and Repairing",
-    "valid_rows":2
-  },
-  {
-    "category":"Security service",
-    "valid_rows":2
-  },
-  {
-    "category":"School",
-    "valid_rows":2
-  },
-  {
-    "category":"Power station",
+    "category":"Market",
     "valid_rows":2
   },
   {
@@ -256,7 +144,67 @@
     "valid_rows":2
   },
   {
-    "category":"Poultry farm",
+    "category":"Power station",
+    "valid_rows":2
+  },
+  {
+    "category":"Shipbuilding and Repairing",
+    "valid_rows":2
+  },
+  {
+    "category":"School",
+    "valid_rows":2
+  },
+  {
+    "category":"Car repair and maintenance service",
+    "valid_rows":2
+  },
+  {
+    "category":"Cemetery",
+    "valid_rows":2
+  },
+  {
+    "category":"Apartment complex",
+    "valid_rows":2
+  },
+  {
+    "category":"Business park",
+    "valid_rows":2
+  },
+  {
+    "category":"Port authority",
+    "valid_rows":2
+  },
+  {
+    "category":"Port operating company",
+    "valid_rows":2
+  },
+  {
+    "category":"Corporate campus",
+    "valid_rows":2
+  },
+  {
+    "category":"Electrical substation",
+    "valid_rows":2
+  },
+  {
+    "category":"Freight forwarding service",
+    "valid_rows":2
+  },
+  {
+    "category":"Shipping company",
+    "valid_rows":2
+  },
+  {
+    "category":"Security service",
+    "valid_rows":2
+  },
+  {
+    "category":"Employment agency",
+    "valid_rows":2
+  },
+  {
+    "category":"Importer and Exporter",
     "valid_rows":2
   },
   {
@@ -264,11 +212,23 @@
     "valid_rows":2
   },
   {
-    "category":"Car manufacturer",
+    "category":"Ferry terminal",
+    "valid_rows":2
+  },
+  {
+    "category":"Government office",
+    "valid_rows":2
+  },
+  {
+    "category":"Clothing store",
     "valid_rows":1
   },
   {
     "category":"City clerk's office",
+    "valid_rows":1
+  },
+  {
+    "category":"Certification agency",
     "valid_rows":1
   },
   {
@@ -280,31 +240,7 @@
     "valid_rows":1
   },
   {
-    "category":"Agricultural production",
-    "valid_rows":1
-  },
-  {
-    "category":"Barber shop",
-    "valid_rows":1
-  },
-  {
-    "category":"City government office",
-    "valid_rows":1
-  },
-  {
-    "category":"Boat builders",
-    "valid_rows":1
-  },
-  {
-    "category":"Boarding house",
-    "valid_rows":1
-  },
-  {
-    "category":"Boat rental service",
-    "valid_rows":1
-  },
-  {
-    "category":"Business center",
+    "category":"Car dealer",
     "valid_rows":1
   },
   {
@@ -312,11 +248,23 @@
     "valid_rows":1
   },
   {
-    "category":"Car dealer",
+    "category":"Car leasing service",
     "valid_rows":1
   },
   {
-    "category":"Car leasing service",
+    "category":"Business center",
+    "valid_rows":1
+  },
+  {
+    "category":"Boat builders",
+    "valid_rows":1
+  },
+  {
+    "category":"Agricultural production",
+    "valid_rows":1
+  },
+  {
+    "category":"Apartment building",
     "valid_rows":1
   },
   {
@@ -324,99 +272,15 @@
     "valid_rows":1
   },
   {
-    "category":"Elementary school",
+    "category":"Barber shop",
     "valid_rows":1
   },
   {
-    "category":"Electronics wholesaler",
+    "category":"Beach",
     "valid_rows":1
   },
   {
-    "category":"Electric utility company",
-    "valid_rows":1
-  },
-  {
-    "category":"Electrical equipment manufacturer",
-    "valid_rows":1
-  },
-  {
-    "category":"Egg supplier",
-    "valid_rows":1
-  },
-  {
-    "category":"Diesel engine repair service",
-    "valid_rows":1
-  },
-  {
-    "category":"Distribution service",
-    "valid_rows":1
-  },
-  {
-    "category":"E-commerce service",
-    "valid_rows":1
-  },
-  {
-    "category":"Courier service",
-    "valid_rows":1
-  },
-  {
-    "category":"Credit union",
-    "valid_rows":1
-  },
-  {
-    "category":"Certification agency",
-    "valid_rows":1
-  },
-  {
-    "category":"Clothing store",
-    "valid_rows":1
-  },
-  {
-    "category":"Condominium complex",
-    "valid_rows":1
-  },
-  {
-    "category":"Computer store",
-    "valid_rows":1
-  },
-  {
-    "category":"Construction equipment supplier",
-    "valid_rows":1
-  },
-  {
-    "category":"Consultant",
-    "valid_rows":1
-  },
-  {
-    "category":"Homewares Store",
-    "valid_rows":1
-  },
-  {
-    "category":"Hospital",
-    "valid_rows":1
-  },
-  {
-    "category":"Green energy supplier",
-    "valid_rows":1
-  },
-  {
-    "category":"Greenhouse & Equipment Supplier",
-    "valid_rows":1
-  },
-  {
-    "category":"Grocery store",
-    "valid_rows":1
-  },
-  {
-    "category":"Gym and Fitness Centre",
-    "valid_rows":1
-  },
-  {
-    "category":"Harbor",
-    "valid_rows":1
-  },
-  {
-    "category":"Hawker Stall",
+    "category":"Boarding house",
     "valid_rows":1
   },
   {
@@ -440,99 +304,7 @@
     "valid_rows":1
   },
   {
-    "category":"Forklift rental service",
-    "valid_rows":1
-  },
-  {
     "category":"Ferry service",
-    "valid_rows":1
-  },
-  {
-    "category":"Fashion accessories store",
-    "valid_rows":1
-  },
-  {
-    "category":"Office",
-    "valid_rows":1
-  },
-  {
-    "category":"Non-governmental organization",
-    "valid_rows":1
-  },
-  {
-    "category":"Museum",
-    "valid_rows":1
-  },
-  {
-    "category":"Municipal administration office",
-    "valid_rows":1
-  },
-  {
-    "category":"Mining consultant",
-    "valid_rows":1
-  },
-  {
-    "category":"Marketing agency",
-    "valid_rows":1
-  },
-  {
-    "category":"Luggage store",
-    "valid_rows":1
-  },
-  {
-    "category":"Low income housing program",
-    "valid_rows":1
-  },
-  {
-    "category":"Lumber store",
-    "valid_rows":1
-  },
-  {
-    "category":"Machining manufacturer",
-    "valid_rows":1
-  },
-  {
-    "category":"Iron works",
-    "valid_rows":1
-  },
-  {
-    "category":"Laboratory",
-    "valid_rows":1
-  },
-  {
-    "category":"Laboratory equipment supplier",
-    "valid_rows":1
-  },
-  {
-    "category":"Laundry",
-    "valid_rows":1
-  },
-  {
-    "category":"Local government office",
-    "valid_rows":1
-  },
-  {
-    "category":"Lodge",
-    "valid_rows":1
-  },
-  {
-    "category":"Hydraulic equipment supplier",
-    "valid_rows":1
-  },
-  {
-    "category":"Industrial consultant",
-    "valid_rows":1
-  },
-  {
-    "category":"Industrial engineer",
-    "valid_rows":1
-  },
-  {
-    "category":"International trade consultant",
-    "valid_rows":1
-  },
-  {
-    "category":"Insurance agency",
     "valid_rows":1
   },
   {
@@ -544,15 +316,131 @@
     "valid_rows":1
   },
   {
+    "category":"Electronics wholesaler",
+    "valid_rows":1
+  },
+  {
+    "category":"Electrical equipment manufacturer",
+    "valid_rows":1
+  },
+  {
+    "category":"Distribution service",
+    "valid_rows":1
+  },
+  {
+    "category":"Diesel engine repair service",
+    "valid_rows":1
+  },
+  {
+    "category":"Courier service",
+    "valid_rows":1
+  },
+  {
+    "category":"Computer store",
+    "valid_rows":1
+  },
+  {
+    "category":"Condominium complex",
+    "valid_rows":1
+  },
+  {
+    "category":"Construction equipment supplier",
+    "valid_rows":1
+  },
+  {
+    "category":"Marine supply store",
+    "valid_rows":1
+  },
+  {
+    "category":"Marine engineer",
+    "valid_rows":1
+  },
+  {
+    "category":"Machining manufacturer",
+    "valid_rows":1
+  },
+  {
+    "category":"Lumber store",
+    "valid_rows":1
+  },
+  {
+    "category":"Low income housing program",
+    "valid_rows":1
+  },
+  {
+    "category":"Luggage store",
+    "valid_rows":1
+  },
+  {
+    "category":"Lodge",
+    "valid_rows":1
+  },
+  {
+    "category":"Local government office",
+    "valid_rows":1
+  },
+  {
+    "category":"Iron works",
+    "valid_rows":1
+  },
+  {
+    "category":"Laundry",
+    "valid_rows":1
+  },
+  {
+    "category":"Insurance agency",
+    "valid_rows":1
+  },
+  {
+    "category":"Grocery store",
+    "valid_rows":1
+  },
+  {
     "category":"Granite supplier",
     "valid_rows":1
   },
   {
-    "category":"Police",
+    "category":"Greenhouse & Equipment Supplier",
     "valid_rows":1
   },
   {
-    "category":"Pharmacy",
+    "category":"Homewares Store",
+    "valid_rows":1
+  },
+  {
+    "category":"Hydraulic equipment supplier",
+    "valid_rows":1
+  },
+  {
+    "category":"Harbor",
+    "valid_rows":1
+  },
+  {
+    "category":"Gym and Fitness Centre",
+    "valid_rows":1
+  },
+  {
+    "category":"Hawker Stall",
+    "valid_rows":1
+  },
+  {
+    "category":"E-commerce service",
+    "valid_rows":1
+  },
+  {
+    "category":"Credit union",
+    "valid_rows":1
+  },
+  {
+    "category":"Exporter",
+    "valid_rows":1
+  },
+  {
+    "category":"Elementary school",
+    "valid_rows":1
+  },
+  {
+    "category":"Municipal administration office",
     "valid_rows":1
   },
   {
@@ -560,7 +448,7 @@
     "valid_rows":1
   },
   {
-    "category":"Plant nursery",
+    "category":"Pharmacy",
     "valid_rows":1
   },
   {
@@ -576,15 +464,15 @@
     "valid_rows":1
   },
   {
-    "category":"Office supply wholesaler",
+    "category":"Office",
     "valid_rows":1
   },
   {
-    "category":"River port",
+    "category":"Mining consultant",
     "valid_rows":1
   },
   {
-    "category":"River",
+    "category":"Marketing agency",
     "valid_rows":1
   },
   {
@@ -592,11 +480,11 @@
     "valid_rows":1
   },
   {
-    "category":"Repair service",
+    "category":"Restaurant",
     "valid_rows":1
   },
   {
-    "category":"Ready mix concrete supplier",
+    "category":"Repair service",
     "valid_rows":1
   },
   {
@@ -608,7 +496,7 @@
     "valid_rows":1
   },
   {
-    "category":"Public medical center",
+    "category":"Ready mix concrete supplier",
     "valid_rows":1
   },
   {
@@ -616,15 +504,19 @@
     "valid_rows":1
   },
   {
-    "category":"Property Investment",
+    "category":"Plant nursery",
     "valid_rows":1
   },
   {
-    "category":"Pub",
+    "category":"Police",
     "valid_rows":1
   },
   {
-    "category":"Oil and gas exploration service",
+    "category":"Non-governmental organization",
+    "valid_rows":1
+  },
+  {
+    "category":"Seafood restaurant",
     "valid_rows":1
   },
   {
@@ -632,23 +524,19 @@
     "valid_rows":1
   },
   {
-    "category":"Scrap metal dealer",
-    "valid_rows":1
-  },
-  {
     "category":"Small appliance repair service",
     "valid_rows":1
   },
   {
-    "category":"Stationery store",
+    "category":"River",
     "valid_rows":1
   },
   {
-    "category":"Telecommunications service provider",
+    "category":"River port",
     "valid_rows":1
   },
   {
-    "category":"Swim club",
+    "category":"Scrap metal dealer",
     "valid_rows":1
   },
   {
@@ -660,11 +548,19 @@
     "valid_rows":1
   },
   {
-    "category":"Tour operator",
+    "category":"Stationery store",
+    "valid_rows":1
+  },
+  {
+    "category":"Swim club",
     "valid_rows":1
   },
   {
     "category":"Tool store",
+    "valid_rows":1
+  },
+  {
+    "category":"Telecommunications service provider",
     "valid_rows":1
   },
   {
@@ -684,7 +580,7 @@
     "valid_rows":1
   },
   {
-    "category":"Villa",
+    "category":"Tour operator",
     "valid_rows":1
   },
   {
@@ -692,7 +588,7 @@
     "valid_rows":1
   },
   {
-    "category":"Water sports equipment rental service",
+    "category":"Villa",
     "valid_rows":1
   },
   {

@@ -1,6 +1,6 @@
 {
   "notebook": "01_dbscan_clustering",
-  "timestamp": "2026-05-23T22:15:00.739904",
+  "timestamp": "2026-06-14T15:26:48.599730",
   "target_db": "Indonesia.Batam.Kesehatan.202408050759.db",
   "db_files": [
     "Indonesia.Batam.Kesehatan.202408050759.db"
@@ -20,12 +20,12 @@
     "crs_output": "EPSG:32648"
   },
   "results": {
-    "n_clusters": 16,
-    "n_noise": 345,
-    "n_clustered": 1089,
-    "noise_ratio_pct": 24.06,
-    "silhouette_score": 0.4186,
-    "davies_bouldin_idx": 0.4121
+    "n_clusters": 15,
+    "n_noise": 308,
+    "n_clustered": 1076,
+    "noise_ratio_pct": 22.25,
+    "silhouette_score": 0.4116,
+    "davies_bouldin_idx": 0.4364
   },
   "output": {
     "feature_columns": [
