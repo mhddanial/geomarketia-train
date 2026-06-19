@@ -1,0 +1,6 @@
+model,mae,rmse,r2,spearman_rank,precision_at_20,top_20_overlap,best_params
+lightgbm_regressor,0.11714421057557338,0.17621375685458013,0.5810330971565347,0.730535845552533,0.95,0.3,"{""num_leaves"": 15, ""min_child_samples"": 10, ""max_depth"": 6}"
+extra_trees_regressor,0.113956876494222,0.17445737421925941,0.589343445806878,0.7263289771190499,1.0,0.25,"{""n_estimators"": 300, ""min_samples_leaf"": 2, ""max_depth"": 8}"
+random_forest_regressor,0.11717966799411508,0.17883092213332472,0.5684955016636867,0.7203278804961726,1.0,0.25,"{""n_estimators"": 500, ""min_samples_leaf"": 4, ""max_depth"": null}"
+linear_regression,0.1144837886700237,0.17413299886525851,0.590869125387836,0.7163757831839969,1.0,0.25,{}
+xgboost_regressor,0.12026611319182429,0.17920499623887906,0.5666883927036837,0.7142418585022688,0.95,0.25,"{""subsample"": 0.8, ""max_depth"": 3, ""colsample_bytree"": 0.8}"

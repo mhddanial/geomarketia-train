@@ -1,11 +1,11 @@
 [
   {
     "category":"Cosmetics store",
-    "valid_rows":93
+    "valid_rows":92
   },
   {
     "category":"Beauty salon",
-    "valid_rows":66
+    "valid_rows":67
   },
   {
     "category":"Health and beauty shop",
@@ -44,19 +44,19 @@
     "valid_rows":7
   },
   {
-    "category":"Shopping mall",
-    "valid_rows":7
-  },
-  {
     "category":"Supermarket",
     "valid_rows":7
   },
   {
-    "category":"Vitamin & supplements store",
-    "valid_rows":5
+    "category":"Shopping mall",
+    "valid_rows":7
   },
   {
     "category":"Wellness center",
+    "valid_rows":5
+  },
+  {
+    "category":"Vitamin & supplements store",
     "valid_rows":5
   },
   {
@@ -68,11 +68,11 @@
     "valid_rows":3
   },
   {
-    "category":"Department store",
+    "category":"Herbal medicine store",
     "valid_rows":3
   },
   {
-    "category":"Herbal medicine store",
+    "category":"Department store",
     "valid_rows":3
   },
   {
@@ -84,11 +84,15 @@
     "valid_rows":2
   },
   {
-    "category":"Apartment complex",
+    "category":"Medical clinic",
     "valid_rows":2
   },
   {
-    "category":"Medical clinic",
+    "category":"Barber shop",
+    "valid_rows":2
+  },
+  {
+    "category":"Apartment complex",
     "valid_rows":2
   },
   {
@@ -104,10 +108,6 @@
     "valid_rows":2
   },
   {
-    "category":"Bridal shop",
-    "valid_rows":2
-  },
-  {
     "category":"Cosmetics wholesaler",
     "valid_rows":2
   },
@@ -116,15 +116,19 @@
     "valid_rows":2
   },
   {
-    "category":"Barber shop",
-    "valid_rows":2
-  },
-  {
     "category":"Eyelash salon",
     "valid_rows":2
   },
   {
+    "category":"Bridal shop",
+    "valid_rows":2
+  },
+  {
     "category":"Beautician",
+    "valid_rows":2
+  },
+  {
+    "category":"Produce market",
     "valid_rows":2
   },
   {
@@ -140,19 +144,19 @@
     "valid_rows":2
   },
   {
-    "category":"Produce market",
-    "valid_rows":2
+    "category":"Auto market",
+    "valid_rows":1
   },
   {
     "category":"Amusement center",
     "valid_rows":1
   },
   {
-    "category":"Auto market",
+    "category":"Food producer",
     "valid_rows":1
   },
   {
-    "category":"Food producer",
+    "category":"Florist",
     "valid_rows":1
   },
   {
@@ -164,7 +168,7 @@
     "valid_rows":1
   },
   {
-    "category":"Drug store",
+    "category":"Facial spa",
     "valid_rows":1
   },
   {
@@ -176,7 +180,7 @@
     "valid_rows":1
   },
   {
-    "category":"Discount supermarket",
+    "category":"Drug store",
     "valid_rows":1
   },
   {
@@ -184,7 +188,7 @@
     "valid_rows":1
   },
   {
-    "category":"Beach",
+    "category":"Discount supermarket",
     "valid_rows":1
   },
   {
@@ -196,15 +200,11 @@
     "valid_rows":1
   },
   {
-    "category":"Corporate office",
-    "valid_rows":1
-  },
-  {
     "category":"Cosmetic products manufacturer",
     "valid_rows":1
   },
   {
-    "category":"Beauty products vending machine",
+    "category":"Corporate office",
     "valid_rows":1
   },
   {
@@ -212,19 +212,23 @@
     "valid_rows":1
   },
   {
+    "category":"Beach",
+    "valid_rows":1
+  },
+  {
     "category":"Beauty products wholesaler",
     "valid_rows":1
   },
   {
-    "category":"Fashion accessories store",
-    "valid_rows":1
-  },
-  {
-    "category":"Facial spa",
+    "category":"Beauty products vending machine",
     "valid_rows":1
   },
   {
     "category":"Farmers' market",
+    "valid_rows":1
+  },
+  {
+    "category":"Fashion accessories store",
     "valid_rows":1
   },
   {

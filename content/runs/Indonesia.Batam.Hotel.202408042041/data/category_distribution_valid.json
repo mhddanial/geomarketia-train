@@ -1,7 +1,7 @@
 [
   {
     "category":"Hotel",
-    "valid_rows":9
+    "valid_rows":10
   },
   {
     "category":"Housing complex",
@@ -12,11 +12,11 @@
     "valid_rows":3
   },
   {
-    "category":"Condominium complex",
-    "valid_rows":3
+    "category":"Housing development",
+    "valid_rows":2
   },
   {
-    "category":"Housing development",
+    "category":"Indonesia",
     "valid_rows":2
   },
   {
@@ -36,8 +36,12 @@
     "valid_rows":2
   },
   {
-    "category":"Indonesia",
-    "valid_rows":2
+    "category":"Apartment complex",
+    "valid_rows":1
+  },
+  {
+    "category":"Ferry terminal",
+    "valid_rows":1
   },
   {
     "category":"Corporate office",
@@ -45,10 +49,6 @@
   },
   {
     "category":"Cafe",
-    "valid_rows":1
-  },
-  {
-    "category":"Apartment complex",
     "valid_rows":1
   },
   {

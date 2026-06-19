@@ -1,9 +1,9 @@
 {
   "notebook": "02_regression_location_recommendation",
-  "timestamp": "2026-06-17T10:50:40.118391",
+  "timestamp": "2026-06-18T21:14:05.786038",
   "target_db": "Indonesia.Batam.Kuliner.202406162232.db",
   "run_dir": "content/runs\\Indonesia.Batam.Kuliner.202406162232",
-  "model_path": "content/runs\\Indonesia.Batam.Kuliner.202406162232\\models\\reg_location_reco_v2.joblib",
+  "model_path": "content/runs\\Indonesia.Batam.Kuliner.202406162232\\models\\reg_location_reco_v5.joblib",
   "model_type": "regression",
   "selected_model": "xgboost_regressor",
   "feature_schema_version": "location_regression_v1",
@@ -46,7 +46,8 @@
       "spearman_rank",
       "precision_at_20",
       "rmse"
-    ]
+    ],
+    "learning_curve_cv": "3-fold GroupKFold on spatial training groups"
   },
   "metrics": {
     "model_comparison": [
@@ -110,6 +111,74 @@
       "precision_at_20": 0.9,
       "top_20_overlap": 0.35,
       "best_params": "{\"subsample\": 0.8, \"max_depth\": 3, \"colsample_bytree\": 0.9}"
-    }
+    },
+    "learning_curve": [
+      {
+        "train_size": 536,
+        "train_rmse_mean": 0.08072722137204445,
+        "train_rmse_std": 0.0061635537593564,
+        "validation_rmse_mean": 0.2157260170056512,
+        "validation_rmse_std": 0.005000731824341673,
+        "generalization_gap": 0.13499879563360673,
+        "fit_time_mean_seconds": 0.4585556189219157,
+        "score_time_mean_seconds": 0.013267119725545248,
+        "cv_splits": 3,
+        "spatial_group_count": 352
+      },
+      {
+        "train_size": 1072,
+        "train_rmse_mean": 0.1163808128145583,
+        "train_rmse_std": 0.004904712758639128,
+        "validation_rmse_mean": 0.2093617559746069,
+        "validation_rmse_std": 0.006110515894979652,
+        "generalization_gap": 0.09298094316004861,
+        "fit_time_mean_seconds": 0.4735546112060547,
+        "score_time_mean_seconds": 0.013809839884440104,
+        "cv_splits": 3,
+        "spatial_group_count": 352
+      },
+      {
+        "train_size": 1608,
+        "train_rmse_mean": 0.13774751276933003,
+        "train_rmse_std": 0.0030301790472163225,
+        "validation_rmse_mean": 0.2047332993849558,
+        "validation_rmse_std": 0.006191941343523509,
+        "generalization_gap": 0.06698578661562576,
+        "fit_time_mean_seconds": 0.4904181957244873,
+        "score_time_mean_seconds": 0.013278007507324219,
+        "cv_splits": 3,
+        "spatial_group_count": 352
+      },
+      {
+        "train_size": 2144,
+        "train_rmse_mean": 0.14886325957835497,
+        "train_rmse_std": 0.0022543227259690614,
+        "validation_rmse_mean": 0.20350680228299353,
+        "validation_rmse_std": 0.007991905612231589,
+        "generalization_gap": 0.05464354270463856,
+        "fit_time_mean_seconds": 0.48232460021972656,
+        "score_time_mean_seconds": 0.012705802917480469,
+        "cv_splits": 3,
+        "spatial_group_count": 352
+      },
+      {
+        "train_size": 2680,
+        "train_rmse_mean": 0.15554498591314783,
+        "train_rmse_std": 0.004214295397828218,
+        "validation_rmse_mean": 0.20455051007266803,
+        "validation_rmse_std": 0.00785474167350393,
+        "generalization_gap": 0.0490055241595202,
+        "fit_time_mean_seconds": 0.5457343260447184,
+        "score_time_mean_seconds": 0.013365825017293295,
+        "cv_splits": 3,
+        "spatial_group_count": 352
+      }
+    ]
+  },
+  "evaluation_reports": {
+    "model_comparison_csv": "content/runs\\Indonesia.Batam.Kuliner.202406162232\\reports\\model_comparison.csv",
+    "model_comparison_plot": "content/runs\\Indonesia.Batam.Kuliner.202406162232\\reports\\model_comparison.png",
+    "learning_curve_csv": "content/runs\\Indonesia.Batam.Kuliner.202406162232\\reports\\learning_curve.csv",
+    "learning_curve_plot": "content/runs\\Indonesia.Batam.Kuliner.202406162232\\reports\\learning_curve.png"
   }
 }

@@ -1,0 +1,115 @@
+{
+  "notebook": "02_regression_location_recommendation",
+  "timestamp": "2026-06-18T11:50:44.662725",
+  "target_db": "Indonesia.Batam.PT.202408042212.db",
+  "run_dir": "content/runs\\Indonesia.Batam.PT.202408042212",
+  "model_path": "content/runs\\Indonesia.Batam.PT.202408042212\\models\\reg_location_reco_v1.joblib",
+  "model_type": "regression",
+  "selected_model": "extra_trees_regressor",
+  "feature_schema_version": "location_regression_v1",
+  "features": [
+    "population_density",
+    "nearby_review_count_log_sum_500m",
+    "nearby_review_count_log_mean_500m",
+    "nearby_avg_rating_500m",
+    "same_category_density_250m",
+    "same_category_density_500m",
+    "same_category_density_1000m",
+    "nearest_same_category_distance_m",
+    "competitor_saturation_index",
+    "business_density_250m",
+    "business_density_500m",
+    "business_density_1000m",
+    "nearest_business_distance_m",
+    "poi_diversity_index",
+    "nearest_road_distance_m",
+    "road_density_500m",
+    "intersection_density_500m",
+    "road_access_score",
+    "is_valid_land",
+    "distance_to_water_body_m",
+    "distance_to_forest_or_green_area_m",
+    "commercial_land_ratio_500m",
+    "residential_land_ratio_500m",
+    "cluster_centroid_distance_m",
+    "nearest_cluster_size",
+    "is_noise_area"
+  ],
+  "suitability_band_thresholds": {
+    "low_max": 0.0,
+    "medium_max": 0.5090111077074082
+  },
+  "parameters": {
+    "random_seed": 42,
+    "spatial_split": "grid_1km_group_shuffle",
+    "selection_metric_order": [
+      "spearman_rank",
+      "precision_at_20",
+      "rmse"
+    ]
+  },
+  "metrics": {
+    "model_comparison": [
+      {
+        "model": "extra_trees_regressor",
+        "mae": 0.09929789235828104,
+        "rmse": 0.1652382282098772,
+        "r2": 0.6238549645832816,
+        "spearman_rank": 0.7728063283315951,
+        "precision_at_20": 0.95,
+        "top_20_overlap": 0.6,
+        "best_params": "{\"n_estimators\": 300, \"min_samples_leaf\": 2, \"max_depth\": 8}"
+      },
+      {
+        "model": "random_forest_regressor",
+        "mae": 0.10196852858189151,
+        "rmse": 0.16914325968650917,
+        "r2": 0.6058662123619369,
+        "spearman_rank": 0.7647452245093442,
+        "precision_at_20": 0.95,
+        "top_20_overlap": 0.6,
+        "best_params": "{\"n_estimators\": 500, \"min_samples_leaf\": 4, \"max_depth\": null}"
+      },
+      {
+        "model": "linear_regression",
+        "mae": 0.1024724434088151,
+        "rmse": 0.16925219685134757,
+        "r2": 0.6053583630520039,
+        "spearman_rank": 0.7363294647041712,
+        "precision_at_20": 0.95,
+        "top_20_overlap": 0.55,
+        "best_params": "{}"
+      },
+      {
+        "model": "xgboost_regressor",
+        "mae": 0.1053824913438007,
+        "rmse": 0.1805916828585055,
+        "r2": 0.550706883349612,
+        "spearman_rank": 0.7235608055380638,
+        "precision_at_20": 0.9,
+        "top_20_overlap": 0.5,
+        "best_params": "{\"subsample\": 1.0, \"max_depth\": 7, \"colsample_bytree\": 0.8}"
+      },
+      {
+        "model": "lightgbm_regressor",
+        "mae": 0.10499286795200684,
+        "rmse": 0.17978737644350717,
+        "r2": 0.5547000308709574,
+        "spearman_rank": 0.720862332267161,
+        "precision_at_20": 0.9,
+        "top_20_overlap": 0.55,
+        "best_params": "{\"num_leaves\": 63, \"min_child_samples\": 40, \"max_depth\": -1}"
+      }
+    ],
+    "best_model": {
+      "model": "extra_trees_regressor",
+      "mae": 0.09929789235828104,
+      "rmse": 0.1652382282098772,
+      "r2": 0.6238549645832816,
+      "spearman_rank": 0.7728063283315951,
+      "precision_at_20": 0.95,
+      "top_20_overlap": 0.6,
+      "best_params": "{\"n_estimators\": 300, \"min_samples_leaf\": 2, \"max_depth\": 8}"
+    }
+  }
+}

@@ -1,11 +1,11 @@
 [
   {
     "category":"School",
-    "valid_rows":434
+    "valid_rows":474
   },
   {
     "category":"Elementary school",
-    "valid_rows":136
+    "valid_rows":157
   },
   {
     "category":"Preschool",
@@ -13,15 +13,15 @@
   },
   {
     "category":"Kindergarten",
-    "valid_rows":103
+    "valid_rows":106
   },
   {
     "category":"Middle school",
-    "valid_rows":75
+    "valid_rows":85
   },
   {
     "category":"Religious school",
-    "valid_rows":59
+    "valid_rows":61
   },
   {
     "category":"High school",
@@ -44,6 +44,10 @@
     "valid_rows":12
   },
   {
+    "category":"Primary school",
+    "valid_rows":12
+  },
+  {
     "category":"After school program",
     "valid_rows":11
   },
@@ -54,10 +58,6 @@
   {
     "category":"Music school",
     "valid_rows":9
-  },
-  {
-    "category":"Primary school",
-    "valid_rows":8
   },
   {
     "category":"School center",
@@ -72,12 +72,28 @@
     "valid_rows":6
   },
   {
-    "category":"Special education school",
-    "valid_rows":5
+    "category":"Island",
+    "valid_rows":6
   },
   {
     "category":"University",
     "valid_rows":5
+  },
+  {
+    "category":"Special education school",
+    "valid_rows":5
+  },
+  {
+    "category":"Housing development",
+    "valid_rows":4
+  },
+  {
+    "category":"Nursery school",
+    "valid_rows":4
+  },
+  {
+    "category":"Mosque",
+    "valid_rows":4
   },
   {
     "category":"Housing society",
@@ -92,11 +108,7 @@
     "valid_rows":4
   },
   {
-    "category":"Nursery school",
-    "valid_rows":4
-  },
-  {
-    "category":"Housing development",
+    "category":"Tourist attraction",
     "valid_rows":4
   },
   {
@@ -108,11 +120,11 @@
     "valid_rows":3
   },
   {
-    "category":"Educational institution",
+    "category":"Training centre",
     "valid_rows":3
   },
   {
-    "category":"Training centre",
+    "category":"Junior college",
     "valid_rows":3
   },
   {
@@ -124,27 +136,11 @@
     "valid_rows":3
   },
   {
-    "category":"Mosque",
+    "category":"Educational institution",
     "valid_rows":3
   },
   {
-    "category":"Junior college",
-    "valid_rows":2
-  },
-  {
-    "category":"Island",
-    "valid_rows":2
-  },
-  {
-    "category":"Cemetery",
-    "valid_rows":2
-  },
-  {
-    "category":"Seminary",
-    "valid_rows":2
-  },
-  {
-    "category":"Homewares Store",
+    "category":"Catholic school",
     "valid_rows":2
   },
   {
@@ -152,39 +148,51 @@
     "valid_rows":2
   },
   {
+    "category":"Public educational institution",
+    "valid_rows":2
+  },
+  {
+    "category":"Restaurant",
+    "valid_rows":2
+  },
+  {
+    "category":"Cemetery",
+    "valid_rows":2
+  },
+  {
+    "category":"Homewares Store",
+    "valid_rows":2
+  },
+  {
+    "category":"Language school",
+    "valid_rows":2
+  },
+  {
     "category":"Homestay",
     "valid_rows":2
   },
   {
-    "category":"Flight school",
+    "category":"Seminary",
+    "valid_rows":2
+  },
+  {
+    "category":"Grocery store",
     "valid_rows":1
   },
   {
-    "category":"Foundation",
+    "category":"Greenhouse & Equipment Supplier",
     "valid_rows":1
   },
   {
-    "category":"Book store",
+    "category":"Grammar school",
     "valid_rows":1
   },
   {
-    "category":"Catholic school",
+    "category":"Government office",
     "valid_rows":1
   },
   {
-    "category":"Chinese language school",
-    "valid_rows":1
-  },
-  {
-    "category":"Badminton court",
-    "valid_rows":1
-  },
-  {
-    "category":"Bakso restaurant",
-    "valid_rows":1
-  },
-  {
-    "category":"Fishing pier",
+    "category":"Driving school",
     "valid_rows":1
   },
   {
@@ -200,27 +208,19 @@
     "valid_rows":1
   },
   {
-    "category":"Diner",
+    "category":"General education school",
     "valid_rows":1
   },
   {
-    "category":"Driving school",
+    "category":"Foundation",
     "valid_rows":1
   },
   {
-    "category":"City clerk's office",
+    "category":"Flight school",
     "valid_rows":1
   },
   {
-    "category":"Community center",
-    "valid_rows":1
-  },
-  {
-    "category":"Army barracks",
-    "valid_rows":1
-  },
-  {
-    "category":"Beauty school",
+    "category":"Fishing pier",
     "valid_rows":1
   },
   {
@@ -228,15 +228,75 @@
     "valid_rows":1
   },
   {
-    "category":"Hospitality and tourism school",
+    "category":"Bridge",
     "valid_rows":1
   },
   {
-    "category":"Language school",
+    "category":"City clerk's office",
     "valid_rows":1
   },
   {
-    "category":"Grammar school",
+    "category":"City government office",
+    "valid_rows":1
+  },
+  {
+    "category":"Civil police",
+    "valid_rows":1
+  },
+  {
+    "category":"Chinese language school",
+    "valid_rows":1
+  },
+  {
+    "category":"Beauty school",
+    "valid_rows":1
+  },
+  {
+    "category":"Book store",
+    "valid_rows":1
+  },
+  {
+    "category":"Badminton court",
+    "valid_rows":1
+  },
+  {
+    "category":"Bakso restaurant",
+    "valid_rows":1
+  },
+  {
+    "category":"Army barracks",
+    "valid_rows":1
+  },
+  {
+    "category":"Apartment building",
+    "valid_rows":1
+  },
+  {
+    "category":"Community center",
+    "valid_rows":1
+  },
+  {
+    "category":"Coffee shop",
+    "valid_rows":1
+  },
+  {
+    "category":"County government office",
+    "valid_rows":1
+  },
+  {
+    "category":"Diner",
+    "valid_rows":1
+  },
+  {
+    "category":"Podiatrist",
+    "valid_rows":1
+  },
+  {
+    "category":"Plant nursery",
+    "valid_rows":1
+  },
+  {
+    "category":"Place of worship",
     "valid_rows":1
   },
   {
@@ -248,15 +308,15 @@
     "valid_rows":1
   },
   {
+    "category":"Mathematics school",
+    "valid_rows":1
+  },
+  {
     "category":"Montessori school",
     "valid_rows":1
   },
   {
-    "category":"Market",
-    "valid_rows":1
-  },
-  {
-    "category":"Martial arts school",
+    "category":"Museum",
     "valid_rows":1
   },
   {
@@ -264,11 +324,19 @@
     "valid_rows":1
   },
   {
-    "category":"Mathematics school",
+    "category":"Martial arts school",
     "valid_rows":1
   },
   {
     "category":"Medical Center",
+    "valid_rows":1
+  },
+  {
+    "category":"Higher secondary school",
+    "valid_rows":1
+  },
+  {
+    "category":"Law school",
     "valid_rows":1
   },
   {
@@ -280,31 +348,11 @@
     "valid_rows":1
   },
   {
-    "category":"Law school",
+    "category":"Market",
     "valid_rows":1
   },
   {
-    "category":"Greenhouse & Equipment Supplier",
-    "valid_rows":1
-  },
-  {
-    "category":"Grocery store",
-    "valid_rows":1
-  },
-  {
-    "category":"General education school",
-    "valid_rows":1
-  },
-  {
-    "category":"Plant nursery",
-    "valid_rows":1
-  },
-  {
-    "category":"Podiatrist",
-    "valid_rows":1
-  },
-  {
-    "category":"School for the deaf",
+    "category":"Hospitality and tourism school",
     "valid_rows":1
   },
   {
@@ -312,7 +360,7 @@
     "valid_rows":1
   },
   {
-    "category":"Restaurant",
+    "category":"Residential college",
     "valid_rows":1
   },
   {
@@ -320,15 +368,11 @@
     "valid_rows":1
   },
   {
-    "category":"Residential college",
-    "valid_rows":1
-  },
-  {
     "category":"Private college",
     "valid_rows":1
   },
   {
-    "category":"Public educational institution",
+    "category":"Public medical center",
     "valid_rows":1
   },
   {
@@ -336,7 +380,11 @@
     "valid_rows":1
   },
   {
-    "category":"Stationery store",
+    "category":"Recreation center",
+    "valid_rows":1
+  },
+  {
+    "category":"School for the deaf",
     "valid_rows":1
   },
   {
@@ -352,11 +400,11 @@
     "valid_rows":1
   },
   {
-    "category":"Student dormitory",
+    "category":"Stationery store",
     "valid_rows":1
   },
   {
-    "category":"Tourist attraction",
+    "category":"Student dormitory",
     "valid_rows":1
   },
   {
