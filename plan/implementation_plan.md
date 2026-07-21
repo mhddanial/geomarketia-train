@@ -46,10 +46,9 @@
    - Update Random Forest loading to read the db-specific feature store.
    - Exclude any feature columns that are entirely null for that database.
 
-7. Optional compatibility update
-   - If `scripts/add_cluster_id_to_dbs.py` must keep working with a single feature store path, decide whether to:
-     - Keep a "latest" copy at `content/data/processed/feature_store.csv`, or
-     - Add a parameter to select a db-specific feature store.
+7. Feature store path consolidation
+   - All outputs use db-specific paths under `content/runs/<db_key>/`.
+   - No legacy copy at `content/data/processed/` (removed in cleanup).
 
 ## Implementation Steps (Notebook)
 1. Add per-db configuration block (target db + output suffixing).
